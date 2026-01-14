@@ -1,0 +1,1 @@
+var pmc_fastly_geo_data = {"city":"paris","region":"IDF","country":"FR","continent":"EU","asn":"8218"}

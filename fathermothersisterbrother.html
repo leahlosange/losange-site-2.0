@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Father Mother Sister Brother.">
+    <title>Father Mother Sister Brother | Les Films du Losange</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body class="page-film-individuel">
+    <!-- Header fixe -->
+    <header class="header header-dark">
+        <button class="header-btn menu-btn" aria-label="Menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+        
+        <a href="index.html" class="header-logo">
+            <img src="images/logo épais.png" alt="Les Films du Losange" class="logo-img">
+        </a>
+        
+        <button class="header-btn search-btn" aria-label="Rechercher">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+    </header>
+
+    <!-- Menu plein écran -->
+    <nav class="fullscreen-menu">
+        <button class="menu-close-btn" aria-label="Fermer le menu">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+        <div class="menu-content">
+            <a href="films.html" class="menu-link active">films</a>
+            <a href="actualites.html" class="menu-link">actualités</a>
+            <a href="streaming.html" class="menu-link">en streaming</a>
+            <a href="https://depardoncineaste.com" class="menu-link">depardon cinéaste</a>
+            <a href="about.html" class="menu-link">à propos</a>
+        </div>
+        <div class="menu-footer">
+            <div class="menu-social">
+                <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+                <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+                <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+            </div>
+            <div class="menu-newsletter">
+                <span>newsletter</span>
+                <input type="email" placeholder="votre email">
+                <button class="menu-newsletter-btn">s'inscrire</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search overlay -->
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="rechercher un film, un réalisateur...">
+            <button class="search-close" aria-label="Fermer">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+            </button>
+        </div>
+        <div class="search-suggestions">
+            <span class="search-suggestion-label">suggestions</span>
+            <div class="search-suggestion-tags">
+                <a href="#">Bi Gan</a>
+                <a href="#">Jim Jarmusch</a>
+                <a href="#">Michael Haneke</a>
+                <a href="#">Éric Rohmer</a>
+                <a href="#">Mia Hansen-Løve</a>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="film-banner">
+            <div class="banner-image">
+                <img src="images/films/father mother sister brother/004_FMSB_© Vague Notion 2024_Frederick Elmes.jpeg" alt="Father Mother Sister Brother Film Banner">
+            </div>
+            <div class="banner-info">
+                <h1>Father Mother Sister Brother</h1>
+                <p>Un film de <strong></strong>Jim Jarmusch</strong> • 2025</p>
+                <p>"Une histoire captivante sur le temps et les choix qui définissent notre vie."</p>
+            </div>
+        </section>
+        <section class="film-details">
+            <h2>Aperçu</h2>
+            <p>FATHER MOTHER SISTER BROTHER est un long-métrage de fiction en forme de triptyque. Trois histoires qui parlent des relations entre des enfants adultes et leur(s) parent(s) quelque peu distant(s), et aussi des relations entre eux.            </p>
+        </section>
+        <section class="film-meta">
+            <h2>Infos</h2>
+            <ul>
+                <li><strong>Date de sortie :</strong> 7 janvier 2026</li>
+            </ul>
+        </section>
+    </main>
+
+<!-- Footer -->
+<footer id="contact" class="footer">
+    <div class="footer-main">
+        <div class="footer-col">
+            <h4>le losange</h4>
+            <a href="about.html">à propos</a>
+            <a href="equipe.html">équipe</a>
+        </div>
+        <div class="footer-col">
+            <h4>contact</h4>
+            <p class="footer-address">7-9 rue des petites écuries<br>75010 Paris</p>
+            <p class="footer-phone">t. +33 1 44 43 87 10</p>
+            <a href="mailto:contact@filmsdulosange.fr">contact@filmsdulosange.fr</a>
+        </div>
+        <div class="footer-col">
+            <h4>suivez-nous</h4>
+            <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+            <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+            <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+        </div>
+        <div class="footer-newsletter">
+            <h4>newsletter</h4>
+            <p>restez informé·e des actualités du losange</p>
+            <form class="footer-newsletter-form">
+                <input type="email" placeholder="votre email">
+                <button type="submit">s'inscrire</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span class="footer-copyright">© 2025 les films du losange</span>
+        <div class="footer-links">
+            <a href="#">mentions légales</a>
+            <a href="#">politique de confidentialité</a>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

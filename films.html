@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films | Les Films du Losange</title>
+    <meta name="description" content="Découvrez tous les films distribués et produits par Les Films du Losange - Distribution, Production, Ventes Internationales">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-films">
+    <!-- Header fixe -->
+    <header class="header header-dark">
+        <button class="header-btn menu-btn" aria-label="Menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+        
+        <a href="index.html" class="header-logo">
+            <img src="images/logo épais.png" alt="Les Films du Losange" class="logo-img">
+        </a>
+        
+        <button class="header-btn search-btn" aria-label="Rechercher">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+    </header>
+
+    <!-- Menu plein écran -->
+    <nav class="fullscreen-menu">
+        <button class="menu-close-btn" aria-label="Fermer le menu">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+        <div class="menu-content">
+            <a href="films.html" class="menu-link active">films</a>
+            <a href="actualites.html" class="menu-link">actualités</a>
+            <a href="streaming.html" class="menu-link">en streaming</a>
+<a href="#" class="menu-link">depardon cinéaste</a>
+                <a href="about.html" class="menu-link">à propos</a>
+        </div>
+        <div class="menu-footer">
+            <div class="menu-social">
+                <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+                <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+                <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+            </div>
+            <div class="menu-newsletter">
+                <span>newsletter</span>
+                <input type="email" placeholder="votre email">
+                <button class="menu-newsletter-btn">s'inscrire</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search overlay -->
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="rechercher un film, un réalisateur...">
+            <button class="search-close" aria-label="Fermer">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+            </button>
+        </div>
+        <div class="search-suggestions">
+            <span class="search-suggestion-label">suggestions</span>
+            <div class="search-suggestion-tags">
+                <a href="#">Bi Gan</a>
+                <a href="#">Jim Jarmusch</a>
+                <a href="#">Michael Haneke</a>
+                <a href="#">Éric Rohmer</a>
+                <a href="#">Mia Hansen-Løve</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1 class="page-title">FILMS</h1>
+        <p class="page-subtitle">distribution • production • ventes internationales</p>
+    </section>
+
+    <!-- Section Films -->
+    <section id="films" class="films-section films-page">
+        <div class="films-header">
+            <div class="films-filters">
+                <button class="filter-btn active" data-filter="all">tous</button>
+                <button class="filter-btn" data-filter="actuellement">en salles</button>
+                <button class="filter-btn" data-filter="prochainement">prochainement</button>
+                <button class="filter-btn" data-filter="catalogue">catalogue</button>
+            </div>
+        </div>
+        
+        <div class="films-grid">
+            <!-- Actuellement en salles -->
+            <article class="film-card" data-status="actuellement">
+                <a href="https://filmsdulosange.com/film/resurrection/" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/films/downloaded/resurrection.jpg" alt="Resurrection">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status">en salles</span>
+                            <span class="film-card-category">distribution</span>
+                        </div>
+                        <h3 class="film-card-title">RESURRECTION</h3>
+                        <p class="film-card-director">Bi Gan</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="actuellement">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-6-jours-vf-1.jpg" alt="Six Jours, ce printemps-là">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status">en salles</span>
+                            <span class="film-card-category">distribution • production</span>
+                        </div>
+                        <h3 class="film-card-title">SIX JOURS, CE PRINTEMPS-LÀ</h3>
+                        <p class="film-card-director">Joachim Lafosse</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="actuellement">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-chronology-vf.jpg" alt="The Chronology of Water">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status">en salles</span>
+                            <span class="film-card-category">distribution • ventes internationales</span>
+                        </div>
+                        <h3 class="film-card-title">THE CHRONOLOGY OF WATER</h3>
+                        <p class="film-card-director">Kristen Stewart</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="actuellement">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/OUI-affiche-OK-2-Large-773x1030.jpeg" alt="Oui">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status">en salles</span>
+                            <span class="film-card-category">distribution</span>
+                        </div>
+                        <h3 class="film-card-title">OUI</h3>
+                        <p class="film-card-director"></p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="actuellement">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-miroirs-n3.jpeg" alt="Miroirs Nº3">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status">en salles</span>
+                            <span class="film-card-category">distribution</span>
+                        </div>
+                        <h3 class="film-card-title">MIROIRS Nº3</h3>
+                        <p class="film-card-director"></p>
+                    </div>
+                </a>
+            </article>
+
+            <!-- Prochainement -->
+            <article class="film-card" data-status="prochainement">
+                <a href="fathermothersisterbrother.html" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/films/father mother sister brother/004_FMSB_© Vague Notion 2024_Frederick Elmes.jpeg" alt="Father Mother Sister Brother">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                        <span class="film-card-award">🦁 Lion d'Or Venise 2025</span>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status soon">prochainement</span>
+                            <span class="film-card-category">distribution</span>
+                        </div>
+                        <h3 class="film-card-title">FATHER MOTHER SISTER BROTHER</h3>
+                        <p class="film-card-director">Jim Jarmusch</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="prochainement">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/films/downloaded/victor.jpg" alt="Victor comme tout le monde">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status soon">prochainement</span>
+                            <span class="film-card-category">distribution • ventes internationales</span>
+                        </div>
+                        <h3 class="film-card-title">VICTOR COMME TOUT LE MONDE</h3>
+                        <p class="film-card-director">Pascal Bonitzer</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="prochainement">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/films/downloaded/depardon.jpg" alt="Raymond Depardon Cinéaste">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status soon">rétrospective</span>
+                            <span class="film-card-category">distribution • production • ventes internationales</span>
+                        </div>
+                        <h3 class="film-card-title">RAYMOND DEPARDON CINÉASTE</h3>
+                        <p class="film-card-director">Rétrospective</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="prochainement">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/films/downloaded/cri-des-gardes.jpg" alt="Le Cri des Gardes">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status soon">prochainement</span>
+                            <span class="film-card-category">distribution</span>
+                        </div>
+                        <h3 class="film-card-title">LE CRI DES GARDES</h3>
+                        <p class="film-card-director"></p>
+                    </div>
+                </a>
+            </article>
+
+            <!-- Catalogue / Production -->
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/downloaded/un-silence.jpg" alt="Un Silence">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">2023</span>
+                            <span class="film-card-category">production</span>
+                        </div>
+                        <h3 class="film-card-title">UN SILENCE</h3>
+                        <p class="film-card-director">Joachim Lafosse</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/downloaded/ondine.jpg" alt="Ondine">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">2020</span>
+                            <span class="film-card-category">production</span>
+                        </div>
+                        <h3 class="film-card-title">ONDINE</h3>
+                        <p class="film-card-director">Christian Petzold</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/downloaded/amour.jpg" alt="Amour">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                        <span class="film-card-award">🏆 Palme d'Or 2012 • Oscar 2013</span>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">2012</span>
+                            <span class="film-card-category">production</span>
+                        </div>
+                        <h3 class="film-card-title">AMOUR</h3>
+                        <p class="film-card-director">Michael Haneke</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/downloaded/ruban-blanc.jpg" alt="Le Ruban Blanc">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                        <span class="film-card-award">🏆 Palme d'Or 2009</span>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">2009</span>
+                            <span class="film-card-category">production</span>
+                        </div>
+                        <h3 class="film-card-title">LE RUBAN BLANC</h3>
+                        <p class="film-card-director">Michael Haneke</p>
+                    </div>
+                </a>
+            </article>
+
+            <!-- Films Rohmer du catalogue utilisateur -->
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/Ma Nuit Chez Maud.jpeg" alt="Ma Nuit chez Maud">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">1969</span>
+                            <span class="film-card-category">production</span>
+                        </div>
+                        <h3 class="film-card-title">MA NUIT CHEZ MAUD</h3>
+                        <p class="film-card-director">Éric Rohmer</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/La Collectionneuse-2.jpg" alt="La Collectionneuse">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">1967</span>
+                            <span class="film-card-category">production</span>
+                        </div>
+                        <h3 class="film-card-title">LA COLLECTIONNEUSE</h3>
+                        <p class="film-card-director">Éric Rohmer</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/l'amour l'après-midi.png" alt="L'Amour l'après-midi">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">1972</span>
+                            <span class="film-card-category">production</span>
+                        </div>
+                        <h3 class="film-card-title">L'AMOUR L'APRÈS-MIDI</h3>
+                        <p class="film-card-director">Éric Rohmer</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/Pauline-5.jpg" alt="Pauline à la plage">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                        <span class="film-card-award">🐻 Ours d'Argent Berlin 1983</span>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">1983</span>
+                            <span class="film-card-category">production</span>
+                        </div>
+                        <h3 class="film-card-title">PAULINE À LA PLAGE</h3>
+                        <p class="film-card-director">Éric Rohmer</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/More-4.jpg" alt="More">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">1969</span>
+                            <span class="film-card-category">production</span>
+                        </div>
+                        <h3 class="film-card-title">MORE</h3>
+                        <p class="film-card-director">Barbet Schroeder</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/l'avenir.jpg" alt="L'Avenir">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                        <span class="film-card-award">🐻 Ours d'Argent Berlin 2016</span>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">2016</span>
+                            <span class="film-card-category">distribution • ventes internationales</span>
+                        </div>
+                        <h3 class="film-card-title">L'AVENIR</h3>
+                        <p class="film-card-director">Mia Hansen-Løve</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="film-card" data-status="catalogue">
+                <a href="#" class="film-card-link">
+                    <div class="film-card-image">
+                        <img src="images/catalogue/un amour de jeunesse.jpg" alt="Un Amour de jeunesse">
+                        <div class="film-card-overlay">
+                            <span class="film-card-play">▶</span>
+                        </div>
+                    </div>
+                    <div class="film-card-info">
+                        <div class="film-card-tags">
+                            <span class="film-card-status catalog">2011</span>
+                            <span class="film-card-category">distribution</span>
+                        </div>
+                        <h3 class="film-card-title">UN AMOUR DE JEUNESSE</h3>
+                        <p class="film-card-director">Mia Hansen-Løve</p>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-main">
+            <div class="footer-col">
+                <h4>le losange</h4>
+                <a href="about.html">à propos</a>
+                <a href="equipe.html">équipe</a>
+            </div>
+            <div class="footer-col">
+                <h4>contact</h4>
+                <p class="footer-address">7-9 rue des petites écuries<br>75010 Paris</p>
+                <p class="footer-phone">t. +33 1 44 43 87 10</p>
+                <a href="mailto:contact@filmsdulosange.fr">contact@filmsdulosange.fr</a>
+            </div>
+            <div class="footer-col">
+                <h4>suivez-nous</h4>
+                <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+                <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+                <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>newsletter</h4>
+                <p>restez informé·e des actualités du losange</p>
+                <form class="footer-newsletter-form">
+                    <input type="email" placeholder="votre email">
+                    <button type="submit">s'inscrire</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-copyright">© 2025 les films du losange</span>
+            <div class="footer-links">
+                <a href="#">mentions légales</a>
+                <a href="#">politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

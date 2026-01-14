@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En Streaming | Les Films du Losange</title>
+    <meta name="description" content="Découvrez tous les films des Films du Losange disponibles en VOD et SVOD - ARTE, Canal+, Netflix, et plus encore.">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-streaming">
+    <!-- Header fixe -->
+    <header class="header header-dark">
+        <button class="header-btn menu-btn" aria-label="Menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+        
+        <a href="index.html" class="header-logo">
+            <img src="images/logo épais.png" alt="Les Films du Losange" class="logo-img">
+        </a>
+        
+        <button class="header-btn search-btn" aria-label="Rechercher">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+    </header>
+
+    <!-- Menu plein écran -->
+    <nav class="fullscreen-menu">
+        <button class="menu-close-btn" aria-label="Fermer le menu">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+        <div class="menu-content">
+            <a href="films.html" class="menu-link">films</a>
+            <a href="actualites.html" class="menu-link">actualités</a>
+            <a href="streaming.html" class="menu-link active">en streaming</a>
+<a href="#" class="menu-link">depardon cinéaste</a>
+                <a href="about.html" class="menu-link">à propos</a>
+        </div>
+        <div class="menu-footer">
+            <div class="menu-social">
+                <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+                <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+                <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+            </div>
+            <div class="menu-newsletter">
+                <span>newsletter</span>
+                <input type="email" placeholder="votre email">
+                <button class="menu-newsletter-btn">s'inscrire</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search overlay -->
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="rechercher un film, un réalisateur...">
+            <button class="search-close" aria-label="Fermer">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+            </button>
+        </div>
+        <div class="search-suggestions">
+            <span class="search-suggestion-label">suggestions</span>
+            <div class="search-suggestion-tags">
+                <a href="#">Éric Rohmer</a>
+                <a href="#">Michael Haneke</a>
+                <a href="#">Barbet Schroeder</a>
+                <a href="#">Mia Hansen-Løve</a>
+                <a href="#">Lars von Trier</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header streaming-header">
+        <h1 class="page-title">EN STREAMING</h1>
+        <p class="page-subtitle">nos films disponibles en vod et svod</p>
+    </section>
+
+    <!-- Filtres par plateforme -->
+    <section class="streaming-filters">
+        <div class="streaming-filters-container">
+            <button class="platform-btn active" data-platform="all">toutes les plateformes</button>
+            <button class="platform-btn" data-platform="arte">ARTE</button>
+            <button class="platform-btn" data-platform="canal">Canal+</button>
+            <button class="platform-btn" data-platform="mubi">MUBI</button>
+            <button class="platform-btn" data-platform="prime">Prime Video</button>
+            <button class="platform-btn" data-platform="universciné">UniversCiné</button>
+        </div>
+    </section>
+
+    <!-- Film mis en avant -->
+    <section class="streaming-featured">
+        <a href="https://boutique.arte.tv/detail/melancholia" target="_blank" class="streaming-featured-card">
+            <div class="streaming-featured-image">
+                <img src="https://fr.web.img6.acsta.net/r_1920_1080/pictures/210/604/21060456_20131118114549726.jpg" alt="Melancholia - Lars von Trier">
+                <div class="streaming-play-overlay">
+                    <svg width="100" height="100" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="0.5"/>
+                        <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="streaming-featured-badge">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Arte_Logo_2017.svg/512px-Arte_Logo_2017.svg.png" alt="ARTE" class="platform-logo">
+                    <span>disponible maintenant</span>
+                </div>
+            </div>
+            <div class="streaming-featured-info">
+                <span class="streaming-type">vod</span>
+                <h2 class="streaming-featured-title">MELANCHOLIA</h2>
+                <p class="streaming-featured-meta">Kirsten Dunst • Charlotte Gainsbourg • Kiefer Sutherland</p>
+                <span class="streaming-featured-director">un film de Lars von Trier</span>
+                <p class="streaming-featured-synopsis">À l'occasion de leur mariage, Justine et Michael donnent une somptueuse réception. Pendant ce temps, la planète Melancholia se dirige vers la Terre...</p>
+                <div class="streaming-featured-awards">
+                    <span>🏆 Prix d'interprétation féminine • Cannes 2011</span>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <!-- Grille des films en streaming -->
+    <section class="streaming-grid-section">
+        <h3 class="streaming-section-title">Michael Haneke</h3>
+        <div class="streaming-grid">
+            <article class="streaming-card" data-platform="arte">
+                <a href="https://boutique.arte.tv/detail/amour" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/downloaded/amour.jpg" alt="Amour">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">AMOUR</h3>
+                        <p class="streaming-card-director">Michael Haneke • 2012</p>
+                        <span class="streaming-card-award">🏆 Palme d'Or • Oscar</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="arte">
+                <a href="https://boutique.arte.tv/detail/ruban_blanc" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/downloaded/ruban-blanc.jpg" alt="Le Ruban Blanc">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">LE RUBAN BLANC</h3>
+                        <p class="streaming-card-director">Michael Haneke • 2009</p>
+                        <span class="streaming-card-award">🏆 Palme d'Or</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="canal">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img4.acsta.net/c_310_420/medias/nmedia/18/66/42/31/19254163.jpg" alt="Caché">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag canal">Canal+</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">CACHÉ</h3>
+                        <p class="streaming-card-director">Michael Haneke • 2005</p>
+                        <span class="streaming-card-award">🎬 Prix mise en scène Cannes</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="mubi">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/90/58/12/20096054.jpg" alt="Happy End">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag mubi">MUBI</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">HAPPY END</h3>
+                        <p class="streaming-card-director">Michael Haneke • 2017</p>
+                    </div>
+                </a>
+            </article>
+        </div>
+
+        <h3 class="streaming-section-title">Éric Rohmer</h3>
+        <div class="streaming-grid">
+            <article class="streaming-card" data-platform="arte">
+                <a href="https://boutique.arte.tv" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/Ma Nuit Chez Maud.jpeg" alt="Ma Nuit chez Maud">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">MA NUIT CHEZ MAUD</h3>
+                        <p class="streaming-card-director">Éric Rohmer • 1969</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="mubi">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/La Collectionneuse-2.jpg" alt="La Collectionneuse">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag mubi">MUBI</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">LA COLLECTIONNEUSE</h3>
+                        <p class="streaming-card-director">Éric Rohmer • 1967</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="arte">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/l'amour l'après-midi.png" alt="L'Amour l'après-midi">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">L'AMOUR L'APRÈS-MIDI</h3>
+                        <p class="streaming-card-director">Éric Rohmer • 1972</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="arte">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/Pauline-5.jpg" alt="Pauline à la plage">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">PAULINE À LA PLAGE</h3>
+                        <p class="streaming-card-director">Éric Rohmer • 1983</p>
+                        <span class="streaming-card-award">🐻 Ours d'Argent Berlin</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="mubi">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img5.acsta.net/c_310_420/medias/nmedia/00/02/52/55/69200933_af.jpg" alt="Le Rayon Vert">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag mubi">MUBI</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">LE RAYON VERT</h3>
+                        <p class="streaming-card-director">Éric Rohmer • 1986</p>
+                        <span class="streaming-card-award">🦁 Lion d'Or Venise</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="universciné">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img4.acsta.net/c_310_420/medias/nmedia/18/77/77/73/19547929.jpg" alt="Conte d'été">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag universciné">UniversCiné</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">CONTE D'ÉTÉ</h3>
+                        <p class="streaming-card-director">Éric Rohmer • 1996</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="universciné">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img3.acsta.net/c_310_420/pictures/18/09/12/14/32/2261963.jpg" alt="Le Genou de Claire">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag universciné">UniversCiné</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">LE GENOU DE CLAIRE</h3>
+                        <p class="streaming-card-director">Éric Rohmer • 1970</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="arte">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img5.acsta.net/c_310_420/medias/nmedia/00/02/52/29/69200881_af.jpg" alt="Le Beau Mariage">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">LE BEAU MARIAGE</h3>
+                        <p class="streaming-card-director">Éric Rohmer • 1982</p>
+                    </div>
+                </a>
+            </article>
+        </div>
+
+        <h3 class="streaming-section-title">Barbet Schroeder</h3>
+        <div class="streaming-grid">
+            <article class="streaming-card" data-platform="prime">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/More-4.jpg" alt="More">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag prime">Prime</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">MORE</h3>
+                        <p class="streaming-card-director">Barbet Schroeder • 1969</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="mubi">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img4.acsta.net/c_310_420/medias/nmedia/18/73/18/25/19445193.jpg" alt="Maîtresse">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag mubi">MUBI</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">MAÎTRESSE</h3>
+                        <p class="streaming-card-director">Barbet Schroeder • 1976</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="arte">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img4.acsta.net/c_310_420/medias/nmedia/18/77/42/80/19540152.jpg" alt="Général Idi Amin Dada">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">GÉNÉRAL IDI AMIN DADA</h3>
+                        <p class="streaming-card-director">Barbet Schroeder • 1974</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="universciné">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img3.acsta.net/c_310_420/medias/nmedia/18/85/41/74/19912656.jpg" alt="Le Vénérable W.">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag universciné">UniversCiné</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">LE VÉNÉRABLE W.</h3>
+                        <p class="streaming-card-director">Barbet Schroeder • 2017</p>
+                    </div>
+                </a>
+            </article>
+        </div>
+
+        <h3 class="streaming-section-title">FILMS RÉCENTS</h3>
+        <div class="streaming-grid">
+            <article class="streaming-card" data-platform="canal">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/downloaded/un-silence.jpg" alt="Un Silence">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag canal">Canal+</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">UN SILENCE</h3>
+                        <p class="streaming-card-director">Joachim Lafosse • 2023</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="canal">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/downloaded/ondine.jpg" alt="Ondine">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag canal">Canal+</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">ONDINE</h3>
+                        <p class="streaming-card-director">Christian Petzold • 2020</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="canal">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/l'avenir.jpg" alt="L'Avenir">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag canal">Canal+</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">L'AVENIR</h3>
+                        <p class="streaming-card-director">Mia Hansen-Løve • 2016</p>
+                        <span class="streaming-card-award">🐻 Ours d'Argent Berlin</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="mubi">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="images/catalogue/un amour de jeunesse.jpg" alt="Un Amour de jeunesse">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag mubi">MUBI</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">UN AMOUR DE JEUNESSE</h3>
+                        <p class="streaming-card-director">Mia Hansen-Løve • 2011</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="arte">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img3.acsta.net/c_310_420/pictures/22/03/30/14/25/5161818.jpg" alt="Bergman Island">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">BERGMAN ISLAND</h3>
+                        <p class="streaming-card-director">Mia Hansen-Løve • 2021</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="canal">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img5.acsta.net/c_310_420/pictures/22/10/19/16/57/2555694.jpg" alt="Saint Omer">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag canal">Canal+</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">SAINT OMER</h3>
+                        <p class="streaming-card-director">Alice Diop • 2022</p>
+                        <span class="streaming-card-award">🦁 Lion d'Argent Venise</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="arte">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img5.acsta.net/c_310_420/pictures/23/01/18/15/45/3882605.jpg" alt="Le Ciel Rouge">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">LE CIEL ROUGE</h3>
+                        <p class="streaming-card-director">Christian Petzold • 2023</p>
+                        <span class="streaming-card-award">🐻 Grand Prix du Jury Berlin</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="canal">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img6.acsta.net/c_310_420/pictures/22/08/18/09/42/5270610.jpg" alt="Retour à Séoul">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag canal">Canal+</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">RETOUR À SÉOUL</h3>
+                        <p class="streaming-card-director">Davy Chou • 2022</p>
+                    </div>
+                </a>
+            </article>
+        </div>
+
+        <h3 class="streaming-section-title">DOCUMENTAIRES</h3>
+        <div class="streaming-grid">
+            <article class="streaming-card" data-platform="arte">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img2.acsta.net/c_310_420/pictures/23/04/14/16/59/0640905.jpg" alt="Sur l'Adamant">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">SUR L'ADAMANT</h3>
+                        <p class="streaming-card-director">Nicolas Philibert • 2023</p>
+                        <span class="streaming-card-award">🐻 Ours d'Or Berlin</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="arte">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img6.acsta.net/c_310_420/pictures/24/09/09/10/01/5212108.jpg" alt="Dahomey">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">DAHOMEY</h3>
+                        <p class="streaming-card-director">Mati Diop • 2024</p>
+                        <span class="streaming-card-award">🐻 Ours d'Or Berlin</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="universciné">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img4.acsta.net/c_310_420/pictures/23/05/24/11/37/5266591.jpg" alt="Anselm">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag universciné">UniversCiné</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">ANSELM</h3>
+                        <p class="streaming-card-director">Wim Wenders • 2023</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="prime">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img2.acsta.net/c_310_420/pictures/21/10/05/10/46/1915096.jpg" alt="De Humani Corporis Fabrica">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag prime">Prime</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">DE HUMANI CORPORIS FABRICA</h3>
+                        <p class="streaming-card-director">V. Paravel & L. Castaing-Taylor • 2022</p>
+                    </div>
+                </a>
+            </article>
+        </div>
+
+        <h3 class="streaming-section-title">CLASSIQUES</h3>
+        <div class="streaming-grid">
+            <article class="streaming-card" data-platform="mubi">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/96/14/62/20450422.jpg" alt="La Maman et la Putain">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag mubi">MUBI</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">LA MAMAN ET LA PUTAIN</h3>
+                        <p class="streaming-card-director">Jean Eustache • 1973</p>
+                        <span class="streaming-card-award">🎬 Grand Prix Cannes</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="arte">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img4.acsta.net/c_310_420/medias/nmedia/18/94/20/74/20356638.jpg" alt="Céline et Julie vont en bateau">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">CÉLINE ET JULIE VONT EN BATEAU</h3>
+                        <p class="streaming-card-director">Jacques Rivette • 1974</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="universciné">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/97/51/42/20532927.jpg" alt="La Vallée">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag universciné">UniversCiné</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">LA VALLÉE</h3>
+                        <p class="streaming-card-director">Barbet Schroeder • 1972</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="streaming-card" data-platform="arte">
+                <a href="#" target="_blank">
+                    <div class="streaming-card-image">
+                        <img src="https://fr.web.img4.acsta.net/c_310_420/pictures/19/08/27/15/08/0193393.jpg" alt="Europa Europa">
+                        <div class="streaming-card-overlay">
+                            <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="platform-tag arte">ARTE</span>
+                    </div>
+                    <div class="streaming-card-info">
+                        <h3 class="streaming-card-title">EUROPA EUROPA</h3>
+                        <p class="streaming-card-director">Agnieszka Holland • 1990</p>
+                        <span class="streaming-card-award">🌐 Golden Globe</span>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-main">
+            <div class="footer-col">
+                <h4>le losange</h4>
+                <a href="about.html">à propos</a>
+                <a href="equipe.html">équipe</a>
+            </div>
+            <div class="footer-col">
+                <h4>contact</h4>
+                <p class="footer-address">7-9 rue des petites écuries<br>75010 Paris</p>
+                <p class="footer-phone">t. +33 1 44 43 87 10</p>
+                <a href="mailto:contact@filmsdulosange.fr">contact@filmsdulosange.fr</a>
+            </div>
+            <div class="footer-col">
+                <h4>suivez-nous</h4>
+                <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+                <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+                <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>newsletter</h4>
+                <p>restez informé·e des actualités du losange</p>
+                <form class="footer-newsletter-form">
+                    <input type="email" placeholder="votre email">
+                    <button type="submit">s'inscrire</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-copyright">© 2025 les films du losange</span>
+            <div class="footer-links">
+                <a href="#">mentions légales</a>
+                <a href="#">politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Filtrage par plateforme
+        document.querySelectorAll('.platform-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.platform-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                const platform = btn.dataset.platform;
+                document.querySelectorAll('.streaming-card').forEach(card => {
+                    if (platform === 'all' || card.dataset.platform === platform) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

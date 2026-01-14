@@ -1,0 +1,125 @@
+{
+  "scraped_at": "2025-12-16",
+  "source": "https://filmsdulosange.com/",
+  
+  "distribution": [
+    {
+      "title": "Resurrection",
+      "director": "Bi Gan",
+      "status": "actuellement",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Resurrection-vf-1.jpg",
+      "local_image": "images/films/downloaded/resurrection.jpg"
+    },
+    {
+      "title": "Six Jours, ce printemps-là",
+      "director": "Joachim Lafosse",
+      "status": "actuellement",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-6-jours-vf-1.jpg"
+    },
+    {
+      "title": "The Chronology of Water",
+      "director": "Kristen Stewart",
+      "status": "actuellement",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-chronology-vf.jpg"
+    },
+    {
+      "title": "Oui",
+      "status": "actuellement",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/OUI-affiche-OK-2-Large-773x1030.jpeg"
+    },
+    {
+      "title": "Miroirs Nº3",
+      "status": "actuellement",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-miroirs-n3.jpeg"
+    },
+    {
+      "title": "Le Cri des Gardes",
+      "status": "prochainement",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/Le-cri-des-gardes-Grande-1030x686.jpeg",
+      "local_image": "images/films/downloaded/cri-des-gardes.jpg"
+    },
+    {
+      "title": "Victor comme tout le monde",
+      "director": "Pascal Bonitzer",
+      "status": "prochainement",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Victor.jpg",
+      "local_image": "images/films/downloaded/victor.jpg"
+    },
+    {
+      "title": "Raymond Depardon Cinéaste",
+      "status": "rétrospective",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-retro-Depardon.jpg",
+      "local_image": "images/films/downloaded/depardon.jpg"
+    },
+    {
+      "title": "Father Mother Sister Brother",
+      "director": "Jim Jarmusch",
+      "status": "prochainement",
+      "award": "Lion d'Or Venise 2025",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-FAther-mother-sister-brother-2.jpg",
+      "local_image": "images/films/downloaded/father-mother.jpg"
+    }
+  ],
+  
+  "production": [
+    {
+      "title": "Six Jours, ce printemps-là",
+      "director": "Joachim Lafosse",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-6-jours-vf-1.jpg"
+    },
+    {
+      "title": "Raymond Depardon Cinéaste",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-retro-Depardon.jpg"
+    },
+    {
+      "title": "Un Silence",
+      "director": "Joachim Lafosse",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/02/mea-un-silence.jpg",
+      "local_image": "images/catalogue/downloaded/un-silence.jpg"
+    },
+    {
+      "title": "Ricardo et la peinture",
+      "director": "Barbet Schroeder",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/02/mea-ricardo-1.jpg"
+    },
+    {
+      "title": "Ondine",
+      "director": "Christian Petzold",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/02/mea-Ondine.jpg",
+      "local_image": "images/catalogue/downloaded/ondine.jpg"
+    },
+    {
+      "title": "Happy End",
+      "director": "Michael Haneke",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/05/poster-0-happy-end.jpg"
+    },
+    {
+      "title": "Amour",
+      "director": "Michael Haneke",
+      "award": "Palme d'Or 2012, Oscar 2013",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-amour.jpg",
+      "local_image": "images/catalogue/downloaded/amour.jpg"
+    },
+    {
+      "title": "Le Ruban Blanc",
+      "director": "Michael Haneke",
+      "award": "Palme d'Or 2009",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-le-ruban-blanc.jpg",
+      "local_image": "images/catalogue/downloaded/ruban-blanc.jpg"
+    },
+    {
+      "title": "Caché",
+      "director": "Michael Haneke",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-cache.jpg"
+    }
+  ],
+  
+  "carousel_films": [
+    "Resurrection",
+    "Father Mother Sister Brother",
+    "Victor comme tout le monde",
+    "Raymond Depardon Cinéaste",
+    "Le Cri des Gardes"
+  ]
+}
+
