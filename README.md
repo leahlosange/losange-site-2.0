@@ -1,8 +1,6 @@
-# Les Films du Losange - Refonte Style A24
+# Les Films du Losange
 
 ## 🎬 Structure
-
-Design inspiré de [A24 Films](https://a24films.com/) avec l'identité Losange.
 
 ### Page d'accueil
 1. **Header fixe** : Menu (gauche) | Logo (centre) | Recherche (droite)
@@ -80,5 +78,3 @@ Remplacez la vidéo par une bande-annonce :
 ```
 
 ---
-
-*Inspiré de A24 Films pour Les Films du Losange - Décembre 2025*
