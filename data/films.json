@@ -1,0 +1,33 @@
+{
+  "films": [
+    {
+      "id": "father-mother-sister-brother",
+      "titre": "Father Mother Sister Brother",
+      "cineaste": "Jim Jarmusch",
+      "casting": [
+        "Adam Driver",
+        "Tom Waits",
+        "Cate Blanchett",
+        "Indya Moore"
+      ],
+      "date_sortie": "2025-07-01",
+      "duree_minutes": 118,
+      "nationalites": [
+        "États-Unis",
+        "France"
+      ],
+      "synopsis": "Synopsis du film, à remplir dans l’admin.",
+      "status": "prochainement",
+      "categories": [
+        "distribution"
+      ],
+      "affiche_image": "images/films/father mother sister brother/004_FMSB_© Vague Notion 2024_Frederick Elmes.jpeg",
+      "dossier_presse": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "fathermothersisterbrother.html"
+    }
+  ]
+}
+

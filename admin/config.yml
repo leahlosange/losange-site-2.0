@@ -1,0 +1,122 @@
+backend:
+  # Recommandé sur Netlify : activer Netlify Identity + Git Gateway (Settings → Identity)
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"   # Dossier où seront stockés les fichiers uploadés dans le repo
+public_folder: "/images/uploads" # Chemin public pour les images sur le site
+
+locale: "fr"
+
+collections:
+  - name: "catalogue"
+    label: "Catalogue (listes de films)"
+    label_singular: "Entrée de catalogue"
+    # On édite directement le fichier JSON existant : data/losange_films.json
+    files:
+      - name: "losange_films"
+        label: "Sections de films"
+        file: "data/losange_films.json"
+        format: "json"
+        fields:
+          - label: "Date de scraping"
+            name: "scraped_at"
+            widget: "string"
+            required: false
+
+          - label: "Source"
+            name: "source"
+            widget: "string"
+            required: false
+
+          - label: "Distribution"
+            name: "distribution"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.status}})"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Réalisateur", name: "director", widget: "string", required: false }
+              - { label: "Statut", name: "status", widget: "string", required: false }
+              - { label: "Image distante (URL)", name: "image", widget: "string", required: false }
+              - { label: "Image locale (chemin)", name: "local_image", widget: "string", required: false }
+              - { label: "Récompenses / mentions", name: "award", widget: "string", required: false }
+
+          - label: "Production"
+            name: "production"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Réalisateur", name: "director", widget: "string", required: false }
+              - { label: "Image distante (URL)", name: "image", widget: "string", required: false }
+              - { label: "Image locale (chemin)", name: "local_image", widget: "string", required: false }
+              - { label: "Récompenses / mentions", name: "award", widget: "string", required: false }
+
+          - label: "Films en carrousel (homepage)"
+            name: "carousel_films"
+            widget: "list"
+            field:
+              label: "Titre du film"
+              name: "title"
+              widget: "string"
+
+  - name: "films"
+    label: "Fiches films"
+    label_singular: "Fiche film"
+    folder: "data/films"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    summary: "{{title}} – {{cineaste}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Cinéaste", name: "cineaste", widget: "string" }
+
+      - label: "Casting"
+        name: "casting"
+        widget: "list"
+        required: false
+        field: { label: "Nom", name: "name", widget: "string" }
+
+      - label: "Date de sortie"
+        name: "date_sortie"
+        widget: "datetime"
+        time_format: false
+        format: "YYYY-MM-DD"
+        required: false
+
+      - { label: "Durée (minutes)", name: "duree_minutes", widget: "number", value_type: "int", required: false }
+
+      - label: "Nationalités"
+        name: "nationalites"
+        widget: "list"
+        required: false
+        field: { label: "Pays", name: "pays", widget: "string" }
+
+      - { label: "Synopsis", name: "synopsis", widget: "text", required: false }
+
+      - { label: "Affiche (image)", name: "affiche_image", widget: "image", required: false }
+
+      - label: "Téléchargements"
+        name: "downloads"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Dossier de presse (fichier)", name: "dossier_presse", widget: "file", required: false }
+          - { label: "Affiche et photos (ZIP/PDF)", name: "affiche_photos", widget: "file", required: false }
+          - { label: "Bande-annonce (fichier)", name: "bande_annonce_fichier", widget: "file", required: false }
+          - { label: "Bande-annonce (URL)", name: "bande_annonce_url", widget: "string", required: false }
+
+      - label: "Statut (pour filtres)"
+        name: "status"
+        widget: "select"
+        required: false
+        options: ["actuellement", "prochainement", "catalogue"]
+
+      - label: "Catégories (distribution / production / ventes internationales)"
+        name: "categories"
+        widget: "list"
+        required: false
+        field: { label: "Catégorie", name: "cat", widget: "string" }
+
+      - { label: "Lien fiche (slug HTML, optionnel)", name: "slug", widget: "string", required: false }

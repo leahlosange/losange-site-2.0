@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initAutoSlide();
     initFilmFilters();
     initShowtimes();
+    loadFilmsFromJson();
 });
 
 // === Menu Fullscreen ===
@@ -372,6 +373,148 @@ function initAnimatedFavicon() {
         // Rotation toutes les 50ms (20 FPS)
         setInterval(rotateFavicon, 50);
     };
+}
+
+// === Chargement des fiches films depuis data/films.json ===
+async function loadFilmsFromJson() {
+    // On ne fait ça que sur la page films
+    if (!document.body.classList.contains('page-films')) return;
+
+    const grid = document.querySelector('.films-grid');
+    if (!grid) return;
+
+    try {
+        const response = await fetch('data/films.json', { cache: 'no-store' });
+        if (!response.ok) {
+            console.error('Impossible de charger data/films.json');
+            return;
+        }
+
+        const data = await response.json();
+        const films = Array.isArray(data.films) ? data.films : [];
+
+        // On vide les cartes statiques pour ne garder que celles venant des fiches
+        grid.innerHTML = '';
+
+        films.forEach(film => {
+            const article = document.createElement('article');
+            article.className = 'film-card';
+            article.dataset.status = film.status || 'catalogue';
+
+            // Lien vers la fiche détaillée (slug HTML) si fourni, sinon '#'
+            const link = document.createElement('a');
+            link.className = 'film-card-link';
+            link.href = film.slug || '#';
+
+            // Image
+            const imageWrapper = document.createElement('div');
+            imageWrapper.className = 'film-card-image';
+            const img = document.createElement('img');
+            img.src = film.affiche_image || 'images/catalogue/l-avenir.jpg';
+            img.alt = film.titre || '';
+            imageWrapper.appendChild(img);
+
+            const overlay = document.createElement('div');
+            overlay.className = 'film-card-overlay';
+            const play = document.createElement('span');
+            play.className = 'film-card-play';
+            play.textContent = '▶';
+            overlay.appendChild(play);
+            imageWrapper.appendChild(overlay);
+
+            // Infos
+            const info = document.createElement('div');
+            info.className = 'film-card-info';
+
+            const tags = document.createElement('div');
+            tags.className = 'film-card-tags';
+
+            const statusSpan = document.createElement('span');
+            statusSpan.className = 'film-card-status';
+            if (film.status === 'prochainement') {
+                statusSpan.classList.add('soon');
+            }
+            statusSpan.textContent =
+                film.status === 'actuellement'
+                    ? 'en salles'
+                    : film.status === 'prochainement'
+                    ? 'prochainement'
+                    : 'catalogue';
+            tags.appendChild(statusSpan);
+
+            const categorySpan = document.createElement('span');
+            categorySpan.className = 'film-card-category';
+            if (Array.isArray(film.categories) && film.categories.length > 0) {
+                categorySpan.textContent = film.categories.join(' • ');
+            } else {
+                categorySpan.textContent = 'distribution';
+            }
+            tags.appendChild(categorySpan);
+
+            info.appendChild(tags);
+
+            const title = document.createElement('h3');
+            title.className = 'film-card-title';
+            title.textContent = (film.titre || '').toUpperCase();
+            info.appendChild(title);
+
+            const director = document.createElement('p');
+            director.className = 'film-card-director';
+            director.textContent = film.cineaste || '';
+            info.appendChild(director);
+
+            // Zone pour futurs boutons de téléchargement (DP / affiche / BA)
+            const downloads = document.createElement('div');
+            downloads.className = 'film-card-downloads';
+
+            if (film.dossier_presse) {
+                const dpLink = document.createElement('a');
+                dpLink.href = film.dossier_presse;
+                dpLink.className = 'film-download-btn';
+                dpLink.textContent = 'dossier de presse';
+                dpLink.download = '';
+                downloads.appendChild(dpLink);
+            }
+
+            if (film.affiche_photos) {
+                const photosLink = document.createElement('a');
+                photosLink.href = film.affiche_photos;
+                photosLink.className = 'film-download-btn';
+                photosLink.textContent = 'affiche & photos';
+                photosLink.download = '';
+                downloads.appendChild(photosLink);
+            }
+
+            if (film.bande_annonce_fichier) {
+                const baFileLink = document.createElement('a');
+                baFileLink.href = film.bande_annonce_fichier;
+                baFileLink.className = 'film-download-btn';
+                baFileLink.textContent = 'télécharger la BA';
+                baFileLink.download = '';
+                downloads.appendChild(baFileLink);
+            }
+
+            if (film.bande_annonce_url) {
+                const baUrlLink = document.createElement('a');
+                baUrlLink.href = film.bande_annonce_url;
+                baUrlLink.className = 'film-download-btn';
+                baUrlLink.textContent = 'voir la BA';
+                baUrlLink.target = '_blank';
+                downloads.appendChild(baUrlLink);
+            }
+
+            if (downloads.children.length > 0) {
+                info.appendChild(downloads);
+            }
+
+            link.appendChild(imageWrapper);
+            link.appendChild(info);
+            article.appendChild(link);
+            grid.appendChild(article);
+        });
+    } catch (error) {
+        console.error('Erreur lors du chargement des fiches films :', error);
+    }
 }
 
 // Lancer l'animation du favicon
