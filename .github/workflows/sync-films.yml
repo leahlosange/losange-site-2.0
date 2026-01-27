@@ -1,0 +1,36 @@
+name: Sync Films from Google Sheet
+
+on:
+  schedule:
+    # Synchronise toutes les 6 heures
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Permet de déclencher manuellement depuis GitHub
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Sync films from Google Sheet
+        env:
+          SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+        run: |
+          # Remplace SHEET_ID dans le script
+          sed -i "s/SHEET_ID = \".*\"/SHEET_ID = \"$SHEET_ID\"/" sync-films-from-sheet.py
+          python3 sync-films-from-sheet.py
+      
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/films.json
+          git diff --staged --quiet || (git commit -m "Auto-sync films from Google Sheet" && git push)
