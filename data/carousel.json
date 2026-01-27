@@ -1,0 +1,52 @@
+{
+  "slides": [
+    {
+      "index": 0,
+      "active": true,
+      "image": "images/films/father mother sister brother/004_FMSB_© Vague Notion 2024_Frederick Elmes.jpeg",
+      "alt": "Father Mother Sister Brother",
+      "tag": "actuellement en salles",
+      "title": "FATHER MOTHER<br>SISTER BROTHER",
+      "title_image": "images/titre FMSB.png",
+      "director": "un film de <strong>Jim Jarmusch</strong>",
+      "date": null,
+      "award": "Lion d'Or • Mostra de Venise 2025"
+    },
+    {
+      "index": 1,
+      "active": false,
+      "image": "images/films/downloaded/victor.jpg",
+      "alt": "Victor comme tout le monde",
+      "tag": "le 11 mars au cinéma",
+      "title": "VICTOR<br>COMME TOUT LE MONDE",
+      "title_image": "images/titre Victor blanc.png",
+      "director": "un film de <strong>Pascal Bonitzer</strong>",
+      "date": null,
+      "award": "Festival Premiers Plans d'Angers"
+    },
+    {
+      "index": 2,
+      "active": false,
+      "image": "images/films/depardon.jpg",
+      "alt": "Raymond Depardon Cinéaste",
+      "tag": "actuellement en salles",
+      "title": "RAYMOND DEPARDON CINÉASTE",
+      "title_image": "images/logotitre-depardon.png",
+      "director": "l'œuvre complète du photographe et cinéaste",
+      "date": null,
+      "award": "Cannes Classics 2024"
+    },
+    {
+      "index": 3,
+      "active": false,
+      "image": "images/films/downloaded/cri-des-gardes.jpg",
+      "alt": "Le Cri des Gardes",
+      "tag": "le 8 avril au cinéma",
+      "title": "LE CRI DES GARDES",
+      "title_image": null,
+      "director": "un film de <strong>Claire Denis</strong>",
+      "date": null,
+      "award": null
+    }
+  ]
+}

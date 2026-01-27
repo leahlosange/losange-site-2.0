@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Catalogue</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-catalogue page-catalogue-cineaste">
+    <h1>Test Catalogue Cinéastes</h1>
+    
+    <div class="catalogue-container">
+        <p>Chargement...</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="catalogue.js"></script>
+    <script>
+        // Test de débogage
+        console.log('Script de test chargé');
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM chargé');
+            console.log('Body classes:', document.body.classList);
+            
+            // Vérifier si les fonctions existent
+            console.log('loadAllFilms existe:', typeof loadAllFilms);
+            console.log('displayFilmsByCineaste existe:', typeof displayFilmsByCineaste);
+            console.log('groupByLetter existe:', typeof groupByLetter);
+            
+            // Test manuel
+            if (typeof displayFilmsByCineaste === 'function') {
+                console.log('Appel de displayFilmsByCineaste...');
+                displayFilmsByCineaste().then(() => {
+                    console.log('displayFilmsByCineaste terminé');
+                    const container = document.querySelector('.catalogue-container');
+                    console.log('Contenu du container:', container?.innerHTML?.substring(0, 200));
+                }).catch(err => {
+                    console.error('Erreur:', err);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

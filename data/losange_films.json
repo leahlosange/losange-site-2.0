@@ -1,125 +1,1521 @@
 {
-  "scraped_at": "2025-12-16",
-  "source": "https://filmsdulosange.com/",
-  
+  "scraped_at": "2026-01-21T15:48:39.967Z",
+  "source": "https://filmsdulosange.com",
+  "total_films": 151,
   "distribution": [
     {
+      "title": "Father Mother Sister Brother",
+      "director": "Jim Jarmush\n\n\n\n\nProchainement\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nFather Mother Sister Brother\n\n\n\nUn film de Jim Jarmush\n\n\n\nAvec\n\n\n\nTom Waits",
+      "status": "prochainement",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-FAther-mother-sister-brother-2.jpg",
+      "synopsis": "Tom Waits, Adam Driver, Mayim Bialik, Charlotte Rampling, Cate Blanchett, Vicky Krieps, Sarah Greene, Indya Moore, Luka Sabbat, Françoise Lebrun",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
       "title": "Resurrection",
-      "director": "Bi Gan",
+      "director": "BI Gan\n\n\n\n\nActuellement\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nResurrection\n\n\n\nUn film de BI Gan\n\n\n\nAvec\n\n\n\nJackson Yee",
       "status": "actuellement",
       "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Resurrection-vf-1.jpg",
-      "local_image": "images/films/downloaded/resurrection.jpg"
+      "synopsis": "Jackson Yee, Shu Qi, Mark Chao, Li Gengxi, Huang Jue, Chen Yongzhong, Guo Mucheng, Zhang Zhijian, ChloeMaayan, Yan Nan",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
       "title": "Six Jours, ce printemps-là",
-      "director": "Joachim Lafosse",
+      "director": "Joachim Lafosse\n\n\n\n\nActuellement\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nSix Jours",
       "status": "actuellement",
-      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-6-jours-vf-1.jpg"
-    },
-    {
-      "title": "The Chronology of Water",
-      "director": "Kristen Stewart",
-      "status": "actuellement",
-      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-chronology-vf.jpg"
-    },
-    {
-      "title": "Oui",
-      "status": "actuellement",
-      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/OUI-affiche-OK-2-Large-773x1030.jpeg"
-    },
-    {
-      "title": "Miroirs Nº3",
-      "status": "actuellement",
-      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-miroirs-n3.jpeg"
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-6-jours-vf-1.jpg",
+      "synopsis": "Eye Haïdara, Jules Waringo, Leonis Pinero Müller, Teoudor Pinero Müller, Emmanuelle Devos, Damien Bonnard",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
       "title": "Le Cri des Gardes",
+      "director": "Claire Denis\n\n\n\n\nProchainement\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe Cri des Gardes\n\n\n\nUn film de Claire Denis\n\n\n\nAvec\n\n\n\nIsaach De Bankolé",
       "status": "prochainement",
       "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/Le-cri-des-gardes-Grande-1030x686.jpeg",
-      "local_image": "images/films/downloaded/cri-des-gardes.jpg"
+      "synopsis": "Isaach De Bankolé, Matt Dillon, Mia McKenna-Bruce, Tom Blyth",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
       "title": "Victor comme tout le monde",
-      "director": "Pascal Bonitzer",
-      "status": "prochainement",
+      "director": "Pascal Bonitzer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nVictor comme tout le monde\n\n\n\nUn film de Pascal Bonitzer\n\n\n\nAvec\n\n\n\nFabrice Luchini",
+      "status": "catalogue",
       "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Victor.jpg",
-      "local_image": "images/films/downloaded/victor.jpg"
+      "synopsis": "Fabrice Luchini, Chiara Mastroianni, Marie Narbonne, Suzanne de Baecque, Louise Orry Diquero, Iris Bry, Naidra Ayadi, Sarah Touffic Othman Schmitt, Agnes Sourdillon, Yannick Choirat, David Ayala",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
       "title": "Raymond Depardon Cinéaste",
-      "status": "rétrospective",
+      "director": "",
+      "status": "actuellement",
       "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-retro-Depardon.jpg",
-      "local_image": "images/films/downloaded/depardon.jpg"
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
-      "title": "Father Mother Sister Brother",
-      "director": "Jim Jarmusch",
-      "status": "prochainement",
-      "award": "Lion d'Or Venise 2025",
-      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-FAther-mother-sister-brother-2.jpg",
-      "local_image": "images/films/downloaded/father-mother.jpg"
-    }
-  ],
-  
-  "production": [
-    {
-      "title": "Six Jours, ce printemps-là",
-      "director": "Joachim Lafosse",
-      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-6-jours-vf-1.jpg"
+      "title": "The Chronology of Water",
+      "director": "Kristen Stewart\n\n\nDistribution France",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-chronology-vf.jpg",
+      "synopsis": "Imogen Poots, Thora Birch, Jim Belushi, Charles Carrick, Tom Sturridge, Susanna Flood, Esme Creed Miles, Kim Gordon, Michael Epp",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
-      "title": "Raymond Depardon Cinéaste",
-      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-retro-Depardon.jpg"
+      "title": "Oui",
+      "director": "Nadav Lapid\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nOui\n\n\n\nUn film de Nadav Lapid\n\n\n\nAvec\n\n\n\nAriel Bronz",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/OUI-affiche-OK-2-Large-773x1030.jpeg",
+      "synopsis": "Ariel Bronz, Efrat Dor, Naama Preis, Alexey Serebryakov",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Miroirs Nº3",
+      "director": "Christian Petzold\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nMiroirs N",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-miroirs-n3.jpeg",
+      "synopsis": "Paula Beer, Barbara Auer, Matthias Brandt, Enno Trebs, Philip Froissant",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Lettres Siciliennes",
+      "director": "Fabio Grassadonia",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-lettres-siciliennes-vf.jpeg",
+      "synopsis": "Toni Servillo, Elio Germano, Daniela Marra, Barbora Bobulova, Giuseppe Tantillo, Fausto Russo Alesi, Antonia Truppo",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Cache",
+      "director": "Lionel Baier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLa Cache\n\n\n\nUn film de Lionel Baier\n\n\n\nAvec\n\n\n\nDominique Reymond",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-La-cache.jpeg",
+      "synopsis": "Dominique Reymond, Michel Blanc, William Lebghil, Aurélien Gabrielli, Liliane Rovere, Ethan Chimienti, Adrien Barazzone, Larisa Faber, Gilles Privat",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Les Damnés",
+      "director": "Roberto Minervini\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLes Damnés\n\n\n\nUn film de Roberto Minervini\n\n\n\nAvec\n\n\n\nJeremiah Knupp",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-damnes-vf.jpg",
+      "synopsis": "Jeremiah Knupp, René W. Solomon, Cuyler Ballenger, Noah Carlson, Judah Carlson, Tim Carlson",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Spectateurs !",
+      "director": "Arnaud Desplechin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nSpectateurs",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-spectateurs-vf-1.jpg",
+      "synopsis": "Louis Birman, Dominique Païni, Clément Hervieu-Léger de la Comédie Française, Françoise Lebrun, Sandra Laugier, Olga Milshtein, Milo Machado-Graner, Sam Chemoul, Marilou Poujardieu, Salomé Rose Stein, Micha Lescot, Soshana Felman, Kent Jones, Salif Cissé, Mathieu Amalric",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Mon inséparable",
+      "director": "Anne-Sophie Bailly\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nMon inséparable\n\n\n\nUn film de Anne-Sophie Bailly\n\n\n\nAvec\n\n\n\nLaure Calamy",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-inseparable-vf.jpeg",
+      "synopsis": "Laure Calamy, Charles Peccia Galletto, Julie Froger, Geert van Rampelberg, Rébecca Finet, Aissatou Diallo Sagna, Pasquale D’inca, Jean de Pange",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Miséricorde",
+      "director": "Alain Guiraudie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nMiséricorde\n\n\n\nUn film de Alain Guiraudie\n\n\n\nAvec\n\n\n\nFélix KYSYL",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-misericorde-vf.jpg",
+      "synopsis": "Félix KYSYL, Catherine FROT,  Jacques DEVELAY,  Jean-Baptiste DURAND, David AYALA",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Dahomey",
+      "director": "Mati Diop\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nDahomey\n\n\n\nUn film de Mati Diop\n\n\n\nAvec\n\n\n\nLes intervenants de l",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Dahomey-vf.jpg",
+      "synopsis": "Les intervenants de l’Université d’Abomey-Calavi : IMELDA BATAMOUSSI, DIANE CAKPO, CHAMELIE DOGNON, MORIAS AGBESSI, GILBERT GODOVO, GILDAS ADANNOU, JOSEA GUEDJE, GAËL DAAVO, ROSE OUEMEHO, HABIB AHANDESSI, MARYLINE AGBOSSI, DIDIER SEDOHA NASSANGADE, RAÏMI BASSITOU NOUATIN, JOËL TCHOGBE, EDAH GONTRAN, DONALD GBOSSA, YVON KOSSOU-YOVO, DONALD GBOSSA, EDAH GONTRAN, MESSI BOCO, ODILON GBENONTIN, KEVIN DA-SILVA, DOWOTI DESIR, MICHELINE AYINON, BICAREL GNIKPO, NADIA VIHOUTOU KPONADOU L’équipe des conservateurs et régisseurs de l’exposition : CALIXTE BIAH, ABDOULAYE IMOROU, PAUL TIMOTHEE DOTO, JULES BOCCO, RICHARD J. V. SOGAN, DIDIER DONATIEN ALIHONOU et le commissaire de l’exposition ALAIN GODONOU et Les étudiants de l’INMAAC (promotions 2019 – 2020)",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "L’Amour fou",
+      "director": "Jacques Rivette\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nL",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/04/LAmour-fou-Affiche-1-758x1030.jpg",
+      "synopsis": "Bulle Ogier, Jean-Pierre Kalfon, Josée Destoop, Michèle Moretti, Celia, Françoise Godde, Maddly Bamy, Liliane Bordoni, Yves Beneyton, Dennis Berry, Michel Delahaye, André S. Labarthe, Didier Léon, Claude-Eric Richard \nEt aussi Etienne Becker, Patrice Wyers",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Prisonnière de Bordeaux",
+      "director": "Patricia Mazuy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLa Prisonnière de Bordeaux\n\n\n\nUn film de Patricia Mazuy\n\n\n\nAvec\n\n\n\nIsabelle Huppert",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-prisonniere-va-1.jpg",
+      "synopsis": "Isabelle Huppert, Hafsia Herzi",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Sons",
+      "director": "Gustav Möller\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nSons\n\n\n\nUn film de Gustav Möller\n\n\n\nAvec\n\n\n\nSidse Babett Knudsen",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-Sons.jpg",
+      "synopsis": "Sidse Babett Knudsen, Sebastian Bull, Dar Salim, Marina Bouras, Olaf Johannessen",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "C’est pas moi",
+      "director": "Leos Carax\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nC",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-Cest-pas-moi-vf.jpg",
+      "synopsis": "Denis Lavant, Kateryna Yuspina, Nastya Golubeva Carax, Loreta Juodkaite, Anna-Isabel Siefken, Petr Anevskii, Bianca Maddaluno",
+      "release_date": "",
+      "duration": "41",
+      "trailer": ""
+    },
+    {
+      "title": "Averroès & Rosa Parks",
+      "director": "Nicolas Philibert\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nAverroès",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/120x160-Averroes-Rosa-Parks-1-758x1030.jpg",
+      "synopsis": "Les patients et soignants des unités intra-hospitalières Averroès et Rosa Parks, hôpital Esquirol, Charenton-le-Pont",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Ange",
+      "director": "Tony Gatlif\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nAnge\n\n\n\nUn film de Tony Gatlif\n\n\n\nAvec\n\n\n\nArthur H",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Ange-vf.jpeg",
+      "synopsis": "Arthur H, Suzanne Aubert, Maria de Medeiros, Mathieu Amalric, Christine Citti",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Machine à écrire et autres sources de tracas",
+      "director": "Nicolas Philibert\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLa Machine à écrire et autres sources de tracas\n\n\n\nUn film de Nicolas Philibert\n\n\n\n\n\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-La-machine.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Il n’y a pas d’ombre dans le désert",
+      "director": "Yossi Aviram\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nIl n",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-ombre.jpg",
+      "synopsis": "Valeria Bruni Tedeschi, Yona Rozenkier, Germaine Unikovsky, ​Jackie Berroyer, Roni Alter, Merav Shirom, Yoel Rozenkier, ​Fantine Gelu, ​Alma Aviram, ​Itay Ben Ami, ​Menahem Lang, Zohar Wexler, ​Margeaux Lampley, ​Mai Weisz, Cordelia Lange, Shiraz Tsarfati, Edme Bismuth, ​Alona Nahmias, Aviv Telem, ​Uri Falk et Alexander Aviram dans le rôle de l’accusé",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
       "title": "Un Silence",
-      "director": "Joachim Lafosse",
+      "director": "Joachim Lafosse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nUn Silence\n\n\n\nUn film de Joachim Lafosse\n\n\n\nAvec\n\n\n\nDaniel Auteuil",
+      "status": "catalogue",
       "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/02/mea-un-silence.jpg",
-      "local_image": "images/catalogue/downloaded/un-silence.jpg"
+      "synopsis": "Daniel Auteuil, Emmanuelle Devos, Matthieu Galoux, Jeanne Cherhal, Louise Chevillotte",
+      "release_date": "",
+      "duration": "20",
+      "trailer": ""
     },
     {
       "title": "Ricardo et la peinture",
-      "director": "Barbet Schroeder",
-      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/02/mea-ricardo-1.jpg"
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nRicardo et la peinture\n\n\n\nUn film de Barbet Schroeder\n\n\n\n\n\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/02/mea-ricardo-1.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "107",
+      "trailer": ""
+    },
+    {
+      "title": "Anselm – Le Bruit du temps",
+      "director": "Wim Wenders\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nAnselm",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/04/mea-Anselm.jpg",
+      "synopsis": "Anselm Kiefer, Daniel Kiefer (le jeune homme), Anton Wenders (le garçon)",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Rétrospective Wim Wenders",
+      "director": "Wim Wenders\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nRétrospective Wim Wenders\n\n\n\nUn film de Wim Wenders\n\n\n\n\n\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-retro-WW.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Le ciel rouge",
+      "director": "Christian Petzold\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLe ciel rouge\n\n\n\nUn film de Christian Petzold\n\n\n\nAvec\n\n\n\nThomas Schubert",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-ciel-rouge.jpg",
+      "synopsis": "Thomas Schubert, Paula Beer, Langston Uibel, Enno Trebs, Matthias Brandt",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Bête dans la jungle",
+      "director": "Patric Chiha\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLa Bête dans la jungle\n\n\n\nUn film de Patric Chiha\n\n\n\nAvec\n\n\n\nAnaïs Demoustier",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-jungle.jpg",
+      "synopsis": "Anaïs Demoustier, Tom Mercier, Béatrice Dalle",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Rétrospective Lars von Trier",
+      "director": "Lars Von Trier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nRétrospective Lars von Trier\n\n\n\nUn film de Lars Von Trier\n\n\n\n\n\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-LVT-retro-1.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Rétrospective Jean Eustache",
+      "director": "Jean Eustache\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nRétrospective Jean Eustache\n\n\n\nUn film de Jean Eustache\n\n\n\n\n\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/05/mea-retro-eustache.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "War Pony",
+      "director": "Gina Gammell et Riley Keough\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nWar Pony\n\n\n\nUn film de Gina Gammell et Riley Keough\n\n\n\nAvec\n\n\n\nJojo Bapteise Whiting",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-war-pony.jpg",
+      "synopsis": "Jojo Bapteise Whiting, Ladainian Crazy Thunder, Jesse Schmockel, Wilma Colhoff, Iona Red Bear, Woodrow Lone Elk, Ta-Yamni Long Black Cat, Jeremy Corbin Cottier",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Sur l’Adamant",
+      "director": "Nicolas Philibert\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nSur l",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-adamant.jpg",
+      "synopsis": "Les patients et l’équipe soignante du centre de jour Adamant",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "El Agua",
+      "director": "Elena LÓPEZ RIERA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nEl Agua\n\n\n\nUn film de Elena LÓPEZ RIERA\n\n\n\nAvec\n\n\n\nLuna PAMIES",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-el-agua.jpg",
+      "synopsis": "Luna PAMIES, Bárbara LENNIE, Nieve DE MEDINA, Alberto OLMO, Irene PELLICER, Nayara GARCIA, Lidia María CANOVAS, Pascual VALERO",
+      "release_date": "",
+      "duration": "104",
+      "trailer": ""
+    },
+    {
+      "title": "Titina",
+      "director": "Kajsa Næss\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nTitina\n\n\n\nUn film de Kajsa Næss\n\n\n\n\n\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-Titina-1.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Retour à Séoul",
+      "director": "Davy Chou\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nRetour à Séoul\n\n\n\nUn film de Davy Chou\n\n\n\nAvec\n\n\n\nPARK Ji-Min",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-RES.jpg",
+      "synopsis": "PARK Ji-Min, OH Kwang-Rok, Guka HAN, KIM Sun-Young, Yoann ZIMMER, HUR Ouk-Sook, Emeline BRIFFAUD, LIM Cheol-Hyun, SON Seung-Beom, Louis-Do de LENCQUESAING",
+      "release_date": "",
+      "duration": "119",
+      "trailer": ""
+    },
+    {
+      "title": "De humani corporis fabrica",
+      "director": "Verena PARAVEL et Lucien CASTAING-TAYLOR\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nDe humani corporis fabrica\n\n\n\nUn film de Verena PARAVEL et Lucien CASTAING-TAYLOR\n\n\n\n\n\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-humani.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "115",
+      "trailer": ""
+    },
+    {
+      "title": "Par Coeurs",
+      "director": "Benoit JACQUOT\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nPar Coeurs\n\n\n\nUn film de Benoit JACQUOT\n\n\n\nAvec\n\n\n\nIsabelle Huppert",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-par-coeurs.jpg",
+      "synopsis": "Isabelle Huppert, Fabrice Luchini",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Saint Omer",
+      "director": "Alice DIOP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nSaint Omer\n\n\n\nUn film de Alice DIOP\n\n\n\nAvec\n\n\n\nKayije KAGAME",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-st-omer.jpg",
+      "synopsis": "Kayije KAGAME, Guslagie MALANDA, Valérie DRÉVILLE, Aurélia PETIT, Xavier MALY, Robert CANTARELLA, Salimata KAMATE, Thomas DE POURQUERY",
+      "release_date": "",
+      "duration": "122",
+      "trailer": ""
+    },
+    {
+      "title": "Pacifiction – Tourment sur les îles",
+      "director": "Albert SERRA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nPacifiction",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-pacifiction-1.jpg",
+      "synopsis": "Benoît MAGIMEL, Pahoa MAHAGAFANAU, Matahi PAMBRUN, Marc SUSINI, Sergi LOPEZ, Montse TRIOLA, Michael VAUTOR, Cécile GUILBERT, Alexandre MELLO, Mike LANDSCAPE, Lluis SERRAT, Mareva WONG, Cyrus ARAI, Baptiste PINTEAUX, Laurent BRISSONNAUD",
+      "release_date": "",
+      "duration": "163",
+      "trailer": ""
+    },
+    {
+      "title": "Un beau matin",
+      "director": "Mia HANSEN-LØVE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nUn beau matin\n\n\n\nUn film de Mia HANSEN-LØVE\n\n\n\nAvec\n\n\n\nLéa SEYDOUX",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/09/mea-UBM.jpg",
+      "synopsis": "Léa SEYDOUX, Pascal GREGGORY, Melvil POUPAUD, Nicole GARCIA, Camille LEBAN MARTINS",
+      "release_date": "",
+      "duration": "113",
+      "trailer": ""
+    },
+    {
+      "title": "Rodeo",
+      "director": "Lola Quivoron\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nRodeo\n\n\n\nUn film de Lola Quivoron\n\n\n\nAvec\n\n\n\nJulie LEDRU",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-rodeo-1.jpg",
+      "synopsis": "Julie LEDRU, Yanis LAFKI, Antonia BURESI, Louis SOTTON, Junior CORREIA, Ahmed HAMDI, Dave NSAMAN OKEBWAN, Cody SCHROEDER, Sébastien SCHROEDER, Mohamed BETTAHAR, Chris MAKODI, Mustapha DIANKA, Gianni CAIRA, Quentin ARIZZI, Brice STRAEHLI",
+      "release_date": "",
+      "duration": "20",
+      "trailer": ""
+    },
+    {
+      "title": "La Dérive des continents",
+      "director": "Lionel Baier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLa Dérive des continents\n\n\n\nUn film de Lionel Baier\n\n\n\nAvec\n\n\n\nIsabelle Carré",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-derive-1.jpg",
+      "synopsis": "Isabelle Carré, Théodore Pellerin, Ursina Lardi, Tom Villa, Ivan Georgiev, Adama Diop, Elisabeth Owona, Indri Shiroka,  David Coco, Mario Opinato, Massimo Cagnina, Sebastiano Tinè, Nicolò Prestigiacomo, Maria Isabella Piana,  Rosalinda Musumeci, Maria Antonietta Scornavacca, Nicolas Roussi",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La maman et la putain",
+      "director": "Jean Eustache\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLa maman et la putain\n\n\n\nUn film de Jean Eustache\n\n\n\nAvec\n\n\n\nJean-Pierre Léaud",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-vf-maman.jpg",
+      "synopsis": "Jean-Pierre Léaud, Bernadette Lafont, Françoise Lebrun, Isabelle Weingarten, Jacques Renard, Jean-Noël Picq, Jean-Claude Biette, Pierre Cottrell, Jean Douchet",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Il Buco",
+      "director": "Michelangelo Frammartino\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nIl Buco\n\n\n\nUn film de Michelangelo Frammartino\n\n\n\nAvec\n\n\n\nPaolo Cossi",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/01/mea-WB.jpg",
+      "synopsis": "Paolo Cossi, Jacopo Elia, Denise Trombin, Nicola Lanza",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Viens je t’emmène",
+      "director": "Alain Guiraudie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nViens je t",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/mea-site.jpg",
+      "synopsis": "Jean-Charles Clichet, Noémie Lvovsky, Iliès Kadri, Renaud Rutten, Doria Tillier, Michel Masiero, Philippe Fretun, Farida Rahouadj, Miveck Packa, Yves-Robert Viala, Patrick Ligardes",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "L’HORIZON",
+      "director": "Emilie Carpentier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nL",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/LHORIZON_Doc120.jpg",
+      "synopsis": "Tracy Gotoas, Sylvain Le Gall, NIIA, Clémence Boisnard,Dembélé, Slimane Dazi",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "White Building",
+      "director": "Kavich Neang\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nWhite Building\n\n\n\nUn film de Kavich Neang\n\n\n\nAvec\n\n\n\nPiseth Chhun",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/mea-WB-1.jpg",
+      "synopsis": "Piseth Chhun, Sithan Hout, Sokha Uk, Chinnaro Soem, Sovann Tho, Jany Min, Chandalin Y",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Marcher sur l’eau",
+      "director": "Aïssa Maïga\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nMarcher sur l",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/Marchersurleau_mea-1.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Les Intranquilles",
+      "director": "Joachim Lafosse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLes Intranquilles\n\n\n\nUn film de Joachim Lafosse\n\n\n\nAvec\n\n\n\nLeïla Bekhti",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/588x799.jpg",
+      "synopsis": "Leïla Bekhti, Damien Bonnard, Gabriel Merz Chammah",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Tom Medina",
+      "director": "Tony Gatlif\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nTom Medina\n\n\n\nUn film de Tony Gatlif\n\n\n\nAvec\n\n\n\nDavid Murgia",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/TOMMEDINA_MEA.jpg",
+      "synopsis": "David Murgia, Slimane Dazi, Karoline Rose Sun, Suzanne Aubert",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "UNE HISTOIRE A SOI",
+      "director": "Amandine Gay\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nUNE HISTOIRE A SOI\n\n\n\nUn film de Amandine Gay\n\n\n\nAvec\n\n\n\nJoohee Bourgain",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/01/UHAS_AFFICHE-120-40x60.jpg",
+      "synopsis": "Joohee Bourgain, Mathieu Anette, Anne-Charlotte, Niyongira Bugingo/Nicolas Guieu, Céline Chandralatha Grimaud",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Bergman Island",
+      "director": "Mia Hansen-Løve\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nBergman Island\n\n\n\nUn film de Mia Hansen-Løve\n\n\n\nAvec\n\n\n\nVicky Krieps",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/Bergmanisland_mea-1.jpg",
+      "synopsis": "Vicky Krieps, Tim Roth, Mia Wasikowska, Anders Danielsen Lie",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "OSKAR & LILY",
+      "director": "ARASH T",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/01/mea-Oskar-Lily.jpg",
+      "synopsis": "LEOPOLD PALLUA, ROSA ZANT,\nCHRISTINE OSTERMAYER",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
       "title": "Ondine",
-      "director": "Christian Petzold",
+      "director": "Christian Petzold\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nOndine\n\n\n\nUn film de Christian Petzold\n\n\n\nAvec\n\n\n\nPaula Beer",
+      "status": "catalogue",
       "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/02/mea-Ondine.jpg",
-      "local_image": "images/catalogue/downloaded/ondine.jpg"
+      "synopsis": "Paula Beer, Franz Rogowski, Maryam Zaree, Jacob Matschenz, Anne Ratte-Polle, Rafael Stachowiak, Julia Franz Richter, Gloria Endres de Oliveira, José Barros, Enno Trebs",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    }
+  ],
+  "production": [
+    {
+      "title": "LE VENERABLE W.",
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLE VENERABLE W",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/06/poster-0-le-venerable-w.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
-      "title": "Happy End",
-      "director": "Michael Haneke",
-      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/05/poster-0-happy-end.jpg"
+      "title": "HAPPY END",
+      "director": "Michael Haneke\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nHAPPY END\n\n\n\nUn film de Michael Haneke\n\n\n\nAvec\n\n\n\nIsabelle Huppert",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/05/poster-0-happy-end.jpg",
+      "synopsis": "Isabelle Huppert, Jean-Louis Trintignant, Mathieu Kassovitz, Fantine Harduin, Franz Rogowski, Laura Verlinden et Toby Jones",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "UNE ENFANCE",
+      "director": "Philippe Claudel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUNE ENFANCE\n\n\n\nUn film de Philippe Claudel\n\n\n\nAvec\n\n\n\nAlexi Mathieu",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-une-enfance.jpg",
+      "synopsis": "Alexi Mathieu, Angélica Sarre, Pierre Deladonchamps, Jules Gauzelin, Patrick d’Assumçao",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "AMNESIA",
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAMNESIA\n\n\n\nUn film de Barbet Schroeder\n\n\n\nAvec\n\n\n\nMarthe KELLER",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-amnesia.jpg",
+      "synopsis": "Marthe KELLER, Max RIEMELT, Bruno GANZ, Corinna KIRCHHOFF",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "LES JOURS VENUS",
+      "director": "Romain Goupil\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLES JOURS VENUS\n\n\n\nUn film de Romain Goupil\n\n\n\nAvec\n\n\n\nRomain Goupil",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-les-jours-venus.jpg",
+      "synopsis": "Romain Goupil, Valéria Bruni Tedeschi, Marina Hands, Noémie Lvovsky, Jackie Berroyer",
+      "release_date": "",
+      "duration": "20",
+      "trailer": ""
+    },
+    {
+      "title": "Rétrospective Eric Rohmer",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRétrospective Eric Rohmer\n\n\n\nUn film de Eric Rohmer\n\n\n\n\n\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2013/12/poster-0-retrospective-eric-rohmer.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "HEIMAT – 1. Chronique d’un rêve / 2. L’exode",
+      "director": "Edgar Reitz\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHEIMAT",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2013/08/poster-0-heimat-1-chronique-dun-reve-2-lexode.jpg",
+      "synopsis": "Jan Dieter Schneider, Antonia Bill, Maximilian Scheidt, Marita Breuer, Rüdiger Kriese, Philine Lembeck, Mélanie Fouché, Eva Zeidler, Reinhard Paulus",
+      "release_date": "",
+      "duration": "20",
+      "trailer": ""
     },
     {
       "title": "Amour",
-      "director": "Michael Haneke",
-      "award": "Palme d'Or 2012, Oscar 2013",
+      "director": "Michael Haneke\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmour\n\n\n\nUn film de Michael Haneke\n\n\n\nAvec\n\n\n\nJean-Louis Trintignant",
+      "status": "catalogue",
       "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-amour.jpg",
-      "local_image": "images/catalogue/downloaded/amour.jpg"
+      "synopsis": "Jean-Louis Trintignant, Emmanuelle Riva, Isabelle Huppert, Alexandre Tharaud",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "De Bon Matin",
+      "director": "Jean-Marc Moutout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDe Bon Matin\n\n\n\nUn film de Jean-Marc Moutout\n\n\n\nAvec\n\n\n\nJean-Pierre Darroussin",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-de-bon-matin.jpg",
+      "synopsis": "Jean-Pierre Darroussin, Valérie Dréville, Laurent Delbecque, Yannick Renier, Xavier Beauvois",
+      "release_date": "",
+      "duration": "20",
+      "trailer": ""
+    },
+    {
+      "title": "Les mains en l’air",
+      "director": "Romain Goupil\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes mains en l",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-les-mains-en-lair.jpg",
+      "synopsis": "Linda Doudaeva, Jules Ritmanic, Valeria Bruni-Tedeschi, Romain Goupil, Hélène Babu, Hippolyte Girardot",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
       "title": "Le Ruban Blanc",
-      "director": "Michael Haneke",
-      "award": "Palme d'Or 2009",
+      "director": "Michael Haneke\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe Ruban Blanc\n\n\n\nUn film de Michael Haneke\n\n\n\nAvec\n\n\n\nChristian FRIEDEL",
+      "status": "catalogue",
       "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-le-ruban-blanc.jpg",
-      "local_image": "images/catalogue/downloaded/ruban-blanc.jpg"
+      "synopsis": "Christian FRIEDEL, Leonie BENESCH, Ulrich TUKUR, Ursina LARDI, Michael KRANZ, Burghart KLAUSSNER",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Pour Un Instant La Liberté",
+      "director": "Arash T",
+      "status": "prochainement",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2010/03/poster-0-pour-un-instant-la-liberte.jpg",
+      "synopsis": "Navid Akhavan, Fares Fares, Behi Djanati Ataï, Pourya Mahyari, Payam Madjlessi",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Fabrique Des Sentiments",
+      "director": "Jean-Marc Moutout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Fabrique Des Sentiments\n\n\n\nUn film de Jean-Marc Moutout\n\n\n\nAvec\n\n\n\nElsa Zylberstein",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-la-fabrique-des-sentiments.jpg",
+      "synopsis": "Elsa Zylberstein, Jacques Bonnaffé, Bruno Putzulu, Hiam Abbass, Anne-Katerine Normant, Jean Segani",
+      "release_date": "",
+      "duration": "7",
+      "trailer": ""
+    },
+    {
+      "title": "Bled Number One",
+      "director": "Rabah Ameur-Zaïmeche\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBled Number One\n\n\n\nUn film de Rabah Ameur-Zaïmeche\n\n\n\nAvec\n\n\n\nRabah Ameur-Zaïmeche",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-bled-number-one.jpg",
+      "synopsis": "Rabah Ameur-Zaïmeche, Meriem Serbah, Abel Jafri, Farida Ouchani, Ramzy Bedia, Sakina Dammene-Debbih",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
     },
     {
       "title": "Caché",
-      "director": "Michael Haneke",
-      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-cache.jpg"
+      "director": "Michael Haneke\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaché\n\n\n\nUn film de Michael Haneke\n\n\n\nAvec\n\n\n\nDaniel Auteuil",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-cache.jpg",
+      "synopsis": "Daniel Auteuil, Juliette Binoche, Maurice Benichou, Annie Girardot, Bernard Le Coq, Walid Afkir",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Ne Quittez Pas",
+      "director": "Arthur Joffé\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNe Quittez Pas\n\n\n\nUn film de Arthur Joffé\n\n\n\nAvec\n\n\n\nSergio Castellitto",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-ne-quittez-pas.jpg",
+      "synopsis": "Sergio Castellitto, Michel Serrault, Isabelle Gélinas, Rachida Brakni, Dominique Pinon, Laszlo Szabo",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Le Temps Du Loup",
+      "director": "Michael Haneke\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe Temps Du Loup\n\n\n\nUn film de Michael Haneke\n\n\n\nAvec\n\n\n\nIsabelle Huppert",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-le-temps-du-loup.jpg",
+      "synopsis": "Isabelle Huppert, Maurice Benichou, Patrice Chéreau, Béatrice Dalle, Lucas Biscombe, Daniel Duval",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Raja",
+      "director": "Jacques Doillon\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaja\n\n\n\nUn film de Jacques Doillon\n\n\n\nAvec\n\n\n\nPascal Greggory",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-raja.jpg",
+      "synopsis": "Pascal Greggory, Najat Benssallem, Ilham Abdelwahad, Hassan Khissal, Fatiha Khoulaki, Ahmed Akensouss",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Une Pure Coincidence",
+      "director": "Romain Goupil\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUne Pure Coincidence\n\n\n\nUn film de Romain Goupil\n\n\n\nAvec\n\n\n\nRomain Goupil",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-une-pure-coincidence.jpg",
+      "synopsis": "Romain Goupil, Alain Cyroulnik, Olivier Martin, Tonie Marshall,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Saison Des Hommes",
+      "director": "Moufida Tlatli\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Saison Des Hommes\n\n\n\nUn film de Moufida Tlatli\n\n\n\nAvec\n\n\n\nRabiaa Ben Abdallah",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-la-saison-des-hommes.jpg",
+      "synopsis": "Rabiaa Ben Abdallah, Sabah Bouzouita, Ghalia Ben Ali, Hend Sabri, Ezzedine Gennoun, Mouna Noureddine",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Vierge Des Tueurs",
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Vierge Des Tueurs\n\n\n\nUn film de Barbet Schroeder\n\n\n\nAvec\n\n\n\nGerman Jaramillo",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-la-vierge-des-tueurs.jpg",
+      "synopsis": "German Jaramillo, Anderson Ballesteros, Juan David Restrepo, Manuel Busquets",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Pan Tadeusz",
+      "director": "Andrzej Wajda\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPan Tadeusz\n\n\n\nUn film de Andrzej Wajda\n\n\n\nAvec\n\n\n\nBoguslaw  Linda",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-pan-tadeusz.jpg",
+      "synopsis": "Boguslaw  Linda, Daniel Olbrychski, Grazyna Szapolowska, Andrzej Seweryn, Marek Kondrat, Krzysztof Kolberger",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "A Mort la Mort",
+      "director": "Romain Goupil\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Mort la Mort\n\n\n\nUn film de Romain Goupil\n\n\n\nAvec\n\n\n\nRomain Goupil",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-a-mort-la-mort.jpg",
+      "synopsis": "Romain Goupil, Marianne Denicourt, Brigitte Catillon, Alain Cyroulnik, Anne Alvaro, Dominique Frot",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Conte d’Automne",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConte d",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-conte-dautomne.jpg",
+      "synopsis": "Béatrice Romand, Marie Rivière, Alain Libolt, Didier Sandre",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Lautrec",
+      "director": "Roger Planchon\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLautrec\n\n\n\nUn film de Roger Planchon\n\n\n\nAvec\n\n\n\nRégis Royer",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-lautrec.jpg",
+      "synopsis": "Régis Royer, Elsa Zylberstein, Anémone, Claude Rich",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Le Bel Eté 1914",
+      "director": "Christian de Chalonge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe Bel Eté",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-le-bel-ete-1914.jpg",
+      "synopsis": "Claude Rich, Maria Pacôme, Hippolyte Girardot, Judith Henry, Marianne Denicourt, Philippe Torreton",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Conte d’Eté",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConte d",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-conte-dete.jpg",
+      "synopsis": "Melvil Poupaud, Amanda Langlet, Aurélia Nolin, Gwenaëlle Simon,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Lettre pour L…",
+      "director": "Romain Goupil\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLettre pour L",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-lettre-pour-l.jpg",
+      "synopsis": "Franssou Prenant, Romain Goupil, Régine Provvedi, Anita Mancic, Alenka Mandic, Lita Recio",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Louis, Enfant Roi",
+      "director": "Roger Planchon\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLouis",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-louis-enfant-roi.jpg",
+      "synopsis": "Carmen Maura, Maxime Mansion, Paolo Graziosi, Jocelyn Quivrin, Hervé Briaux, Brigitte Catillon",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Règle Du Je",
+      "director": "Françoise Etchegaray\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Règle Du Je\n\n\n\nUn film de Françoise Etchegaray\n\n\n\nAvec\n\n\n\nMarie Matheron",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-la-regle-du-je.jpg",
+      "synopsis": "Marie Matheron, Anthony Higgins, Stéphane Guillon, Hélène de Saint-Père,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Conte d’Hiver",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConte d",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-conte-dhiver.jpg",
+      "synopsis": "Charlotte Very, Frédéric Van Den Driessche, Hervé Furic, Michel Voletti",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Le Jour Des Rois",
+      "director": "Marie-Claude Treilhou\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe Jour Des Rois\n\n\n\nUn film de Marie-Claude Treilhou\n\n\n\nAvec\n\n\n\nDanielle Darrieux",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-le-jour-des-rois.jpg",
+      "synopsis": "Danielle Darrieux, Paulette Dubost, Micheline Presle, Michel Galabru,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Europa, Europa",
+      "director": "Agnieszka Holland\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEuropa",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-europa-europa.jpg",
+      "synopsis": "Sally Perel, Julie Delpy, René Hofschneider, Piotr Kozlowski, Michèle Gleizer, Marco Hofschneider",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Conte de Printemps",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConte de Printemps\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nAnne Teyssèdre",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-conte-de-printemps.jpg",
+      "synopsis": "Anne Teyssèdre, Hugues Quester, Florence Darel, Eloïse Bennett, Sophie Robin",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Noce Blanche",
+      "director": "Jean-Claude Brisseau\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoce Blanche\n\n\n\nUn film de Jean-Claude Brisseau\n\n\n\nAvec\n\n\n\nVanessa Paradis",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-noce-blanche.jpg",
+      "synopsis": "Vanessa Paradis, Bruno Cremer, Ludmila Mikael, François Negret, Véronique Silver, Jean Daste et la particpation de la Classe Cinéma du Lycée Jean Monnet à Saint-Etienne et les élèves du Lycée Jean Bart à Dunkerque",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "De Bruit Et De Fureur",
+      "director": "Jean-Claude Brisseau\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDe Bruit Et De Fureur\n\n\n\nUn film de Jean-Claude Brisseau\n\n\n\nAvec\n\n\n\nVincent Gasperitsch",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1988/06/mea-bruit-fureur.jpg",
+      "synopsis": "Vincent Gasperitsch, François Negret, Bruno Cremer, Fabienne Babe, Antoine Fontaine, Luc Ponette",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Dandin",
+      "director": "Roger Planchon\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDandin\n\n\n\nUn film de Roger Planchon\n\n\n\nAvec\n\n\n\nClaude Brasseur",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1988/01/poster-0-dandin.jpg",
+      "synopsis": "Claude Brasseur, Zabou Breitman, Daniel Gelin, Nelly Borgeaud, Jean-Claude Adelin, Evelyne Buyle",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Mort D’empédocle",
+      "director": "Jean-Marie Straub\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Mort D",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-la-mort-dempedocle.jpg",
+      "synopsis": "Andreas Von Rauch, Vladimir Baratta, Martina Baratta, Ute Cremer, Howard Vernon, William Berger",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "L’ami De Mon Amie",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nL",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-lami-de-mon-amie.jpg",
+      "synopsis": "Emmanuelle Chaulet, Sophie Renoir, Anne-Laure Meury, Eric Viellard,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Quatre Aventures De Reinette Et Mirabelle",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuatre Aventures De Reinette Et Mirabelle\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nJoëlle Miquel",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-quatre-aventures-de-reinette-et-mirabelle.jpg",
+      "synopsis": "Joëlle Miquel, Jessica Forde, François-Marie Banier, Marie Rivière, Jean-Claude Brisseau, Fabrice Luchini",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Le Rayon Vert",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe Rayon Vert\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nMarie Rivière",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-rayon-vert.jpg",
+      "synopsis": "Marie Rivière, Béatrice Romand, Carita, Rosette",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Les Nuits De La Pleine Lune",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes Nuits De La Pleine Lune\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nTcheky Karyo",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-les-nuits-de-la-pleine-lune.jpg",
+      "synopsis": "Tcheky Karyo, Pascale Ogier, Fabrice Luchini, Virginie Thevenet",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Mauvaise Conduite",
+      "director": "Nestor Almendros",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-mauvaise-conduite.jpg",
+      "synopsis": "Reinalda Arenas, Susan Sontag, Heberto Padilla, Guillermo Gabrera Infante,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Tricheurs",
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTricheurs\n\n\n\nUn film de Barbet Schroeder\n\n\n\nAvec\n\n\n\nJacques Dutronc",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-tricheurs.jpg",
+      "synopsis": "Jacques Dutronc, Bulle Ogier, Kurt Raab, Virgilio Teixeira, Steve Baes, Roger Sabib",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Liberty Belle",
+      "director": "Pascal Kané\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLiberty Belle\n\n\n\nUn film de Pascal Kané\n\n\n\nAvec\n\n\n\nJérôme Zucca",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-liberty-belle.jpg",
+      "synopsis": "Jérôme Zucca, Dominique Laffin, André Dussollier, Philippe Caroit, Jean-Pierre Kalfon,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Un Jeu Brutal",
+      "director": "Jean-Claude Brisseau\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUn Jeu Brutal\n\n\n\nUn film de Jean-Claude Brisseau\n\n\n\nAvec\n\n\n\nBruno Cremer",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-un-jeu-brutal.jpg",
+      "synopsis": "Bruno Cremer, Emmanuelle Debever, Liza Hérédia, Albert Pigot, Jean Douchet,  Humbert Balsan",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Pauline à La Plage",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPauline à La Plage\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nAmanda Langlet",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-pauline-a-la-plage.jpg",
+      "synopsis": "Amanda Langlet, Arielle Dombasle, Pascal Greggory, Feodor Atkine",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Le Beau Mariage",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe Beau Mariage\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nBéatrice Romand",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-beau-mariage.jpg",
+      "synopsis": "Béatrice Romand, André Dussollier, Arielle Dombasle, Pascal Greggory",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Lettres D’amour En Somalie",
+      "director": "Frédéric Mitterrand\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLettres D",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-lettres-damour-en-somalie.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Le Pont Du Nord",
+      "director": "Jacques Rivette\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe Pont Du Nord\n\n\n\nUn film de Jacques Rivette\n\n\n\nAvec\n\n\n\nBulle Ogier",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-pont-du-nord.jpg",
+      "synopsis": "Bulle Ogier, Pascale Ogier, Pierre Clementi, Jean-François Stevenin,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Dans la Forêt de Katyn",
+      "director": "Marcel Lozinski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDans la Forêt de Katyn\n\n\n\nUn film de Marcel Lozinski\n\n\n\n\n\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-dans-la-foret-de-katyn.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Bukowski",
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBukowski\n\n\n\nUn film de Barbet Schroeder\n\n\n\nAvec\n\n\n\nCharles Bukowski",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-bukowski.jpg",
+      "synopsis": "Charles Bukowski, Linda Bukows, Pam Miller, Sean Penn,",
+      "release_date": "",
+      "duration": "4",
+      "trailer": ""
+    },
+    {
+      "title": "La Femme De L’aviateur",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Femme De L",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-femme-de-laviateur.jpg",
+      "synopsis": "Marie Rivière, Philippe Marlaud, Anne-Laure Meury, Mathieu Carrière",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Navire Night",
+      "director": "Marguerite Duras\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNavire Night\n\n\n\nUn film de Marguerite Duras\n\n\n\nAvec\n\n\n\nBulle Ogier",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-navire-night.jpg",
+      "synopsis": "Bulle Ogier, Dominique Sanda, Mathieu Carrière,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Perceval Le Gallois",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerceval Le Gallois\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nFabrice Luchini",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-perceval-le-gallois.jpg",
+      "synopsis": "Fabrice Luchini, André Dussollier, Arielle Dombasle, Clémentine Amouroux",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Koko Le Gorille Qui Parle",
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKoko Le Gorille Qui Parle\n\n\n\nUn film de Barbet Schroeder\n\n\n\nAvec\n\n\n\nKoko",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-koko-le-gorille-qui-parle.jpg",
+      "synopsis": "Koko, Penny Paterson, Carl Pribam, Saul Kitchener, Roger Fouts,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Une Sale Histoire (documentaire)",
+      "director": "Jean Eustache\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUne Sale Histoire",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-une-sale-histoire-documentaire.jpg",
+      "synopsis": "Elisabeth Lanchener, Françoise Lebrun, Virginie Thevenet,",
+      "release_date": "",
+      "duration": "22",
+      "trailer": ""
+    },
+    {
+      "title": "Une Sale Histoire (fiction)",
+      "director": "Jean Eustache\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUne Sale Histoire",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-une-sale-histoire-fiction.jpg",
+      "synopsis": "Michael Lonsdale, Douchka, Laura Fanning, Josée Yann, Jacques Bruloux, Jean Douchet",
+      "release_date": "",
+      "duration": "28",
+      "trailer": ""
+    },
+    {
+      "title": "La Marquise D’o",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Marquise D",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-marquise-do.jpg",
+      "synopsis": "Edith Clever, Bruno Ganz, Peter Lürh, Edda Seippel,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Maîtresse",
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaîtresse\n\n\n\nUn film de Barbet Schroeder\n\n\n\nAvec\n\n\n\nGérard Depardieu",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-maitresse.jpg",
+      "synopsis": "Gérard Depardieu, Bulle Ogier, André Rouyer, Nathalie Keryan, Roland Bertin, Tony Taffin",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Céline et Julie vont en Bateau",
+      "director": "Jacques Rivette\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCéline et Julie vont en Bateau\n\n\n\nUn film de Jacques Rivette\n\n\n\nAvec\n\n\n\nJuliet Berto",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-celine-et-julie-vont-en-bateau.jpg",
+      "synopsis": "Juliet Berto, Dominique Labourier, Bulle Ogier, Marie-France Pisier, Barbet Shroeder, Philippe Clevenot, Jean Douchet",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Général Idi Amin Dada",
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGénéral Idi Amin Dada\n\n\n\nUn film de Barbet Schroeder\n\n\n\nAvec\n\n\n\nIdi Amin Dada",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-general-idi-amin-dada.jpg",
+      "synopsis": "Idi Amin Dada,",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "L’amour L’après-midi",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nL",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-lamour-lapres-midi.jpg",
+      "synopsis": "Bernard Verley, Zouzou, Françoise Verley, Daniel Ceccaldi",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Vallée",
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Vallée\n\n\n\nUn film de Barbet Schroeder\n\n\n\nAvec\n\n\n\nJean-Pierre Kalfon",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-vallee.jpg",
+      "synopsis": "Jean-Pierre Kalfon, Bulle Ogier, Michael Gothard, Valérie Lagrange, Jérôme Beauvarlet, Monique Giraudy",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Le Genou De Claire",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe Genou De Claire\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nJean-Claude Brialy",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-genou-de-claire.jpg",
+      "synopsis": "Jean-Claude Brialy, Aurora Cornu, Béatrice Romand, Laurence de Monaghan, Fabrice Luchini",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "More",
+      "director": "Barbet Schroeder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMore\n\n\n\nUn film de Barbet Schroeder\n\n\n\nAvec\n\n\n\nMimsy Farmer",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-more.jpg",
+      "synopsis": "Mimsy Farmer, Klaus Grunberg, Heinz Engelman, Michel Chanderli, Louise Wink, Georges Montant",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Ma Nuit Chez Maud",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMa Nuit Chez Maud\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nJean-Louis Trintignant",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-ma-nuit-chez-maud.jpg",
+      "synopsis": "Jean-Louis Trintignant, Françoise Fabian, Marie-Christine Barrault, Antoine Vitez",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Fermière De Montfaucon",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Fermière De Montfaucon\n\n\n\nUn film de Eric Rohmer\n\n\n\n\n\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-fermiere-de-montfaucon.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "13",
+      "trailer": ""
+    },
+    {
+      "title": "La Collectionneuse",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Collectionneuse\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nHaydée Politoff",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-collectionneuse.jpg",
+      "synopsis": "Haydée Politoff, Patrick Bauchau, Daniel Pommereulle, Seymour Hertzberg",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Paris Vu Par…",
+      "director": "Claude Chabrol",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-paris-vu-par.jpg",
+      "synopsis": "Stéphane Audran, Barbara Wilkind, Johanna Shimkusk, Micheline Dax, Jean-Michel Rouzière, Nadine Ballot",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "La Boulangère De Monceau",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Boulangère De Monceau\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nBarbet Shroeder",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-boulangere-de-monceau.jpg",
+      "synopsis": "Barbet Shroeder, Fred Junk, Michèle Girardon, Bertrand Tavernier",
+      "release_date": "",
+      "duration": "26",
+      "trailer": ""
+    },
+    {
+      "title": "La Carrière De Suzanne",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Carrière De Suzanne\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nPhilippe Beuze",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-la-carriere-de-suzanne-773x1030.jpg",
+      "synopsis": "Philippe Beuze, Jean-Claude Biette, Patrick Bauchau, Diane Wilkinson",
+      "release_date": "",
+      "duration": "52",
+      "trailer": ""
+    },
+    {
+      "title": "Le Signe Du Lion",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe Signe Du Lion\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nJess Hahn",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-signe-du-lion.jpg",
+      "synopsis": "Jess Hahn, Van Doude, Michèle Girardon, Jean Le Poulain",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Véronique Et Son Cancre",
+      "director": "Eric Rohmer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVéronique Et Son Cancre\n\n\n\nUn film de Eric Rohmer\n\n\n\nAvec\n\n\n\nNicole Berger",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-veronique-et-son-cancre.jpg",
+      "synopsis": "Nicole Berger, Stella Dassas, Alain Delrieu,",
+      "release_date": "",
+      "duration": "20",
+      "trailer": ""
     }
   ],
-  
-  "carousel_films": [
-    "Resurrection",
-    "Father Mother Sister Brother",
-    "Victor comme tout le monde",
-    "Raymond Depardon Cinéaste",
-    "Le Cri des Gardes"
+  "international": [
+    {
+      "title": "Nina et le secret du Hérisson",
+      "director": "Alain Gagnol",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/01/Sans-titre-2.jpg",
+      "synopsis": "Audrey Tautou, Guillaume Canet",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "A Short story",
+      "director": "BI GAN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Short story\n\n\n\nUn film de BI GAN\n\n\n\nAvec\n\n\n\nTAN Zhuo",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/05/mea-tourment.jpg",
+      "synopsis": "TAN Zhuo, CHENG Yongzhong",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Fabian",
+      "director": "Dominik Graf\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFabian\n\n\n\nUn film de Dominik Graf\n\n\n\nAvec\n\n\n\nTom Schilling",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/02/mae-poster.jpg",
+      "synopsis": "Tom Schilling, Albrecht Schuch, Saskia Rosendahl",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "LA RIVIERE",
+      "director": "Ghassan Salhab\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLA RIVIERE\n\n\n\nUn film de Ghassan Salhab\n\n\n\nAvec\n\n\n\nAli Suliman",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/06/MAE-Site.jpg",
+      "synopsis": "Ali Suliman – Yumna Marwan",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "GARÇON CHIFFON",
+      "director": "Nicolas Maury\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nGARÇON CHIFFON\n\n\n\nUn film de Nicolas Maury\n\n\n\nAvec\n\n\n\nNicolas Maury",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/02/mea-garconchiffon.jpg",
+      "synopsis": "Nicolas Maury, Nathalie Baye, Arnaud Valois, Théo Christine, Laure Calamy",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "MERVEILLES A MONTFERMEIL",
+      "director": "Jeanne Balibar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nMERVEILLES A MONTFERMEIL\n\n\n\nUn film de Jeanne Balibar\n\n\n\nAvec\n\n\n\nJeanne BALIBAR",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/11/merveillesamontfermeil_small.jpg",
+      "synopsis": "Jeanne BALIBAR, Ramzy BEDIA, Emmanuelle BEART, Mathieu AMALRIC, Bulle OGIER, Florence LOIRET-CAILLE, Philippe KATERINE, Valérie DREVILLE, Anthony BAJON",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "SUZANNA ANDLER",
+      "director": "Benoît Jacquot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nSUZANNA ANDLER\n\n\n\nUn film de Benoît Jacquot\n\n\n\nAvec\n\n\n\nCharlotte Gainsbourg",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/01/SA-mea.jpg",
+      "synopsis": "Charlotte Gainsbourg, Niels Schneider",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "LOLA VERS LA MER",
+      "director": "Laurent Micheli\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOLA VERS LA MER\n\n\n\nUn film de Laurent Micheli\n\n\n\nAvec\n\n\n\nBenoit MAGIMEL",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/08/lolaverslamer-affiche.jpg",
+      "synopsis": "Benoit MAGIMEL, Mya BOLLAERS",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "L’AUDITION",
+      "director": "Ina Weisse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nL",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/08/LAudition-vf1.jpg",
+      "synopsis": "Nina HOSS, Simon ABKARIAN, Jens ALBINUS, Serafin MISHIEV, Ilja MONTI",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "HAUT LES FILLES",
+      "director": "François Armanet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nHAUT LES FILLES\n\n\n\nUn film de François Armanet\n\n\n\nAvec\n\n\n\nJeanne Added",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/05/HAUT-LES-FILLES-affiche-France-e1571824212576.jpg",
+      "synopsis": "Jeanne Added, Jehnny Beth, Lou Doillon, Brigitte Fontaine, Charlotte Gainsbourg, Françoise Hardy, Imany, Camélia Jordana, Elli Medeiros, Vanessa Paradis",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "VIF-ARGENT",
+      "director": "Stéphane Batut\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nVIF-ARGENT\n\n\n\nUn film de Stéphane Batut\n\n\n\nAvec\n\n\n\nThimothée Robart",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/08/Vif-argent-visu.jpg",
+      "synopsis": "Thimothée Robart, Judith Chemla, Djolof Mbengue, Saadia Bentaïeb",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "LES PARTICULES",
+      "director": "Blaise Harrison\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nLES PARTICULES\n\n\n\nUn film de Blaise Harrison\n\n\n\nAvec\n\n\n\nThomas DALOZ",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/01/visuel-Les-particules-758x1030.jpg",
+      "synopsis": "Thomas DALOZ,\nSalvatore FERRO,\nLéo COUILFORT,\nNicolas MARCANT,\nNéa LÜDERS,\nEmma JOSSERAND",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "HELLHOLE",
+      "director": "Bas Devos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHELLHOLE\n\n\n\nUn film de Bas Devos\n\n\n\nAvec\n\n\n\nAlba ROHRWACHER",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-hellhole1.jpg",
+      "synopsis": "Alba ROHRWACHER, Willy THOMAS, Hamza BELARBI, Lubna AZABAL",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "MES PROVINCIALES",
+      "director": "Jean Paul Civeyrac\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMES PROVINCIALES\n\n\n\nUn film de Jean Paul Civeyrac\n\n\n\nAvec\n\n\n\nAndranic Manet",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2018/02/poster-0-mes-provinciales.jpg",
+      "synopsis": "Andranic Manet, Corentin Fila, Gonzague Van Bervesselès, Diane Rouxel, Jenna Thiam, Sophie Verbeeck, Charlotte Van Bervesselès",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "Ouvrir la voix",
+      "director": "Amandine Gay\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOuvrir la voix\n\n\n\nUn film de Amandine Gay\n\n\n\nAvec\n\n\n\nAiss Berg",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/03/mea-WB.jpg",
+      "synopsis": "Aiss Berg, Amelia Ewu, Eleonore, Fania Noel, Fanny Aka Thisiskiyemis, Laura Aka Mrsroots, Maboula Soumahoro, Many Chroniques, Marie Leda, Marie Julie Chalu, Merci Michel, Nass, Ndella Paye, Ornella Aka Loulou, Po B.K Lomani, Rachel Khan, Rebecca Chaillon, Sabine Pakora, Sandra, Sandra Sainte Rose Fanchine, Sharone, Taina, Thara, Zina",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "MAKALA",
+      "director": "Emmanuel Gras\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nMAKALA\n\n\n\nUn film de Emmanuel Gras\n\n\n\nAvec\n\n\n\nKabwita Kasongo",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/12/poster-0-makala.jpg",
+      "synopsis": "Kabwita Kasongo, Lydie Kasongo",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "DJAM",
+      "director": "Tony GATLIF\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nDJAM\n\n\n\nUn film de Tony GATLIF\n\n\n\nAvec\n\n\n\nDaphné PATAKIA",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/05/poster-0-djam.jpg",
+      "synopsis": "Daphné PATAKIA, Maryne CAYON, Simon ABKARIAN",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "A mon âge, je me cache encore pour fumer",
+      "director": "Rayhana\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nA mon âge",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/04/poster-0-a-mon-age-je-me-cache-encore-pour-fumer.jpg",
+      "synopsis": "HIAM ABBASS, FADILA BELKEBLA, NADIA KACI, NASSIMA BENCHICOU, SARAH LAYSSAC, MAYMOUNA, LINA SOUALEM, \nFAROUDJA AMAZIT et avec la participation de BIYOUNA dans le rôle de Aïcha",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "L’OPÉRA",
+      "director": "Jean-Stéphane Bron\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nL",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/04/poster-0-lopera.jpg",
+      "synopsis": "",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "DIAMOND ISLAND",
+      "director": "Davy Chou\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nDIAMOND ISLAND\n\n\n\nUn film de Davy Chou\n\n\n\nAvec\n\n\n\nNUON Sobon\nNOV Cheanick\nCHHEM Madeza\nKORN Mean\nNUT Samnang\nMENG Sophyna\nMIN Jany \nKHIM Samnang\nOUN Batham \nHANG Sreyleap\nDOM Sreyroth\n\n\n\n\nSorties",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2016/12/poster-0-diamond-island.jpg",
+      "synopsis": "NUON Sobon\nNOV Cheanick\nCHHEM Madeza\nKORN Mean\nNUT Samnang\nMENG Sophyna\nMIN Jany \nKHIM Samnang\nOUN Batham \nHANG Sreyleap\nDOM Sreyroth",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    },
+    {
+      "title": "OLLI MÄKI",
+      "director": "Juho Kuosmanen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\nOLLI MÄKI\n\n\n\nUn film de Juho Kuosmanen\n\n\n\nAvec\n\n\n\nJarkko Lahti",
+      "status": "catalogue",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2016/10/poster-0-olli-maki.jpg",
+      "synopsis": "Jarkko Lahti (Olli), Oona Airola (Raija), Eero Milonoff (Elis Ask)",
+      "release_date": "",
+      "duration": "",
+      "trailer": ""
+    }
   ]
 }
-

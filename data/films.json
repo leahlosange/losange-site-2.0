@@ -1,33 +1,4004 @@
 {
   "films": [
     {
-      "id": "father-mother-sister-brother",
       "titre": "Father Mother Sister Brother",
       "cineaste": "Jim Jarmusch",
       "casting": [
-        "Adam Driver",
         "Tom Waits",
+        "Adam Driver",
+        "Mayim Bialik",
+        "Charlotte Rampling",
         "Cate Blanchett",
-        "Indya Moore"
+        "Vicky Krieps",
+        "Sarah Greene",
+        "Indya Moore",
+        "Luka Sabbat",
+        "Françoise Lebrun"
       ],
-      "date_sortie": "2025-07-01",
-      "duree_minutes": 118,
+      "date_sortie": "Date(2025,0,7)",
+      "duree_minutes": "118.0",
       "nationalites": [
         "États-Unis",
         "France"
       ],
-      "synopsis": "Synopsis du film, à remplir dans l’admin.",
+      "synopsis": "FATHER MOTHER SISTER BROTHER est un long-métrage de fiction en forme de triptyque. Trois histoires qui parlent des relations entre des enfants adultes et leur(s) parent(s) quelque peu distant(s), et aussi des relations entre eux. Chacun des trois volets se passe aujourd'hui et dans un pays différent. FATHER se déroule dans le nord-est des États-Unis, MOTHER à Dublin, en Irlande, et SISTER BROTHER à Paris. Le film est une suite d'études de personnages - sobres, basées sur l'observation et sans jugement. Une comédie, mais entrelacée de fils de mélancolie.",
+      "status": "actuellement",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Amérique",
+        "Famille"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-FAther-mother-sister-brother-2.jpg",
+      "kit_materiel": "https://drive.google.com/drive/folders/1-9IJRgVV0gucsZsbt8wJ7i3OkvfQlfFh",
+      "affiche_photos": "images/films/father mother sister brother/043_FMSB_© Vague Notion 2024_Yorick Le Saux.jpeg",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=7gAAXuvHkzQ",
+      "slug": "fathermothersisterbrother.html"
+    },
+    {
+      "titre": "Conte d'Été",
+      "cineaste": "Éric Rohmer",
+      "casting": [
+        "Melvil Poupaud",
+        "Amanda Langlet",
+        "Aurélia Nolin",
+        "Gwenaëlle Simon"
+      ],
+      "date_sortie": "Date(1996,5,5)",
+      "duree_minutes": "113.0",
+      "nationalites": [
+        "France"
+      ],
+      "synopsis": "A Dinard, pendant les vacances d’été, Gaspard attend Léna. Il rencontre Margot, une étudiante en ethnologie qui travaille comme serveuse dans un restaurant pour se faire un peu d’argent. Dans une soirée où Margot l’entraîne, il fait la connaissance de Solène. Léna arrive enfin à Dinard. Entre les trois, le cœur de Gaspard balance-t-il vraiment ?",
+      "status": "catalogue",
+      "categories": [
+        "distribution",
+        "production"
+      ],
+      "thematiques": [
+        "Contes d'été",
+        "Amoureux Amoureuses"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-conte-dete.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=HjG-KHkTcDE",
+      "slug": ""
+    },
+    {
+      "titre": "Resurrection",
+      "cineaste": "BI Gan",
+      "casting": [
+        "Jackson Yee",
+        "Shu Qi",
+        "Mark Chao",
+        "Li Gengxi",
+        "Huang Jue",
+        "Chen Yongzhong",
+        "Guo Mucheng",
+        "Zhang Zhijian",
+        "ChloeMaayan",
+        "Yan Nan"
+      ],
+      "date_sortie": "Date(2025,11,10)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "Un jeune homme rêveur se réincarne dans cinq époques. Tandis que le XXe siècle défile, une femme suit sa trace…",
+      "status": "actuellement",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Asie"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Resurrection-vf-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "resurrection.html"
+    },
+    {
+      "titre": "Six Jours, ce printemps-là",
+      "cineaste": "Joachim Lafosse",
+      "casting": [
+        "Eye Haïdara",
+        "Jules Waringo",
+        "Leonis Pinero Müller",
+        "Teoudor Pinero Müller",
+        "Emmanuelle Devos",
+        "Damien Bonnard"
+      ],
+      "date_sortie": "Date(2025,10,12)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Contes de printemps",
+        "Lutte des classes"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-6-jours-vf-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "six-jours-ce-printemps-la.html"
+    },
+    {
+      "titre": "Le Cri des Gardes",
+      "cineaste": "Claire Denis",
+      "casting": [
+        "Isaach De Bankolé",
+        "Matt Dillon",
+        "Mia McKenna-Bruce",
+        "Tom Blyth"
+      ],
+      "date_sortie": "Date(2026,3,8)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
       "status": "prochainement",
       "categories": [
         "distribution"
       ],
-      "affiche_image": "images/films/father mother sister brother/004_FMSB_© Vague Notion 2024_Frederick Elmes.jpeg",
-      "dossier_presse": "",
+      "thematiques": [
+        "Afrique"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/Le-cri-des-gardes-Grande-1030x686.jpeg",
+      "kit_materiel": "",
       "affiche_photos": "",
       "bande_annonce_fichier": "",
       "bande_annonce_url": "",
-      "slug": "fathermothersisterbrother.html"
+      "slug": "le-cri-des-gardes.html"
+    },
+    {
+      "titre": "Victor comme tout le monde",
+      "cineaste": "Pascal Bonitzer",
+      "casting": [
+        "Fabrice Luchini",
+        "Chiara Mastroianni",
+        "Marie Narbonne",
+        "Suzanne de Baecque",
+        "Louise Orry Diquero",
+        "Iris Bry",
+        "Naidra Ayadi",
+        "Sarah Touffic Othman Schmitt",
+        "Agnes Sourdillon",
+        "Yannick Choirat",
+        "David Ayala"
+      ],
+      "date_sortie": "Date(2025,2,11)",
+      "duree_minutes": "118.0",
+      "nationalites": [
+        "France"
+      ],
+      "synopsis": "Habité par Victor Hugo, le comédien Robert Zucchini traîne une douce mélancolie lorsqu'il n'est pas sur scène. Chaque soir, il remplit les salles en transmettant son amour des mots. Jusqu’au jour où réapparaît sa fille, qu’il n’a pas vue grandir… Et si aimer, pour une fois, valait mieux qu’admirer ?\nUn scénario de Sophie Fillière.",
+      "status": "prochainement",
+      "categories": [
+        "distribution",
+        "ventes internationales"
+      ],
+      "thematiques": [
+        "Comédie"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/VICTOR_120x160-scaled.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "images/films/victor.jpg",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=t0RrVuOml0M",
+      "slug": "victor-comme-tout-le-monde.html"
+    },
+    {
+      "titre": "Raymond Depardon Cinéaste",
+      "cineaste": "",
+      "casting": [],
+      "date_sortie": "Date(2025,1,26)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "prochainement",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-retro-Depardon.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "raymond-depardon-cineaste.html"
+    },
+    {
+      "titre": "The Chronology of Water",
+      "cineaste": "Kristen Stewart",
+      "casting": [
+        "Imogen Poots",
+        "Thora Birch",
+        "Jim Belushi",
+        "Charles Carrick",
+        "Tom Sturridge",
+        "Susanna Flood",
+        "Esme Creed Miles",
+        "Kim Gordon",
+        "Michael Epp"
+      ],
+      "date_sortie": "Date(2025,9,15)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Amérique",
+        "Adaptations"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-chronology-vf.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "the-chronology-of-water.html"
+    },
+    {
+      "titre": "Oui",
+      "cineaste": "Nadav Lapid",
+      "casting": [
+        "Ariel Bronz",
+        "Efrat Dor",
+        "Naama Preis",
+        "Alexey Serebryakov"
+      ],
+      "date_sortie": "Date(2024,2,6)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/OUI-affiche-OK-2-Large-773x1030.jpeg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "oui.html"
+    },
+    {
+      "titre": "Miroirs Nº3",
+      "cineaste": "Christian Petzold",
+      "casting": [
+        "Paula Beer",
+        "Barbara Auer",
+        "Matthias Brandt",
+        "Enno Trebs",
+        "Philip Froissant"
+      ],
+      "date_sortie": "Date(2024,2,13)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Allemagne"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-miroirs-n3.jpeg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "miroirs-n3.html"
+    },
+    {
+      "titre": "Lettres Siciliennes",
+      "cineaste": "Fabio Grassadonia",
+      "casting": [
+        "Toni Servillo",
+        "Elio Germano",
+        "Daniela Marra",
+        "Barbora Bobulova",
+        "Giuseppe Tantillo",
+        "Fausto Russo Alesi",
+        "Antonia Truppo"
+      ],
+      "date_sortie": "Date(2024,2,20)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-lettres-siciliennes-vf.jpeg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "lettres-siciliennes.html"
+    },
+    {
+      "titre": "La Cache",
+      "cineaste": "Lionel Baier",
+      "casting": [
+        "Dominique Reymond",
+        "Michel Blanc",
+        "William Lebghil",
+        "Aurélien Gabrielli",
+        "Liliane Rovere",
+        "Ethan Chimienti",
+        "Adrien Barazzone",
+        "Larisa Faber",
+        "Gilles Privat"
+      ],
+      "date_sortie": "Date(2024,2,27)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-La-cache.jpeg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-cache.html"
+    },
+    {
+      "titre": "Les Damnés",
+      "cineaste": "Roberto Minervini",
+      "casting": [
+        "Jeremiah Knupp",
+        "René",
+        "Cuyler Ballenger",
+        "Noah Carlson",
+        "Judah Carlson",
+        "Tim Carlson"
+      ],
+      "date_sortie": "Date(2024,3,3)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Amérique"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-damnes-vf.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "les-damnes.html"
+    },
+    {
+      "titre": "Spectateurs !",
+      "cineaste": "Arnaud Desplechin",
+      "casting": [
+        "Louis Birman",
+        "Dominique Païni",
+        "Clément Hervieu-Léger",
+        "Françoise Lebrun",
+        "Sandra Laugier",
+        "Olga Milshtein",
+        "Milo Machado-Graner",
+        "Sam Chemoul",
+        "Marilou Poujardieu",
+        "Salomé Rose Stein",
+        "Micha Lescot",
+        "Soshana Felman",
+        "Kent Jones",
+        "Salif Cissé",
+        "Mathieu Amalric"
+      ],
+      "date_sortie": "Date(2024,3,10)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-spectateurs-vf-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "spectateurs.html"
+    },
+    {
+      "titre": "Mon inséparable",
+      "cineaste": "Anne-Sophie Bailly",
+      "casting": [
+        "Laure Calamy",
+        "Charles Peccia Galletto",
+        "Julie Froger",
+        "Geert",
+        "Rébecca Finet",
+        "Aissatou Diallo Sagna",
+        "Pasquale",
+        "Jean"
+      ],
+      "date_sortie": "Date(2024,3,17)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-inseparable-vf.jpeg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "mon-inseparable.html"
+    },
+    {
+      "titre": "Miséricorde",
+      "cineaste": "Alain Guiraudie",
+      "casting": [
+        "Félix KYSYL",
+        "Catherine FROT",
+        "Jacques DEVELAY",
+        "Jean-Baptiste DURAND",
+        "David AYALA"
+      ],
+      "date_sortie": "Date(2024,3,24)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-misericorde-vf.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "misericorde.html"
+    },
+    {
+      "titre": "Dahomey",
+      "cineaste": "Mati Diop",
+      "casting": [
+        "Les intervenants de l’Université d’Abomey-Calavi : IMELDA BATAMOUSSI",
+        "DIANE CAKPO",
+        "CHAMELIE DOGNON",
+        "MORIAS AGBESSI",
+        "GILBERT GODOVO",
+        "GILDAS ADANNOU",
+        "JOSEA GUEDJE",
+        "GAËL DAAVO",
+        "ROSE OUEMEHO",
+        "HABIB AHANDESSI",
+        "MARYLINE AGBOSSI",
+        "DIDIER SEDOHA NASSANGADE",
+        "RAÏMI BASSITOU NOUATIN",
+        "JOËL TCHOGBE",
+        "EDAH GONTRAN",
+        "DONALD GBOSSA",
+        "YVON KOSSOU-YOVO",
+        "DONALD GBOSSA",
+        "EDAH GONTRAN",
+        "MESSI BOCO",
+        "ODILON GBENONTIN",
+        "KEVIN DA-SILVA",
+        "DOWOTI DESIR",
+        "MICHELINE AYINON",
+        "BICAREL GNIKPO",
+        "NADIA VIHOUTOU KPONADOU L’équipe des conservateurs et régisseurs de l’exposition : CALIXTE BIAH",
+        "ABDOULAYE IMOROU",
+        "PAUL TIMOTHEE DOTO",
+        "JULES BOCCO",
+        "RICHARD J. V. SOGAN",
+        "DIDIER DONATIEN ALIHONOU et le commissaire de l’exposition ALAIN GODONOU et Les étudiants de l’INMAAC (promotions 2019 – 2020)"
+      ],
+      "date_sortie": "Date(2023,8,20)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Afrique"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Dahomey-vf.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "dahomey.html"
+    },
+    {
+      "titre": "L’Amour fou",
+      "cineaste": "Jacques Rivette",
+      "casting": [
+        "Bulle Ogier",
+        "Jean-Pierre Kalfon",
+        "Josée Destoop",
+        "Michèle Moretti",
+        "Celia",
+        "Françoise Godde",
+        "Maddly Bamy",
+        "Liliane Bordoni",
+        "Yves Beneyton",
+        "Dennis Berry",
+        "Michel Delahaye",
+        "André S. Labarthe",
+        "Didier Léon",
+        "Claude-Eric Richard \nEt aussi Etienne Becker",
+        "Patrice Wyers"
+      ],
+      "date_sortie": "Date(1969,6,15)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Amoureux Amoureuses"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/04/LAmour-fou-Affiche-1-758x1030.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "lamour-fou.html"
+    },
+    {
+      "titre": "La Prisonnière de Bordeaux",
+      "cineaste": "Patricia Mazuy",
+      "casting": [
+        "Isabelle Huppert",
+        "Hafsia Herzi"
+      ],
+      "date_sortie": "Date(2024,4,1)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Lutte des classes"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-prisonniere-va-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-prisonniere-de-bordeaux.html"
+    },
+    {
+      "titre": "Sons",
+      "cineaste": "Gustav Möller",
+      "casting": [
+        "Sidse Babett Knudsen",
+        "Sebastian Bull",
+        "Dar Salim",
+        "Marina Bouras",
+        "Olaf Johannessen"
+      ],
+      "date_sortie": "Date(2024,4,8)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-Sons.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "sons.html"
+    },
+    {
+      "titre": "C’est pas moi",
+      "cineaste": "Leos Carax",
+      "casting": [
+        "Denis Lavant",
+        "Kateryna Yuspina",
+        "Nastya Golubeva Carax",
+        "Loreta Juodkaite",
+        "Anna-Isabel Siefken",
+        "Petr Anevskii",
+        "Bianca Maddaluno"
+      ],
+      "date_sortie": "Date(2024,4,15)",
+      "duree_minutes": "41.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-Cest-pas-moi-vf.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "cest-pas-moi.html"
+    },
+    {
+      "titre": "Averroès & Rosa Parks",
+      "cineaste": "Nicolas Philibert",
+      "casting": [
+        "Les patients et soignants des unités intra-hospitalières Averroès et Rosa Parks",
+        "hôpital Esquirol",
+        "Charenton-le-Pont"
+      ],
+      "date_sortie": "Date(2024,4,22)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Santé"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/120x160-Averroes-Rosa-Parks-1-758x1030.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "averroes-rosa-parks.html"
+    },
+    {
+      "titre": "Ange",
+      "cineaste": "Tony Gatlif",
+      "casting": [
+        "Arthur H",
+        "Suzanne Aubert",
+        "Maria de Medeiros",
+        "Mathieu Amalric",
+        "Christine Citti"
+      ],
+      "date_sortie": "Date(2024,4,29)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Musicaux"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Ange-vf.jpeg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "ange.html"
+    },
+    {
+      "titre": "La Machine à écrire et autres sources de tracas",
+      "cineaste": "Nicolas Philibert",
+      "casting": [],
+      "date_sortie": "Date(2024,5,5)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Santé"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-La-machine.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-machine-a-ecrire-et-autres-sources-de-tracas.html"
+    },
+    {
+      "titre": "Il n’y a pas d’ombre dans le désert",
+      "cineaste": "Yossi Aviram",
+      "casting": [
+        "Valeria Bruni Tedeschi",
+        "Yona Rozenkier",
+        "Germaine Unikovsky",
+        "Roni Alter",
+        "Merav Shirom",
+        "Yoel Rozenkier",
+        "Zohar Wexler",
+        "Cordelia Lange",
+        "Shiraz Tsarfati",
+        "Edme Bismuth",
+        "Aviv Telem"
+      ],
+      "date_sortie": "Date(2024,5,12)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-ombre.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "il-ny-a-pas-dombre-dans-le-desert.html"
+    },
+    {
+      "titre": "Un Silence",
+      "cineaste": "Joachim Lafosse",
+      "casting": [
+        "Daniel Auteuil",
+        "Emmanuelle Devos",
+        "Matthieu Galoux",
+        "Jeanne Cherhal",
+        "Louise Chevillotte"
+      ],
+      "date_sortie": "Date(2024,5,19)",
+      "duree_minutes": "20.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/02/mea-un-silence.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "un-silence.html"
+    },
+    {
+      "titre": "Ricardo et la peinture",
+      "cineaste": "Barbet Schroeder",
+      "casting": [],
+      "date_sortie": "Date(2024,5,26)",
+      "duree_minutes": "107.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Artistes"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/02/mea-ricardo-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "ricardo-et-la-peinture.html"
+    },
+    {
+      "titre": "Anselm – Le Bruit du temps",
+      "cineaste": "Wim Wenders",
+      "casting": [
+        "Anselm Kiefer",
+        "Daniel Kiefer",
+        "Anton Wenders"
+      ],
+      "date_sortie": "Date(2024,6,3)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Artistes"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/04/mea-Anselm.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "anselm-le-bruit-du-temps.html"
+    },
+    {
+      "titre": "Le ciel rouge",
+      "cineaste": "Christian Petzold",
+      "casting": [
+        "Thomas Schubert",
+        "Paula Beer",
+        "Langston Uibel",
+        "Enno Trebs",
+        "Matthias Brandt"
+      ],
+      "date_sortie": "Date(2023,7,16)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Allemagne"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-ciel-rouge.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-ciel-rouge.html"
+    },
+    {
+      "titre": "La Bête dans la jungle",
+      "cineaste": "Patric Chiha",
+      "casting": [
+        "Anaïs Demoustier",
+        "Tom Mercier",
+        "Béatrice Dalle"
+      ],
+      "date_sortie": "Date(2023,7,16)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Musicaux"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-jungle.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "16/08/2023",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-bete-dans-la-jungle.html"
+    },
+    {
+      "titre": "War Pony",
+      "cineaste": "Gina Gammell et Riley Keough",
+      "casting": [
+        "Jojo Bapteise Whiting",
+        "Ladainian Crazy Thunder",
+        "Jesse Schmockel",
+        "Wilma Colhoff",
+        "Iona Red Bear",
+        "Woodrow Lone Elk",
+        "Ta-Yamni Long Black Cat",
+        "Jeremy Corbin Cottier"
+      ],
+      "date_sortie": "Date(2023,4,10)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-war-pony.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "10/05/2023",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "war-pony.html"
+    },
+    {
+      "titre": "Sur l’Adamant",
+      "cineaste": "Nicolas Philibert",
+      "casting": [
+        "Les patients et l’équipe soignante du centre de jour Adamant"
+      ],
+      "date_sortie": "Date(2023,3,19)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Santé"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-adamant.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "19/04/2023",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "sur-ladamant.html"
+    },
+    {
+      "titre": "El Agua",
+      "cineaste": "Elena LÓPEZ RIERA",
+      "casting": [
+        "Luna PAMIES",
+        "Bárbara LENNIE",
+        "Nieve DE MEDINA",
+        "Alberto OLMO",
+        "Irene PELLICER",
+        "Nayara GARCIA",
+        "Lidia María CANOVAS",
+        "Pascual VALERO"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "104.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Hispanique"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-el-agua.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "el-agua.html"
+    },
+    {
+      "titre": "Titina",
+      "cineaste": "Kajsa Næss",
+      "casting": [],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Enfants"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-Titina-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "titina.html"
+    },
+    {
+      "titre": "Retour à Séoul",
+      "cineaste": "Davy Chou",
+      "casting": [
+        "PARK Ji-Min",
+        "OH Kwang-Rok",
+        "Guka HAN",
+        "KIM Sun-Young",
+        "Yoann ZIMMER",
+        "HUR Ouk-Sook",
+        "Emeline BRIFFAUD",
+        "LIM Cheol-Hyun",
+        "SON Seung-Beom",
+        "Louis-Do de LENCQUESAING"
+      ],
+      "date_sortie": "Date(2023,0,25)",
+      "duree_minutes": "119.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Asie"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-RES.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "25/01/2023",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "retour-a-seoul.html"
+    },
+    {
+      "titre": "De humani corporis fabrica",
+      "cineaste": "Verena PARAVEL et Lucien CASTAING-TAYLOR",
+      "casting": [],
+      "date_sortie": "",
+      "duree_minutes": "115.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Santé"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-humani.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "de-humani-corporis-fabrica.html"
+    },
+    {
+      "titre": "Par Coeurs",
+      "cineaste": "Benoit JACQUOT",
+      "casting": [
+        "Isabelle Huppert",
+        "Fabrice Luchini"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-par-coeurs.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "par-coeurs.html"
+    },
+    {
+      "titre": "Saint Omer",
+      "cineaste": "Alice DIOP",
+      "casting": [
+        "Kayije KAGAME",
+        "Guslagie MALANDA",
+        "Valérie DRÉVILLE",
+        "Aurélia PETIT",
+        "Xavier MALY",
+        "Robert CANTARELLA",
+        "Salimata KAMATE",
+        "Thomas DE POURQUERY"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "122.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Portraits"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-st-omer.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "saint-omer.html"
+    },
+    {
+      "titre": "Pacifiction – Tourment sur les îles",
+      "cineaste": "Play Pacifiction",
+      "casting": [
+        "Benoît MAGIMEL",
+        "Pahoa MAHAGAFANAU",
+        "Matahi PAMBRUN",
+        "Marc SUSINI",
+        "Sergi LOPEZ",
+        "Montse TRIOLA",
+        "Michael VAUTOR",
+        "Cécile GUILBERT",
+        "Alexandre MELLO",
+        "Mike LANDSCAPE",
+        "Lluis SERRAT",
+        "Mareva WONG",
+        "Cyrus ARAI",
+        "Baptiste PINTEAUX",
+        "Laurent BRISSONNAUD"
+      ],
+      "date_sortie": "Date(2022,10,9)",
+      "duree_minutes": "163.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-pacifiction-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "09/11/2022",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "pacifiction-tourment-sur-les-iles.html"
+    },
+    {
+      "titre": "Un beau matin",
+      "cineaste": "Mia HANSEN-LØVE",
+      "casting": [
+        "Léa SEYDOUX",
+        "Pascal GREGGORY",
+        "Melvil POUPAUD",
+        "Nicole GARCIA",
+        "Camille LEBAN MARTINS"
+      ],
+      "date_sortie": "Date(2022,9,5)",
+      "duree_minutes": "113.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/09/mea-UBM.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "05/10/2022",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "un-beau-matin.html"
+    },
+    {
+      "titre": "Rodeo",
+      "cineaste": "Lola Quivoron",
+      "casting": [
+        "Julie LEDRU",
+        "Yanis LAFKI",
+        "Antonia BURESI",
+        "Louis SOTTON",
+        "Junior CORREIA",
+        "Ahmed HAMDI",
+        "Dave NSAMAN OKEBWAN",
+        "Cody SCHROEDER",
+        "Sébastien SCHROEDER",
+        "Mohamed BETTAHAR",
+        "Chris MAKODI",
+        "Mustapha DIANKA",
+        "Gianni CAIRA",
+        "Quentin ARIZZI",
+        "Brice STRAEHLI"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "20.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Premiers Films"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-rodeo-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "rodeo.html"
+    },
+    {
+      "titre": "La Dérive des continents",
+      "cineaste": "Lionel Baier",
+      "casting": [
+        "Isabelle Carré",
+        "Théodore Pellerin",
+        "Ursina Lardi",
+        "Tom Villa",
+        "Ivan Georgiev",
+        "Adama Diop",
+        "Elisabeth Owona",
+        "Indri Shiroka",
+        "David Coco",
+        "Mario Opinato",
+        "Massimo Cagnina",
+        "Sebastiano Tinè",
+        "Nicolò Prestigiacomo",
+        "Maria Isabella Piana",
+        "Rosalinda Musumeci",
+        "Maria Antonietta Scornavacca",
+        "Nicolas Roussi"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-derive-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-derive-des-continents.html"
+    },
+    {
+      "titre": "La maman et la putain",
+      "cineaste": "Jean Eustache",
+      "casting": [
+        "Jean-Pierre Léaud",
+        "Bernadette Lafont",
+        "Françoise Lebrun",
+        "Isabelle Weingarten",
+        "Jacques Renard",
+        "Jean-Noël Picq",
+        "Jean-Claude Biette",
+        "Pierre Cottrell",
+        "Jean Douchet"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-vf-maman.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-maman-et-la-putain.html"
+    },
+    {
+      "titre": "Il Buco",
+      "cineaste": "Michelangelo Frammartino",
+      "casting": [
+        "Paolo Cossi",
+        "Jacopo Elia",
+        "Denise Trombin",
+        "Nicola Lanza"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/01/mea-WB.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "il-buco.html"
+    },
+    {
+      "titre": "Viens je t’emmène",
+      "cineaste": "Alain Guiraudie",
+      "casting": [
+        "Jean-Charles Clichet",
+        "Noémie Lvovsky",
+        "Iliès Kadri",
+        "Renaud Rutten",
+        "Doria Tillier",
+        "Michel Masiero",
+        "Philippe Fretun",
+        "Farida Rahouadj",
+        "Miveck Packa",
+        "Yves-Robert Viala",
+        "Patrick Ligardes"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Amoureux Amoureuses"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/mea-site.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "viens-je-temmene.html"
+    },
+    {
+      "titre": "L’HORIZON",
+      "cineaste": "Emilie Carpentier",
+      "casting": [
+        "Tracy Gotoas",
+        "Sylvain Le Gall",
+        "NIIA",
+        "Clémence Boisnard",
+        "Dembélé",
+        "Slimane Dazi"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/LHORIZON_Doc120.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "lhorizon.html"
+    },
+    {
+      "titre": "White Building",
+      "cineaste": "Kavich Neang",
+      "casting": [
+        "Piseth Chhun",
+        "Sithan Hout",
+        "Sokha Uk",
+        "Chinnaro Soem",
+        "Sovann Tho",
+        "Jany Min",
+        "Chandalin Y"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/mea-WB-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "white-building.html"
+    },
+    {
+      "titre": "Marcher sur l’eau",
+      "cineaste": "Aïssa Maïga",
+      "casting": [],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/Marchersurleau_mea-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "marcher-sur-leau.html"
+    },
+    {
+      "titre": "Les Intranquilles",
+      "cineaste": "Joachim Lafosse",
+      "casting": [
+        "Leïla Bekhti",
+        "Damien Bonnard",
+        "Gabriel Merz Chammah"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/588x799.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "—",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "les-intranquilles.html"
+    },
+    {
+      "titre": "Tom Medina",
+      "cineaste": "Tony Gatlif",
+      "casting": [
+        "David Murgia",
+        "Slimane Dazi",
+        "Karoline Rose Sun",
+        "Suzanne Aubert"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/TOMMEDINA_MEA.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "tom-medina.html"
+    },
+    {
+      "titre": "UNE HISTOIRE A SOI",
+      "cineaste": "Amandine Gay",
+      "casting": [
+        "Joohee Bourgain",
+        "Mathieu Anette",
+        "Anne-Charlotte",
+        "Niyongira Bugingo/Nicolas Guieu",
+        "Céline Chandralatha Grimaud"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/01/UHAS_AFFICHE-120-40x60.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "une-histoire-a-soi.html"
+    },
+    {
+      "titre": "Bergman Island",
+      "cineaste": "Mia Hansen-Løve",
+      "casting": [
+        "Vicky Krieps",
+        "Tim Roth",
+        "Mia Wasikowska",
+        "Anders Danielsen Lie"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/Bergmanisland_mea-1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "bergman-island.html"
+    },
+    {
+      "titre": "OSKAR & LILY",
+      "cineaste": "",
+      "casting": [
+        "LEOPOLD PALLUA",
+        "ROSA ZANT",
+        "CHRISTINE OSTERMAYER"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/01/mea-Oskar-Lily.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "oskar-lily.html"
+    },
+    {
+      "titre": "Ondine",
+      "cineaste": "Christian Petzold",
+      "casting": [
+        "Paula Beer",
+        "Franz Rogowski",
+        "Maryam Zaree",
+        "Jacob Matschenz",
+        "Anne Ratte-Polle",
+        "Rafael Stachowiak",
+        "Julia Franz Richter",
+        "Gloria Endres de Oliveira",
+        "José Barros",
+        "Enno Trebs"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Allemagne"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/02/mea-Ondine.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "ondine.html"
+    },
+    {
+      "titre": "LE VENERABLE W.",
+      "cineaste": "Barbet Schroeder",
+      "casting": [],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/06/poster-0-le-venerable-w.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-venerable-w.html"
+    },
+    {
+      "titre": "HAPPY END",
+      "cineaste": "Michael Haneke",
+      "casting": [
+        "Isabelle Huppert",
+        "Jean-Louis Trintignant",
+        "Mathieu Kassovitz",
+        "Fantine Harduin",
+        "Franz Rogowski",
+        "Laura Verlinden et Toby Jones"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/05/poster-0-happy-end.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "happy-end.html"
+    },
+    {
+      "titre": "UNE ENFANCE",
+      "cineaste": "Philippe Claudel",
+      "casting": [
+        "Alexi Mathieu",
+        "Angélica Sarre",
+        "Pierre Deladonchamps",
+        "Jules Gauzelin",
+        "Patrick d’Assumçao"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-une-enfance.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "une-enfance.html"
+    },
+    {
+      "titre": "AMNESIA",
+      "cineaste": "Barbet Schroeder",
+      "casting": [
+        "Marthe KELLER",
+        "Max RIEMELT",
+        "Bruno GANZ",
+        "Corinna KIRCHHOFF"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-amnesia.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "amnesia.html"
+    },
+    {
+      "titre": "LES JOURS VENUS",
+      "cineaste": "Romain Goupil",
+      "casting": [
+        "Romain Goupil",
+        "Valéria Bruni Tedeschi",
+        "Marina Hands",
+        "Noémie Lvovsky",
+        "Jackie Berroyer"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "20.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-les-jours-venus.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "les-jours-venus.html"
+    },
+    {
+      "titre": "HEIMAT – 1. Chronique d’un rêve / 2. L’exode",
+      "cineaste": "Edgar Reitz",
+      "casting": [
+        "Jan Dieter Schneider",
+        "Antonia Bill",
+        "Maximilian Scheidt",
+        "Marita Breuer",
+        "Rüdiger Kriese",
+        "Philine Lembeck",
+        "Mélanie Fouché",
+        "Eva Zeidler",
+        "Reinhard Paulus"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "20.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Allemagne"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2013/08/poster-0-heimat-1-chronique-dun-reve-2-lexode.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "heimat-1-chronique-dun-reve-2-lexode.html"
+    },
+    {
+      "titre": "Amour",
+      "cineaste": "Michael Haneke",
+      "casting": [
+        "Jean-Louis Trintignant",
+        "Emmanuelle Riva",
+        "Isabelle Huppert",
+        "Alexandre Tharaud"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Amoureux Amoureuses"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-amour.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "amour.html"
+    },
+    {
+      "titre": "De Bon Matin",
+      "cineaste": "Jean-Marc Moutout",
+      "casting": [
+        "Jean-Pierre Darroussin",
+        "Valérie Dréville",
+        "Laurent Delbecque",
+        "Yannick Renier",
+        "Xavier Beauvois"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "20.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-de-bon-matin.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "de-bon-matin.html"
+    },
+    {
+      "titre": "Les mains en l’air",
+      "cineaste": "Romain Goupil",
+      "casting": [
+        "Linda Doudaeva",
+        "Jules Ritmanic",
+        "Valeria Bruni-Tedeschi",
+        "Romain Goupil",
+        "Hélène Babu",
+        "Hippolyte Girardot"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-les-mains-en-lair.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "les-mains-en-lair.html"
+    },
+    {
+      "titre": "Le Ruban Blanc",
+      "cineaste": "Michael Haneke",
+      "casting": [
+        "Christian FRIEDEL",
+        "Leonie BENESCH",
+        "Ulrich TUKUR",
+        "Ursina LARDI",
+        "Michael KRANZ",
+        "Burghart KLAUSSNER"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-le-ruban-blanc.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-ruban-blanc.html"
+    },
+    {
+      "titre": "Pour Un Instant La Liberté",
+      "cineaste": "",
+      "casting": [
+        "Navid Akhavan",
+        "Fares Fares",
+        "Behi Djanati Ataï",
+        "Pourya Mahyari",
+        "Payam Madjlessi"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2010/03/poster-0-pour-un-instant-la-liberte.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "pour-un-instant-la-liberte.html"
+    },
+    {
+      "titre": "La Fabrique Des Sentiments",
+      "cineaste": "Jean-Marc Moutout",
+      "casting": [
+        "Elsa Zylberstein",
+        "Jacques Bonnaffé",
+        "Bruno Putzulu",
+        "Hiam Abbass",
+        "Anne-Katerine Normant",
+        "Jean Segani"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "7.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-la-fabrique-des-sentiments.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-fabrique-des-sentiments.html"
+    },
+    {
+      "titre": "Bled Number One",
+      "cineaste": "Rabah Ameur-Zaïmeche",
+      "casting": [
+        "Rabah Ameur-Zaïmeche",
+        "Meriem Serbah",
+        "Abel Jafri",
+        "Farida Ouchani",
+        "Ramzy Bedia",
+        "Sakina Dammene-Debbih"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-bled-number-one.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "bled-number-one.html"
+    },
+    {
+      "titre": "Caché",
+      "cineaste": "Michael Haneke",
+      "casting": [
+        "Daniel Auteuil",
+        "Juliette Binoche",
+        "Maurice Benichou",
+        "Annie Girardot",
+        "Bernard Le Coq",
+        "Walid Afkir"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-cache.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "cache.html"
+    },
+    {
+      "titre": "Ne Quittez Pas",
+      "cineaste": "Arthur Joffé",
+      "casting": [
+        "Sergio Castellitto",
+        "Michel Serrault",
+        "Isabelle Gélinas",
+        "Rachida Brakni",
+        "Dominique Pinon",
+        "Laszlo Szabo"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-ne-quittez-pas.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "ne-quittez-pas.html"
+    },
+    {
+      "titre": "Le Temps Du Loup",
+      "cineaste": "Michael Haneke",
+      "casting": [
+        "Isabelle Huppert",
+        "Maurice Benichou",
+        "Patrice Chéreau",
+        "Béatrice Dalle",
+        "Lucas Biscombe",
+        "Daniel Duval"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-le-temps-du-loup.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-temps-du-loup.html"
+    },
+    {
+      "titre": "Raja",
+      "cineaste": "Jacques Doillon",
+      "casting": [
+        "Pascal Greggory",
+        "Najat Benssallem",
+        "Ilham Abdelwahad",
+        "Hassan Khissal",
+        "Fatiha Khoulaki",
+        "Ahmed Akensouss"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-raja.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "raja.html"
+    },
+    {
+      "titre": "Une Pure Coincidence",
+      "cineaste": "Romain Goupil",
+      "casting": [
+        "Romain Goupil",
+        "Alain Cyroulnik",
+        "Olivier Martin",
+        "Tonie Marshall"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-une-pure-coincidence.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "une-pure-coincidence.html"
+    },
+    {
+      "titre": "La Saison Des Hommes",
+      "cineaste": "Moufida Tlatli",
+      "casting": [
+        "Rabiaa Ben Abdallah",
+        "Sabah Bouzouita",
+        "Ghalia Ben Ali",
+        "Hend Sabri",
+        "Ezzedine Gennoun",
+        "Mouna Noureddine"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-la-saison-des-hommes.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-saison-des-hommes.html"
+    },
+    {
+      "titre": "La Vierge Des Tueurs",
+      "cineaste": "Barbet Schroeder",
+      "casting": [
+        "German Jaramillo",
+        "Anderson Ballesteros",
+        "Juan David Restrepo",
+        "Manuel Busquets"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-la-vierge-des-tueurs.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-vierge-des-tueurs.html"
+    },
+    {
+      "titre": "Pan Tadeusz",
+      "cineaste": "Andrzej Wajda",
+      "casting": [
+        "Boguslaw Linda",
+        "Daniel Olbrychski",
+        "Grazyna Szapolowska",
+        "Andrzej Seweryn",
+        "Marek Kondrat",
+        "Krzysztof Kolberger"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-pan-tadeusz.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "pan-tadeusz.html"
+    },
+    {
+      "titre": "A Mort la Mort",
+      "cineaste": "Romain Goupil",
+      "casting": [
+        "Romain Goupil",
+        "Marianne Denicourt",
+        "Brigitte Catillon",
+        "Alain Cyroulnik",
+        "Anne Alvaro",
+        "Dominique Frot"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-a-mort-la-mort.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "a-mort-la-mort.html"
+    },
+    {
+      "titre": "Conte d’Automne",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Béatrice Romand",
+        "Marie Rivière",
+        "Alain Libolt",
+        "Didier Sandre"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Contes d'automne"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-conte-dautomne.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "conte-dautomne.html"
+    },
+    {
+      "titre": "Lautrec",
+      "cineaste": "Roger Planchon",
+      "casting": [
+        "Régis Royer",
+        "Elsa Zylberstein",
+        "Anémone",
+        "Claude Rich"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-lautrec.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "lautrec.html"
+    },
+    {
+      "titre": "Le Bel Eté 1914",
+      "cineaste": "Chalonge Le Bel",
+      "casting": [
+        "Claude Rich",
+        "Maria Pacôme",
+        "Hippolyte Girardot",
+        "Judith Henry",
+        "Marianne Denicourt",
+        "Philippe Torreton"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Contes d'été"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-le-bel-ete-1914.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-bel-ete-1914.html"
+    },
+    {
+      "titre": "Conte d’Eté",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Melvil Poupaud",
+        "Amanda Langlet",
+        "Aurélia Nolin",
+        "Gwenaëlle Simon"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Contes d'été"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-conte-dete.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "conte-dete.html"
+    },
+    {
+      "titre": "Lettre pour L…",
+      "cineaste": "Romain Goupil",
+      "casting": [
+        "Franssou Prenant",
+        "Romain Goupil",
+        "Régine Provvedi",
+        "Anita Mancic",
+        "Alenka Mandic",
+        "Lita Recio"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-lettre-pour-l.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "lettre-pour-l.html"
+    },
+    {
+      "titre": "Louis, Enfant Roi",
+      "cineaste": "Roger Planchon",
+      "casting": [
+        "Carmen Maura",
+        "Maxime Mansion",
+        "Paolo Graziosi",
+        "Jocelyn Quivrin",
+        "Hervé Briaux",
+        "Brigitte Catillon"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-louis-enfant-roi.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "louis-enfant-roi.html"
+    },
+    {
+      "titre": "La Règle Du Je",
+      "cineaste": "Françoise Etchegaray",
+      "casting": [
+        "Marie Matheron",
+        "Anthony Higgins",
+        "Stéphane Guillon",
+        "Hélène"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-la-regle-du-je.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-regle-du-je.html"
+    },
+    {
+      "titre": "Conte d’Hiver",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Charlotte Very",
+        "Frédéric Van Den Driessche",
+        "Hervé Furic",
+        "Michel Voletti"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Contes d'hiver"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-conte-dhiver.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "conte-dhiver.html"
+    },
+    {
+      "titre": "Le Jour Des Rois",
+      "cineaste": "Marie-Claude Treilhou",
+      "casting": [
+        "Danielle Darrieux",
+        "Paulette Dubost",
+        "Micheline Presle",
+        "Michel Galabru"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-le-jour-des-rois.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-jour-des-rois.html"
+    },
+    {
+      "titre": "Europa, Europa",
+      "cineaste": "Agnieszka Holland",
+      "casting": [
+        "Sally Perel",
+        "Julie Delpy",
+        "René Hofschneider",
+        "Piotr Kozlowski",
+        "Michèle Gleizer",
+        "Marco Hofschneider"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-europa-europa.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "europa-europa.html"
+    },
+    {
+      "titre": "Conte de Printemps",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Anne Teyssèdre",
+        "Hugues Quester",
+        "Florence Darel",
+        "Eloïse Bennett",
+        "Sophie Robin"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Contes de printemps"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-conte-de-printemps.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "conte-de-printemps.html"
+    },
+    {
+      "titre": "Noce Blanche",
+      "cineaste": "Jean-Claude Brisseau",
+      "casting": [
+        "Vanessa Paradis",
+        "Bruno Cremer",
+        "Ludmila Mikael",
+        "François Negret",
+        "Véronique Silver",
+        "Jean Daste"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-noce-blanche.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "noce-blanche.html"
+    },
+    {
+      "titre": "De Bruit Et De Fureur",
+      "cineaste": "Jean-Claude Brisseau",
+      "casting": [
+        "Vincent Gasperitsch",
+        "François Negret",
+        "Bruno Cremer",
+        "Fabienne Babe",
+        "Antoine Fontaine",
+        "Luc Ponette"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1988/06/mea-bruit-fureur.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "de-bruit-et-de-fureur.html"
+    },
+    {
+      "titre": "Dandin",
+      "cineaste": "Roger Planchon",
+      "casting": [
+        "Claude Brasseur",
+        "Zabou Breitman",
+        "Daniel Gelin",
+        "Nelly Borgeaud",
+        "Jean-Claude Adelin",
+        "Evelyne Buyle"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1988/01/poster-0-dandin.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "dandin.html"
+    },
+    {
+      "titre": "La Mort D’empédocle",
+      "cineaste": "Marie Straub La",
+      "casting": [
+        "Andreas Von Rauch",
+        "Vladimir Baratta",
+        "Martina Baratta",
+        "Ute Cremer",
+        "Howard Vernon",
+        "William Berger"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-la-mort-dempedocle.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-mort-dempedocle.html"
+    },
+    {
+      "titre": "L’ami De Mon Amie",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Emmanuelle Chaulet",
+        "Sophie Renoir",
+        "Anne-Laure Meury",
+        "Eric Viellard"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Amoureux Amoureuses",
+        "Banlieux Parisiennes"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-lami-de-mon-amie.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "lami-de-mon-amie.html"
+    },
+    {
+      "titre": "Quatre Aventures De Reinette Et Mirabelle",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Joëlle Miquel",
+        "Jessica Forde",
+        "François-Marie Banier",
+        "Marie Rivière",
+        "Jean-Claude Brisseau",
+        "Fabrice Luchini"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-quatre-aventures-de-reinette-et-mirabelle.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "quatre-aventures-de-reinette-et-mirabelle.html"
+    },
+    {
+      "titre": "Le Rayon Vert",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Marie Rivière",
+        "Béatrice Romand",
+        "Carita",
+        "Rosette"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Portraits"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-rayon-vert.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-rayon-vert.html"
+    },
+    {
+      "titre": "Les Nuits De La Pleine Lune",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Tcheky Karyo",
+        "Pascale Ogier",
+        "Fabrice Luchini",
+        "Virginie Thevenet"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Noctambules"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-les-nuits-de-la-pleine-lune.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "les-nuits-de-la-pleine-lune.html"
+    },
+    {
+      "titre": "Mauvaise Conduite",
+      "cineaste": "Nestor Almendros",
+      "casting": [
+        "Reinalda Arenas",
+        "Susan Sontag",
+        "Heberto Padilla",
+        "Guillermo Gabrera Infante"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-mauvaise-conduite.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "mauvaise-conduite.html"
+    },
+    {
+      "titre": "Tricheurs",
+      "cineaste": "Barbet Schroeder",
+      "casting": [
+        "Jacques Dutronc",
+        "Bulle Ogier",
+        "Kurt Raab",
+        "Virgilio Teixeira",
+        "Steve Baes",
+        "Roger Sabib"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-tricheurs.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "tricheurs.html"
+    },
+    {
+      "titre": "Liberty Belle",
+      "cineaste": "Pascal Kané",
+      "casting": [
+        "Jérôme Zucca",
+        "Dominique Laffin",
+        "André Dussollier",
+        "Philippe Caroit",
+        "Jean-Pierre Kalfon"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-liberty-belle.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "liberty-belle.html"
+    },
+    {
+      "titre": "Un Jeu Brutal",
+      "cineaste": "Jean-Claude Brisseau",
+      "casting": [
+        "Bruno Cremer",
+        "Emmanuelle Debever",
+        "Liza Hérédia",
+        "Albert Pigot",
+        "Jean Douchet",
+        "Humbert Balsan"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-un-jeu-brutal.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "un-jeu-brutal.html"
+    },
+    {
+      "titre": "Pauline à La Plage",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Amanda Langlet",
+        "Arielle Dombasle",
+        "Pascal Greggory",
+        "Feodor Atkine"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Contes d'été"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-pauline-a-la-plage.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "pauline-a-la-plage.html"
+    },
+    {
+      "titre": "Le Beau Mariage",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Béatrice Romand",
+        "André Dussollier",
+        "Arielle Dombasle",
+        "Pascal Greggory"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-beau-mariage.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-beau-mariage.html"
+    },
+    {
+      "titre": "Lettres D’amour En Somalie",
+      "cineaste": "Frédéric Mitterrand",
+      "casting": [],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-lettres-damour-en-somalie.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "lettres-damour-en-somalie.html"
+    },
+    {
+      "titre": "Le Pont Du Nord",
+      "cineaste": "Jacques Rivette",
+      "casting": [
+        "Bulle Ogier",
+        "Pascale Ogier",
+        "Pierre Clementi",
+        "Jean-François Stevenin"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-pont-du-nord.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-pont-du-nord.html"
+    },
+    {
+      "titre": "Dans la Forêt de Katyn",
+      "cineaste": "Marcel Lozinski",
+      "casting": [],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-dans-la-foret-de-katyn.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "dans-la-foret-de-katyn.html"
+    },
+    {
+      "titre": "Bukowski",
+      "cineaste": "Barbet Schroeder",
+      "casting": [
+        "Charles Bukowski",
+        "Linda Bukows",
+        "Pam Miller",
+        "Sean Penn"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "4.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Artistes"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-bukowski.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "bukowski.html"
+    },
+    {
+      "titre": "La Femme De L’aviateur",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Marie Rivière",
+        "Philippe Marlaud",
+        "Anne-Laure Meury",
+        "Mathieu Carrière"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-femme-de-laviateur.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-femme-de-laviateur.html"
+    },
+    {
+      "titre": "Navire Night",
+      "cineaste": "Marguerite Duras",
+      "casting": [
+        "Bulle Ogier",
+        "Dominique Sanda",
+        "Mathieu Carrière"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-navire-night.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "navire-night.html"
+    },
+    {
+      "titre": "Perceval Le Gallois",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Fabrice Luchini",
+        "André Dussollier",
+        "Arielle Dombasle",
+        "Clémentine Amouroux"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-perceval-le-gallois.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "perceval-le-gallois.html"
+    },
+    {
+      "titre": "Koko Le Gorille Qui Parle",
+      "cineaste": "Barbet Schroeder",
+      "casting": [
+        "Koko",
+        "Penny Paterson",
+        "Carl Pribam",
+        "Saul Kitchener",
+        "Roger Fouts"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "À poils"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-koko-le-gorille-qui-parle.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "koko-le-gorille-qui-parle.html"
+    },
+    {
+      "titre": "Une Sale Histoire (documentaire)",
+      "cineaste": "Jean Eustache",
+      "casting": [
+        "Elisabeth Lanchener",
+        "Françoise Lebrun",
+        "Virginie Thevenet"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "22.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-une-sale-histoire-documentaire.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "une-sale-histoire-documentaire.html"
+    },
+    {
+      "titre": "Une Sale Histoire (fiction)",
+      "cineaste": "Jean Eustache",
+      "casting": [
+        "Michael Lonsdale",
+        "Douchka",
+        "Laura Fanning",
+        "Josée Yann",
+        "Jacques Bruloux",
+        "Jean Douchet"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "28.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-une-sale-histoire-fiction.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "une-sale-histoire-fiction.html"
+    },
+    {
+      "titre": "La Marquise D’o",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Edith Clever",
+        "Bruno Ganz",
+        "Peter Lürh",
+        "Edda Seippel"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-marquise-do.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-marquise-do.html"
+    },
+    {
+      "titre": "Maîtresse",
+      "cineaste": "Barbet Schroeder",
+      "casting": [
+        "Gérard Depardieu",
+        "Bulle Ogier",
+        "André Rouyer",
+        "Nathalie Keryan",
+        "Roland Bertin",
+        "Tony Taffin"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Hubris"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-maitresse.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "maitresse.html"
+    },
+    {
+      "titre": "Céline et Julie vont en Bateau",
+      "cineaste": "Jacques Rivette",
+      "casting": [
+        "Juliet Berto",
+        "Dominique Labourier",
+        "Bulle Ogier",
+        "Marie-France Pisier",
+        "Barbet Shroeder",
+        "Philippe Clevenot",
+        "Jean Douchet"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-celine-et-julie-vont-en-bateau.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "celine-et-julie-vont-en-bateau.html"
+    },
+    {
+      "titre": "Général Idi Amin Dada",
+      "cineaste": "Barbet Schroeder",
+      "casting": [
+        "Idi Amin Dada"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-general-idi-amin-dada.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "general-idi-amin-dada.html"
+    },
+    {
+      "titre": "L’amour L’après-midi",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Bernard Verley",
+        "Zouzou",
+        "Françoise Verley",
+        "Daniel Ceccaldi"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Amoureux Amoureuses"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-lamour-lapres-midi.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "lamour-lapres-midi.html"
+    },
+    {
+      "titre": "La Vallée",
+      "cineaste": "Barbet Schroeder",
+      "casting": [
+        "Jean-Pierre Kalfon",
+        "Bulle Ogier",
+        "Michael Gothard",
+        "Valérie Lagrange",
+        "Jérôme Beauvarlet",
+        "Monique Giraudy"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-vallee.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-vallee.html"
+    },
+    {
+      "titre": "Le Genou De Claire",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Jean-Claude Brialy",
+        "Aurora Cornu",
+        "Béatrice Romand",
+        "Laurence",
+        "Fabrice Luchini"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-genou-de-claire.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-genou-de-claire.html"
+    },
+    {
+      "titre": "More",
+      "cineaste": "Barbet Schroeder",
+      "casting": [
+        "Mimsy Farmer",
+        "Klaus Grunberg",
+        "Heinz Engelman",
+        "Michel Chanderli",
+        "Louise Wink",
+        "Georges Montant"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-more.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "more.html"
+    },
+    {
+      "titre": "Ma Nuit Chez Maud",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Jean-Louis Trintignant",
+        "Françoise Fabian",
+        "Marie-Christine Barrault",
+        "Antoine Vitez"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Contes d'hiver"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-ma-nuit-chez-maud.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "ma-nuit-chez-maud.html"
+    },
+    {
+      "titre": "La Fermière De Montfaucon",
+      "cineaste": "Eric Rohmer",
+      "casting": [],
+      "date_sortie": "",
+      "duree_minutes": "13.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-fermiere-de-montfaucon.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-fermiere-de-montfaucon.html"
+    },
+    {
+      "titre": "La Collectionneuse",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Haydée Politoff",
+        "Patrick Bauchau",
+        "Daniel Pommereulle",
+        "Seymour Hertzberg"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [
+        "Hubris"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-collectionneuse.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-collectionneuse.html"
+    },
+    {
+      "titre": "Paris Vu Par…",
+      "cineaste": "Claude Chabrol",
+      "casting": [
+        "Stéphane Audran",
+        "Barbara Wilkind",
+        "Johanna Shimkusk",
+        "Micheline Dax",
+        "Jean-Michel Rouzière",
+        "Nadine Ballot"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-paris-vu-par.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "paris-vu-par.html"
+    },
+    {
+      "titre": "La Boulangère De Monceau",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Barbet Shroeder",
+        "Fred Junk",
+        "Michèle Girardon",
+        "Bertrand Tavernier"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "26.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-boulangere-de-monceau.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-boulangere-de-monceau.html"
+    },
+    {
+      "titre": "La Carrière De Suzanne",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Philippe Beuze",
+        "Jean-Claude Biette",
+        "Patrick Bauchau",
+        "Diane Wilkinson"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "52.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-la-carriere-de-suzanne-773x1030.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-carriere-de-suzanne.html"
+    },
+    {
+      "titre": "Le Signe Du Lion",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Jess Hahn",
+        "Van Doude",
+        "Michèle Girardon",
+        "Jean Le Poulain"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-signe-du-lion.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "le-signe-du-lion.html"
+    },
+    {
+      "titre": "Véronique Et Son Cancre",
+      "cineaste": "Eric Rohmer",
+      "casting": [
+        "Nicole Berger",
+        "Stella Dassas",
+        "Alain Delrieu"
+      ],
+      "date_sortie": "",
+      "duree_minutes": "20.0",
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-veronique-et-son-cancre.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "veronique-et-son-cancre.html"
+    },
+    {
+      "titre": "Nina et le secret du Hérisson",
+      "cineaste": "Alain Gagnol",
+      "casting": [
+        "Audrey Tautou",
+        "Guillaume Canet"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/01/Sans-titre-2.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "nina-et-le-secret-du-herisson.html"
+    },
+    {
+      "titre": "A Short story",
+      "cineaste": "BI GAN",
+      "casting": [
+        "TAN Zhuo",
+        "CHENG Yongzhong"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/05/mea-tourment.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "a-short-story.html"
+    },
+    {
+      "titre": "Fabian",
+      "cineaste": "Dominik Graf",
+      "casting": [
+        "Tom Schilling",
+        "Albrecht Schuch",
+        "Saskia Rosendahl"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/02/mae-poster.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "fabian.html"
+    },
+    {
+      "titre": "LA RIVIERE",
+      "cineaste": "Ghassan Salhab",
+      "casting": [
+        "Ali Suliman – Yumna Marwan"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/06/MAE-Site.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "la-riviere.html"
+    },
+    {
+      "titre": "GARÇON CHIFFON",
+      "cineaste": "Nicolas Maury",
+      "casting": [
+        "Nicolas Maury",
+        "Nathalie Baye",
+        "Arnaud Valois",
+        "Théo Christine",
+        "Laure Calamy"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/02/mea-garconchiffon.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "garcon-chiffon.html"
+    },
+    {
+      "titre": "MERVEILLES A MONTFERMEIL",
+      "cineaste": "Jeanne Balibar",
+      "casting": [
+        "Jeanne BALIBAR",
+        "Ramzy BEDIA",
+        "Emmanuelle BEART",
+        "Mathieu AMALRIC",
+        "Bulle OGIER",
+        "Florence LOIRET-CAILLE",
+        "Philippe KATERINE",
+        "Valérie DREVILLE",
+        "Anthony BAJON"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/11/merveillesamontfermeil_small.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "merveilles-a-montfermeil.html"
+    },
+    {
+      "titre": "SUZANNA ANDLER",
+      "cineaste": "Benoît Jacquot",
+      "casting": [
+        "Charlotte Gainsbourg",
+        "Niels Schneider"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/01/SA-mea.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "suzanna-andler.html"
+    },
+    {
+      "titre": "LOLA VERS LA MER",
+      "cineaste": "Laurent Micheli",
+      "casting": [
+        "Benoit MAGIMEL",
+        "Mya BOLLAERS"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/08/lolaverslamer-affiche.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "lola-vers-la-mer.html"
+    },
+    {
+      "titre": "L’AUDITION",
+      "cineaste": "Ina Weisse",
+      "casting": [
+        "Nina HOSS",
+        "Simon ABKARIAN",
+        "Jens ALBINUS",
+        "Serafin MISHIEV",
+        "Ilja MONTI"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/08/LAudition-vf1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "laudition.html"
+    },
+    {
+      "titre": "HAUT LES FILLES",
+      "cineaste": "François Armanet",
+      "casting": [
+        "Jeanne Added",
+        "Jehnny Beth",
+        "Lou Doillon",
+        "Brigitte Fontaine",
+        "Charlotte Gainsbourg",
+        "Françoise Hardy",
+        "Imany",
+        "Camélia Jordana",
+        "Elli Medeiros",
+        "Vanessa Paradis"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/05/HAUT-LES-FILLES-affiche-France-e1571824212576.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "haut-les-filles.html"
+    },
+    {
+      "titre": "VIF-ARGENT",
+      "cineaste": "Stéphane Batut",
+      "casting": [
+        "Thimothée Robart",
+        "Judith Chemla",
+        "Djolof Mbengue",
+        "Saadia Bentaïeb"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/08/Vif-argent-visu.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "vif-argent.html"
+    },
+    {
+      "titre": "LES PARTICULES",
+      "cineaste": "Blaise Harrison",
+      "casting": [
+        "Thomas",
+        "Salvatore",
+        "Léo",
+        "Nicolas",
+        "Néa",
+        "Emma"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "Thomas DALOZ,\nSalvatore FERRO,\nLéo COUILFORT,\nNicolas MARCANT,\nNéa LÜDERS,\nEmma JOSSERAND",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/01/visuel-Les-particules-758x1030.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "les-particules.html"
+    },
+    {
+      "titre": "HELLHOLE",
+      "cineaste": "Bas Devos",
+      "casting": [
+        "Alba",
+        "Willy",
+        "Hamza",
+        "Lubna"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "Alba ROHRWACHER, Willy THOMAS, Hamza BELARBI, Lubna AZABAL",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-hellhole1.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "hellhole.html"
+    },
+    {
+      "titre": "MES PROVINCIALES",
+      "cineaste": "Jean Paul Civeyrac",
+      "casting": [
+        "Andranic Manet",
+        "Corentin Fila",
+        "Gonzague Van Bervesselès",
+        "Diane Rouxel",
+        "Jenna Thiam",
+        "Sophie Verbeeck",
+        "Charlotte Van Bervesselès"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2018/02/poster-0-mes-provinciales.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "mes-provinciales.html"
+    },
+    {
+      "titre": "Ouvrir la voix",
+      "cineaste": "Amandine Gay",
+      "casting": [
+        "Aiss Berg",
+        "Amelia Ewu",
+        "Eleonore",
+        "Fania Noel",
+        "Fanny Aka Thisiskiyemis",
+        "Laura Aka Mrsroots",
+        "Maboula Soumahoro",
+        "Many Chroniques",
+        "Marie Leda",
+        "Marie Julie Chalu",
+        "Merci Michel",
+        "Nass",
+        "Ndella Paye",
+        "Ornella Aka Loulou",
+        "Po",
+        "Rachel Khan",
+        "Rebecca Chaillon",
+        "Sabine Pakora",
+        "Sandra",
+        "Sandra Sainte Rose Fanchine",
+        "Sharone",
+        "Taina",
+        "Thara",
+        "Zina"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "Aiss Berg, Amelia Ewu, Eleonore, Fania Noel, Fanny Aka Thisiskiyemis, Laura Aka Mrsroots, Maboula Soumahoro, Many Chroniques, Marie Leda, Marie Julie Chalu, Merci Michel, Nass, Ndella Paye, Ornella Aka Loulou, Po B.K Lomani, Rachel Khan, Rebecca Chaillon, Sabine Pakora, Sandra, Sandra Sainte Rose Fanchine, Sharone, Taina, Thara, Zina",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/03/mea-WB.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "ouvrir-la-voix.html"
+    },
+    {
+      "titre": "MAKALA",
+      "cineaste": "Emmanuel Gras",
+      "casting": [
+        "Kabwita Kasongo",
+        "Lydie Kasongo"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/12/poster-0-makala.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "makala.html"
+    },
+    {
+      "titre": "DJAM",
+      "cineaste": "Tony GATLIF",
+      "casting": [
+        "Daphné",
+        "Maryne",
+        "Simon"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "Daphné PATAKIA, Maryne CAYON, Simon ABKARIAN",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/05/poster-0-djam.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "djam.html"
+    },
+    {
+      "titre": "A mon âge, je me cache encore pour fumer",
+      "cineaste": "Rayhana Play",
+      "casting": [],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "HIAM ABBASS, FADILA BELKEBLA, NADIA KACI, NASSIMA BENCHICOU, SARAH LAYSSAC, MAYMOUNA, LINA SOUALEM, \nFAROUDJA AMAZIT et avec la participation de BIYOUNA dans le rôle de Aïcha",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/04/poster-0-a-mon-age-je-me-cache-encore-pour-fumer.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "a-mon-age-je-me-cache-encore-pour-fumer.html"
+    },
+    {
+      "titre": "L’OPÉRA",
+      "cineaste": "Stéphane Bron Play",
+      "casting": [],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/04/poster-0-lopera.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "lopera.html"
+    },
+    {
+      "titre": "DIAMOND ISLAND",
+      "cineaste": "Davy Chou",
+      "casting": [],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "NUON Sobon\nNOV Cheanick\nCHHEM Madeza\nKORN Mean\nNUT Samnang\nMENG Sophyna\nMIN Jany \nKHIM Samnang\nOUN Batham \nHANG Sreyleap\nDOM Sreyroth",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [
+        "Asie"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2016/12/poster-0-diamond-island.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "diamond-island.html"
+    },
+    {
+      "titre": "OLLI MÄKI",
+      "cineaste": "Juho Kuosmanen",
+      "casting": [
+        "Jarkko Lahti",
+        "Oona Airola",
+        "Eero Milonoff"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "Jarkko Lahti (Olli), Oona Airola (Raija), Eero Milonoff (Elis Ask)",
+      "status": "catalogue",
+      "categories": [
+        "ventes internationales"
+      ],
+      "thematiques": [],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2016/10/poster-0-olli-maki.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_fichier": "",
+      "bande_annonce_url": "",
+      "slug": "olli-mki.html"
     }
   ]
 }
-

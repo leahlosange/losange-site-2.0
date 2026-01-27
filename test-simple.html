@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Simple</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .success { color: green; }
+        .error { color: red; }
+        pre { background: #f5f5f5; padding: 10px; overflow: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Test de Diagnostic</h1>
+        <div id="status">⏳ Chargement...</div>
+        <h2>Résultats :</h2>
+        <pre id="results"></pre>
+    </div>
+
+    <script>
+        const log = (msg) => {
+            console.log(msg);
+            document.getElementById('results').textContent += msg + '\n';
+        };
+
+        async function runTests() {
+            log('=== TESTS DE DIAGNOSTIC ===\n');
+            
+            // Test 1: Charger films.json
+            log('Test 1: Chargement de films.json...');
+            try {
+                const response = await fetch('data/films.json');
+                log('  - Status: ' + response.status);
+                if (response.ok) {
+                    const data = await response.json();
+                    log('  ✓ films.json chargé avec succès');
+                    log('  - Nombre de films: ' + data.films.length);
+                    
+                    // Test 2: Compter les cinéastes
+                    const cineastes = new Set();
+                    data.films.forEach(f => {
+                        if (f.cineaste && f.cineaste.trim()) {
+                            cineastes.add(f.cineaste);
+                        }
+                    });
+                    log('  - Nombre de cinéastes: ' + cineastes.size);
+                    
+                    // Test 3: Grouper par lettre
+                    const byLetter = {};
+                    Array.from(cineastes).forEach(c => {
+                        const letter = c.charAt(0).toUpperCase();
+                        if (!byLetter[letter]) byLetter[letter] = [];
+                        byLetter[letter].push(c);
+                    });
+                    log('  - Lettres trouvées: ' + Object.keys(byLetter).sort().join(', '));
+                    
+                    // Afficher quelques exemples
+                    log('\nExemples de cinéastes par lettre:');
+                    Object.keys(byLetter).sort().slice(0, 3).forEach(letter => {
+                        log('  ' + letter + ': ' + byLetter[letter].slice(0, 3).join(', '));
+                    });
+                    
+                    document.getElementById('status').innerHTML = '<span class="success">✓ Tous les tests sont passés !</span>';
+                } else {
+                    throw new Error('Status ' + response.status);
+                }
+            } catch (error) {
+                log('  ✗ Erreur: ' + error.message);
+                document.getElementById('status').innerHTML = '<span class="error">✗ Erreur détectée</span>';
+            }
+            
+            log('\n=== FIN DES TESTS ===');
+        }
+        
+        runTests();
+    </script>
+</body>
+</html>

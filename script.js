@@ -129,11 +129,22 @@ let autoSlideInterval = null;
 function initCarousel() {
     const slides = document.querySelectorAll('.carousel-slide');
     const dots = document.querySelectorAll('.dot');
+    const links = document.querySelectorAll('.carousel-slide-link');
     const currentCounter = document.querySelector('.carousel-counter .current');
     
     totalSlides = slides.length;
     
     if (totalSlides === 0) return;
+    
+    // Initialiser les z-index des liens (seule la slide active doit être cliquable)
+    links.forEach((link, i) => {
+        const slide = link.querySelector('.carousel-slide');
+        if (slide && slide.classList.contains('active')) {
+            link.style.zIndex = '5';
+        } else {
+            link.style.zIndex = '1';
+        }
+    });
     
     // Dot click handlers
     dots.forEach((dot, index) => {
@@ -161,10 +172,18 @@ function initCarousel() {
     const carousel = document.querySelector('.hero-carousel');
     
     carousel?.addEventListener('touchstart', (e) => {
+        // Ne pas capturer les touches sur les liens
+        if (e.target.closest('.carousel-slide-link')) {
+            return;
+        }
         touchStartX = e.changedTouches[0].screenX;
     }, { passive: true });
     
     carousel?.addEventListener('touchend', (e) => {
+        // Ne pas capturer les touches sur les liens
+        if (e.target.closest('.carousel-slide-link')) {
+            return;
+        }
         touchEndX = e.changedTouches[0].screenX;
         handleSwipe();
     }, { passive: true });
@@ -185,6 +204,7 @@ function initCarousel() {
 function goToSlide(index) {
     const slides = document.querySelectorAll('.carousel-slide');
     const dots = document.querySelectorAll('.dot');
+    const links = document.querySelectorAll('.carousel-slide-link');
     const currentCounter = document.querySelector('.carousel-counter .current');
     
     // Remove active from all
@@ -195,6 +215,15 @@ function goToSlide(index) {
     currentSlide = index;
     slides[currentSlide]?.classList.add('active');
     dots[currentSlide]?.classList.add('active');
+    
+    // Update z-index for links (only active link should be on top)
+    links.forEach((link, i) => {
+        if (i === currentSlide) {
+            link.style.zIndex = '5';
+        } else {
+            link.style.zIndex = '1';
+        }
+    });
     
     // Update counter
     if (currentCounter) {
@@ -380,8 +409,10 @@ async function loadFilmsFromJson() {
     // On ne fait ça que sur la page films
     if (!document.body.classList.contains('page-films')) return;
 
-    const grid = document.querySelector('.films-grid');
-    if (!grid) return;
+    const actuellementGrid = document.querySelector('.films-grid[data-status="actuellement"]');
+    const prochainementGrid = document.querySelector('.films-grid[data-status="prochainement"]');
+    
+    if (!actuellementGrid || !prochainementGrid) return;
 
     try {
         const response = await fetch('data/films.json', { cache: 'no-store' });
@@ -393,13 +424,20 @@ async function loadFilmsFromJson() {
         const data = await response.json();
         const films = Array.isArray(data.films) ? data.films : [];
 
-        // On vide les cartes statiques pour ne garder que celles venant des fiches
-        grid.innerHTML = '';
+        // Vider les grilles
+        actuellementGrid.innerHTML = '';
+        prochainementGrid.innerHTML = '';
 
-        films.forEach(film => {
+        // Fonction pour créer une carte film
+        function createFilmCard(film) {
             const article = document.createElement('article');
             article.className = 'film-card';
             article.dataset.status = film.status || 'catalogue';
+            
+            // Ajouter les thématiques comme data-attribute pour le filtrage
+            if (Array.isArray(film.thematiques) && film.thematiques.length > 0) {
+                article.dataset.thematiques = film.thematiques.join(',');
+            }
 
             // Lien vers la fiche détaillée (slug HTML) si fourni, sinon '#'
             const link = document.createElement('a');
@@ -464,53 +502,26 @@ async function loadFilmsFromJson() {
             info.appendChild(director);
 
             // Zone pour futurs boutons de téléchargement (DP / affiche / BA)
-            const downloads = document.createElement('div');
-            downloads.className = 'film-card-downloads';
-
-            if (film.dossier_presse) {
-                const dpLink = document.createElement('a');
-                dpLink.href = film.dossier_presse;
-                dpLink.className = 'film-download-btn';
-                dpLink.textContent = 'dossier de presse';
-                dpLink.download = '';
-                downloads.appendChild(dpLink);
-            }
-
-            if (film.affiche_photos) {
-                const photosLink = document.createElement('a');
-                photosLink.href = film.affiche_photos;
-                photosLink.className = 'film-download-btn';
-                photosLink.textContent = 'affiche & photos';
-                photosLink.download = '';
-                downloads.appendChild(photosLink);
-            }
-
-            if (film.bande_annonce_fichier) {
-                const baFileLink = document.createElement('a');
-                baFileLink.href = film.bande_annonce_fichier;
-                baFileLink.className = 'film-download-btn';
-                baFileLink.textContent = 'télécharger la BA';
-                baFileLink.download = '';
-                downloads.appendChild(baFileLink);
-            }
-
-            if (film.bande_annonce_url) {
-                const baUrlLink = document.createElement('a');
-                baUrlLink.href = film.bande_annonce_url;
-                baUrlLink.className = 'film-download-btn';
-                baUrlLink.textContent = 'voir la BA';
-                baUrlLink.target = '_blank';
-                downloads.appendChild(baUrlLink);
-            }
-
-            if (downloads.children.length > 0) {
-                info.appendChild(downloads);
-            }
+            // Ne pas afficher ces boutons sur la page "films à venir"
+            // (Ils sont déjà disponibles sur les pages individuelles des films)
+            // const downloads = document.createElement('div');
+            // downloads.className = 'film-card-downloads';
+            // ... (code commenté pour ne pas afficher les boutons)
 
             link.appendChild(imageWrapper);
             link.appendChild(info);
             article.appendChild(link);
-            grid.appendChild(article);
+            
+            return article;
+        }
+
+        // Séparer et afficher les films par statut
+        films.forEach(film => {
+            if (film.status === 'actuellement') {
+                actuellementGrid.appendChild(createFilmCard(film));
+            } else if (film.status === 'prochainement') {
+                prochainementGrid.appendChild(createFilmCard(film));
+            }
         });
     } catch (error) {
         console.error('Erreur lors du chargement des fiches films :', error);

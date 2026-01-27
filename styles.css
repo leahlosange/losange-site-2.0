@@ -450,6 +450,22 @@ body.light-header .logo-img {
     height: 100%;
 }
 
+.carousel-slide-link {
+    position: absolute;
+    inset: 0;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    z-index: 1;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.carousel-slide-link:has(.carousel-slide.active) {
+    pointer-events: auto;
+    z-index: 5;
+}
+
 .carousel-slide {
     position: absolute;
     inset: 0;
@@ -459,6 +475,10 @@ body.light-header .logo-img {
 
 .carousel-slide.active {
     opacity: 1;
+}
+
+.carousel-slide-link:hover .carousel-slide.active {
+    opacity: 0.95;
 }
 
 .slide-background {
@@ -502,9 +522,17 @@ body.light-header .logo-img {
     color: var(--color-white);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    line-height: 1;
-    margin-bottom: 1rem;
-    text-shadow: 0 4px 40px rgba(0, 0, 0, 0.5);
+}
+
+.film-title-logo {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: clamp(6rem, 27vw, 18rem);
+    object-fit: contain;
+    display: block;
+    margin: 0 0 1.5rem 0;
+    filter: drop-shadow(0 4px 40px rgba(0, 0, 0, 0.5));
 }
 
 .film-director {
@@ -538,6 +566,13 @@ body.light-header .logo-img {
     opacity: 0.6;
 }
 
+@media (max-width: 768px) {
+    .film-title-logo {
+        max-height: clamp(4.5rem, 22vw, 12rem);
+        margin-bottom: 1rem;
+    }
+}
+
 /* Carousel Navigation */
 .carousel-nav {
     position: absolute;
@@ -547,6 +582,7 @@ body.light-header .logo-img {
     display: flex;
     align-items: center;
     gap: 2rem;
+    z-index: 10;
 }
 
 .carousel-dots {
@@ -926,6 +962,22 @@ body.light-header .logo-img {
     color: var(--color-white);
 }
 
+.films-status-section {
+    max-width: 1400px;
+    margin: 0 auto 5rem;
+}
+
+.films-status-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: var(--color-black);
+    text-align: left;
+}
+
 .films-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -944,6 +996,15 @@ body.light-header .logo-img {
     .films-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
+    }
+    
+    .films-status-title {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .films-status-section {
+        margin-bottom: 3rem;
     }
 }
 
@@ -967,7 +1028,13 @@ body.light-header .logo-img {
 }
 
 .film-card-link {
-    display: block;
+    display: contents;
+    text-decoration: none;
+    color: inherit;
+}
+
+.film-card-link:hover {
+    text-decoration: none;
 }
 
 .film-card-image {
@@ -1073,6 +1140,204 @@ body.light-header .logo-img {
     font-size: 0.85rem;
     color: var(--color-gray);
     text-transform: none;
+}
+
+/* Styles pour les cartes détaillées des catalogues */
+.film-card-detailed {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1.5rem;
+    align-items: start;
+    padding: 1.5rem;
+    background: var(--color-white);
+    border: 1px solid var(--color-light-gray);
+    border-radius: 4px;
+    transition: all var(--transition-normal);
+}
+
+.film-card-detailed:hover {
+    transform: translateY(0);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--color-blue);
+}
+
+.film-card-detailed .film-card-image {
+    margin-bottom: 0;
+    width: 200px;
+}
+
+.film-card-detailed .film-card-info {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.film-card-meta {
+    font-size: 0.75rem;
+    color: var(--color-gray);
+    margin: 0;
+    font-style: italic;
+}
+
+.film-card-casting {
+    font-size: 0.8rem;
+    color: var(--color-dark-gray);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.film-card-casting strong {
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+.film-card-synopsis {
+    font-size: 0.85rem;
+    color: var(--color-dark-gray);
+    line-height: 1.6;
+    margin: 0;
+    font-family: var(--font-text);
+}
+
+.film-card-thematiques {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.thematique-tag {
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+    color: var(--color-blue);
+    background: rgba(5, 180, 228, 0.1);
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.film-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.film-action-btn {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+    color: var(--color-black);
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-black);
+    transition: all var(--transition-normal);
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+}
+
+.film-action-btn:hover {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+.film-action-btn.primary {
+    background: var(--color-blue);
+    border-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.film-action-btn.primary:hover {
+    background: var(--color-dark-gray);
+    border-color: var(--color-dark-gray);
+}
+
+/* Affichage en grille - mode compact */
+.view-mode-grid .films-grid,
+.view-mode-grid .catalogue-section .films-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.view-mode-grid .film-card-detailed {
+    display: block;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.view-mode-grid .film-card-detailed:hover {
+    transform: translateY(-4px);
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.view-mode-grid .film-card-detailed .film-card-image {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.view-mode-grid .film-card-detailed .film-card-info {
+    padding: 0 0.25rem;
+}
+
+.view-mode-grid .film-card-detailed .film-card-meta,
+.view-mode-grid .film-card-detailed .film-card-casting,
+.view-mode-grid .film-card-detailed .film-card-synopsis,
+.view-mode-grid .film-card-detailed .film-card-thematiques,
+.view-mode-grid .film-card-detailed .film-card-actions {
+    display: none;
+}
+
+.view-mode-grid .film-card-detailed .film-card-title {
+    font-size: 0.9rem;
+}
+
+.view-mode-grid .film-card-detailed .film-card-director {
+    font-size: 0.8rem;
+}
+
+/* Responsive pour les cartes détaillées */
+@media (max-width: 768px) {
+    .film-card-detailed {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .film-card-detailed .film-card-image {
+        width: 100%;
+    }
+    
+    .view-mode-grid .films-grid,
+    .view-mode-grid .catalogue-section .films-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .film-card-detailed {
+        padding: 1rem;
+    }
+    
+    .film-card-actions {
+        flex-direction: column;
+    }
+    
+    .film-action-btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .view-mode-grid .films-grid,
+    .view-mode-grid .catalogue-section .films-grid {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 1rem;
+    }
 }
 
 .films-cta {
@@ -1403,7 +1668,7 @@ body.light-header .logo-img {
 }
 
 .header-dark {
-    background-color: var(--color-black);
+    background-color: transparent;
     color: var(--color-white);
 }
 
@@ -2442,5 +2707,732 @@ body.light-header .logo-img {
 @media (max-width: 480px) {
     .equipe-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* === Catalogue Navigation === */
+.catalogue-nav-section {
+    background: var(--color-off-white);
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.catalogue-nav {
+    display: inline-flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.catalogue-nav-link {
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    color: var(--color-gray);
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid transparent;
+    transition: all var(--transition-fast);
+}
+
+.catalogue-nav-link:hover {
+    color: var(--color-black);
+    border-bottom-color: var(--color-gray);
+}
+
+.catalogue-nav-link.active {
+    color: var(--color-black);
+    border-bottom-color: var(--color-black);
+    font-weight: 500;
+}
+
+/* === Catalogue Container (for grouped views) === */
+.catalogue-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.catalogue-section {
+    margin-bottom: 4rem;
+}
+
+.catalogue-section:last-child {
+    margin-bottom: 0;
+}
+
+.catalogue-section .films-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.page-thematiques .films-grid,
+.page-catalogue-tous .films-grid,
+.page-catalogue .films-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+    .page-thematiques .films-grid,
+    .page-catalogue-tous .films-grid,
+    .page-catalogue .films-grid {
+        padding: 0 1rem;
+    }
+}
+
+.catalogue-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.catalogue-section-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--color-black);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.catalogue-section-count {
+    font-family: var(--font-text);
+    font-size: 0.85rem;
+    color: var(--color-gray);
+    font-style: italic;
+}
+
+.no-films-message {
+    font-family: var(--font-text);
+    font-size: 1rem;
+    color: var(--color-gray);
+    text-align: center;
+    padding: 3rem 2rem;
+    font-style: italic;
+}
+
+/* === Listes Alphabétiques (Cinéastes & Thématiques) === */
+.cineastes-list-container,
+.thematiques-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem 0.5rem;
+}
+
+.letter-section {
+    margin-bottom: 1rem;
+}
+
+.letter-header {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-blue);
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid var(--color-blue);
+}
+
+.cineastes-list,
+.thematiques-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0;
+}
+
+.cineaste-list-item,
+.thematique-list-item {
+    border-bottom: 1px solid var(--color-light-gray);
+}
+
+.cineaste-list-link,
+.thematique-list-link {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: var(--color-black);
+    transition: all var(--transition-fast);
+}
+
+.cineaste-list-link:hover,
+.thematique-list-link:hover {
+    background: var(--color-off-white);
+    color: var(--color-blue);
+    padding-left: 2rem;
+}
+
+.cineaste-name,
+.thematique-name {
+    font-family: var(--font-text);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.cineaste-count,
+.thematique-count {
+    display: none;
+}
+
+.cineaste-films-section,
+.thematique-films-section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 2rem 1rem;
+}
+
+.cineaste-films-section.hidden,
+.thematique-films-section.hidden {
+    display: none;
+}
+
+.cineaste-films-header,
+.thematique-films-header {
+    margin-bottom: 2rem;
+}
+
+.back-to-cineastes-btn,
+.back-to-thematiques-btn {
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    color: var(--color-blue);
+    background: transparent;
+    border: none;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: color var(--transition-fast);
+}
+
+.back-to-cineastes-btn:hover,
+.back-to-thematiques-btn:hover {
+    color: var(--color-dark-gray);
+}
+
+.cineaste-films-title,
+.thematique-films-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--color-black);
+    text-transform: none;
+    margin: 0;
+}
+
+/* === Grille de Thématiques === */
+.thematiques-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.thematique-card {
+    transition: transform var(--transition-normal);
+}
+
+.thematique-card:hover {
+    transform: translateY(-4px);
+}
+
+.thematique-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.thematique-card-image {
+    position: relative;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: var(--color-off-white);
+    border-radius: 4px;
+}
+
+.thematique-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.thematique-card:hover .thematique-card-image img {
+    transform: scale(1.05);
+}
+
+.thematique-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 100%);
+    display: flex;
+    align-items: flex-end;
+    padding: 1.25rem;
+    transition: background var(--transition-normal);
+}
+
+.thematique-card:hover .thematique-card-overlay {
+    background: linear-gradient(to top, rgba(5,180,228,0.9) 0%, rgba(5,180,228,0.5) 100%);
+}
+
+.thematique-card-overlay-text h3 {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--color-white);
+    margin: 0;
+    line-height: 1.2;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .catalogue-nav-section {
+        gap: 1rem;
+    }
+    
+    .catalogue-nav {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .catalogue-nav-link {
+        padding: 0.75rem 1.5rem;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .catalogue-nav-link.active {
+        border-bottom: 2px solid var(--color-black);
+    }
+    
+    .catalogue-section-header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .catalogue-section-title {
+        font-size: 1.5rem;
+    }
+    
+    .catalogue-container {
+        padding: 2rem 1rem;
+    }
+    
+    .cineastes-list-container {
+        padding: 1rem;
+    }
+    
+    .letter-header {
+        font-size: 1.3rem;
+    }
+    
+    .cineastes-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .thematiques-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .cineaste-films-section,
+    .thematique-films-section {
+        padding: 2rem 1rem;
+    }
+    
+    .cineaste-films-title,
+    .thematique-films-title {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .letter-header {
+        font-size: 1.2rem;
+    }
+    
+    .cineaste-list-link {
+        padding: 0.4rem 1rem;
+    }
+    
+    .cineaste-list-link:hover {
+        padding-left: 1.25rem;
+    }
+    
+    .cineaste-name {
+        font-size: 0.9rem;
+    }
+    
+    .thematique-card-overlay-text h3 {
+        font-size: 1.1rem;
+    }
+}
+
+/* === Pages Films Individuelles Style A24 === */
+.page-film-individuel {
+    background: var(--color-white);
+}
+
+.header-transparent {
+    background-color: transparent !important;
+    color: var(--color-white);
+    z-index: 1000;
+}
+
+.header-transparent .header-btn {
+    color: var(--color-white);
+}
+
+.header-transparent .logo-img {
+    filter: brightness(0) invert(1);
+}
+
+/* Hero Video Section - Déborde sur le header */
+.film-hero-video {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    margin-top: -80px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.youtube-player-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.youtube-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.film-hero-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.film-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Overlay avec titre */
+.film-hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 4rem 2rem;
+    z-index: 10;
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+    pointer-events: none;
+}
+
+.film-hero-title {
+    font-family: var(--font-banner);
+    font-size: clamp(2rem, 6vw, 5rem);
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: var(--color-white);
+    margin: 0;
+    text-transform: lowercase;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    pointer-events: auto;
+}
+
+/* Bouton play centré sur le player */
+.film-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border: none;
+    background: transparent;
+    color: var(--color-white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+    z-index: 20;
+    pointer-events: auto;
+}
+
+.film-play-btn:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 0.9;
+}
+
+.film-play-btn svg {
+    width: 80px;
+    height: 80px;
+    stroke-width: 2;
+    filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.5));
+}
+
+/* Film Info Section */
+.film-page-main {
+    position: relative;
+    z-index: 2;
+    background: var(--color-white);
+}
+
+.film-info-section {
+    padding: 4rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.film-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+/* Titre du film - Forma DJR Banner - Supprimé (affiché uniquement sur le hero) */
+
+/* Meta line (film de / date) */
+.film-meta-line {
+    font-family: var(--font-text);
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+    color: var(--color-black);
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    line-height: 1.7;
+}
+
+.film-director-label {
+    text-transform: lowercase;
+    color: var(--color-gray);
+}
+
+.film-director-name {
+    color: var(--color-black);
+    font-weight: 500;
+}
+
+.film-date-label {
+    text-transform: lowercase;
+    color: var(--color-gray);
+}
+
+.film-date {
+    color: var(--color-black);
+}
+
+.film-duree {
+    color: var(--color-black);
+}
+
+/* Casting */
+.film-casting {
+    margin-top: 1.5rem;
+    display: block;
+}
+
+.section-label {
+    font-family: var(--font-text);
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-gray);
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+}
+
+.casting-text {
+    font-family: var(--font-text);
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+    color: var(--color-black);
+    line-height: 1.7;
+}
+
+/* Content Grid (Synopsis + Affiche) */
+.film-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+    margin-top: 0;
+}
+
+.film-info-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.film-synopsis {
+    max-width: none;
+}
+
+.synopsis-text {
+    font-family: var(--font-text);
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+    line-height: 1.7;
+    color: var(--color-black);
+    margin: 0;
+}
+
+.film-poster {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+}
+
+.poster-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Action Buttons Card */
+.film-actions-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    background: var(--color-off-white);
+    border-radius: 8px;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.film-action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.5rem;
+    background: var(--color-white);
+    border: 1px solid var(--color-light-gray);
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--color-black);
+    font-family: var(--font-text);
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+    font-weight: 500;
+    transition: all var(--transition-fast);
+    cursor: pointer;
+    line-height: 1.7;
+}
+
+.film-action-btn:hover {
+    border-color: var(--color-black);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.film-action-btn.primary {
+    background: var(--color-black);
+    color: var(--color-white);
+    border-color: var(--color-black);
+}
+
+.film-action-btn.primary:hover {
+    background: #333;
+    border-color: #333;
+}
+
+.film-action-btn svg {
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+
+.film-action-btn span {
+    flex: 1;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .film-content-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .film-poster {
+        position: static;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .film-actions-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .film-hero-video {
+        height: 60vh;
+        min-height: 400px;
+        margin-top: -60px;
+    }
+    
+    .film-hero-overlay {
+        padding: 2rem 1.5rem;
+    }
+    
+    .film-hero-title {
+        font-size: clamp(1.5rem, 8vw, 3rem);
+    }
+    
+    .film-play-btn {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .film-play-btn svg {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .film-info-section {
+        padding: 3rem 1.5rem;
+    }
+    
+    .film-actions-card {
+        padding: 1.25rem;
+        max-width: 100%;
+    }
+    
+    .film-action-btn {
+        padding: 1rem 1.25rem;
+        font-size: 0.9rem;
     }
 }

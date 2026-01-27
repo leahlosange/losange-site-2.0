@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Father Mother Sister Brother.">
+    <meta name="description" content="FATHER MOTHER SISTER BROTHER est un long-métrage de fiction en forme de triptyque. Trois histoires qui parlent des relations entre des enfants adultes et leur(s">
     <title>Father Mother Sister Brother | Les Films du Losange</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.png">
 </head>
 <body class="page-film-individuel">
     <!-- Header fixe -->
-    <header class="header header-dark">
+    <header class="header header-transparent">
         <button class="header-btn menu-btn" aria-label="Menu">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="1.5"/>
@@ -39,7 +39,8 @@
             </svg>
         </button>
         <div class="menu-content">
-            <a href="films.html" class="menu-link active">films</a>
+            <a href="films.html" class="menu-link">films à venir</a>
+            <a href="catalogue.html" class="menu-link">catalogue</a>
             <a href="actualites.html" class="menu-link">actualités</a>
             <a href="streaming.html" class="menu-link">en streaming</a>
             <a href="https://depardoncineaste.com" class="menu-link">depardon cinéaste</a>
@@ -80,66 +81,161 @@
             </div>
         </div>
     </div>
-    <main>
-        <section class="film-banner">
-            <div class="banner-image">
-                <img src="images/films/father mother sister brother/004_FMSB_© Vague Notion 2024_Frederick Elmes.jpeg" alt="Father Mother Sister Brother Film Banner">
+
+    <main class="film-page-main">
+        <!-- Hero Video Section - Déborde sur le header -->
+        <section class="film-hero-video">
+            <div class="film-hero-image">
+            <img src="images/films/father mother sister brother/043_FMSB_© Vague Notion 2024_Yorick Le Saux.jpeg" alt="Father Mother Sister Brother">
+        </div>
+        <div class="youtube-player-container" style="display: none;">
+            <iframe 
+                src="https://www.youtube.com/embed/7gAAXuvHkzQ?autoplay=0&rel=0&modestbranding=1" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+                class="youtube-iframe"
+                data-youtube-id="7gAAXuvHkzQ">
+            </iframe>
+        </div>
+            <div class="film-hero-overlay">
+                <h1 class="film-hero-title">father mother sister brother</h1>
             </div>
-            <div class="banner-info">
-                <h1>Father Mother Sister Brother</h1>
-                <p>Un film de <strong></strong>Jim Jarmusch</strong> • 2025</p>
-                <p>"Une histoire captivante sur le temps et les choix qui définissent notre vie."</p>
+            <button class="film-play-btn" aria-label="Lire la bande-annonce">
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none">
+                    <path d="M8 5v14l11-7z" stroke="currentColor" stroke-width="2" fill="none"/>
+                </svg>
+            </button>
+        </section>
+
+        <!-- Film Info Section -->
+        <section class="film-info-section">
+            <div class="film-info-container">
+                <div class="film-content-grid">
+                    <div class="film-info-left">
+                        <div class="film-meta-line">
+                            <span class="film-director-label">un film de</span>
+                            <strong class="film-director-name">Jim Jarmusch</strong>
+                             • 
+                            <span class="film-date-label">au cinéma le</span> 
+                            <span class="film-date">7 décembre 2025</span>
+                             • 
+                            <span class="film-duree">1h58</span>
+                        </div>
+
+                        <div class="film-casting">
+                        <h2 class="section-label">Avec</h2>
+                        <p class="casting-text">Tom Waits, Adam Driver, Mayim Bialik, Charlotte Rampling, Cate Blanchett, Vicky Krieps, Sarah Greene, Indya Moore, Luka Sabbat, Françoise Lebrun</p>
+                    </div>
+
+                        <div class="film-synopsis">
+                            <h2 class="section-label">Synopsis</h2>
+                            <p class="synopsis-text">FATHER MOTHER SISTER BROTHER est un long-métrage de fiction en forme de triptyque. Trois histoires qui parlent des relations entre des enfants adultes et leur(s) parent(s) quelque peu distant(s), et aussi des relations entre eux. Chacun des trois volets se passe aujourd'hui et dans un pays différent. FATHER se déroule dans le nord-est des États-Unis, MOTHER à Dublin, en Irlande, et SISTER BROTHER à Paris. Le film est une suite d'études de personnages - sobres, basées sur l'observation et sans jugement. Une comédie, mais entrelacée de fils de mélancolie.</p>
+                            
+                            <!-- Action Buttons Card - Déplacé sous le synopsis -->
+                            <div class="film-actions-card">
+                            <a href="#showtimes" class="film-action-btn primary">
+                                <span>Trouver une séance à proximité</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="1.5"/>
+                                    <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                            </a>
+                            <a href="#streaming" class="film-action-btn">
+                                <span>Regarder en streaming</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M8 5v14l11-7z" fill="currentColor"/>
+                                </svg>
+                            </a>
+                            <a href="#downloads" class="film-action-btn">
+                                <span>Télécharger le matériel</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="1.5"/>
+                                    <polyline points="7 10 12 15 17 10" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="film-poster">
+                        <img src="https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-FAther-mother-sister-brother-2.jpg" alt="FATHER MOTHER SISTER BROTHER - Affiche" class="poster-image">
+                    </div>
+                </div>
             </div>
-        </section>
-        <section class="film-details">
-            <h2>Aperçu</h2>
-            <p>FATHER MOTHER SISTER BROTHER est un long-métrage de fiction en forme de triptyque. Trois histoires qui parlent des relations entre des enfants adultes et leur(s) parent(s) quelque peu distant(s), et aussi des relations entre eux.            </p>
-        </section>
-        <section class="film-meta">
-            <h2>Infos</h2>
-            <ul>
-                <li><strong>Date de sortie :</strong> 7 janvier 2026</li>
-            </ul>
         </section>
     </main>
 
-<!-- Footer -->
-<footer id="contact" class="footer">
-    <div class="footer-main">
-        <div class="footer-col">
-            <h4>le losange</h4>
-            <a href="about.html">à propos</a>
-            <a href="equipe.html">équipe</a>
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-main">
+            <div class="footer-col">
+                <h4>le losange</h4>
+                <a href="about.html">à propos</a>
+                <a href="equipe.html">équipe</a>
+            </div>
+            <div class="footer-col">
+                <h4>contact</h4>
+                <p class="footer-address">7-9 rue des petites écuries<br>75010 Paris</p>
+                <p class="footer-phone">t. +33 1 44 43 87 10</p>
+                <a href="mailto:contact@filmsdulosange.fr">contact@filmsdulosange.fr</a>
+            </div>
+            <div class="footer-col">
+                <h4>suivez-nous</h4>
+                <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+                <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+                <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>newsletter</h4>
+                <p>restez informé·e des actualités du losange</p>
+                <form class="footer-newsletter-form">
+                    <input type="email" placeholder="votre email">
+                    <button type="submit">s'inscrire</button>
+                </form>
+            </div>
         </div>
-        <div class="footer-col">
-            <h4>contact</h4>
-            <p class="footer-address">7-9 rue des petites écuries<br>75010 Paris</p>
-            <p class="footer-phone">t. +33 1 44 43 87 10</p>
-            <a href="mailto:contact@filmsdulosange.fr">contact@filmsdulosange.fr</a>
+        <div class="footer-bottom">
+            <span class="footer-copyright">© 2025 les films du losange</span>
+            <div class="footer-links">
+                <a href="#">mentions légales</a>
+                <a href="#">politique de confidentialité</a>
+            </div>
         </div>
-        <div class="footer-col">
-            <h4>suivez-nous</h4>
-            <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
-            <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
-            <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
-        </div>
-        <div class="footer-newsletter">
-            <h4>newsletter</h4>
-            <p>restez informé·e des actualités du losange</p>
-            <form class="footer-newsletter-form">
-                <input type="email" placeholder="votre email">
-                <button type="submit">s'inscrire</button>
-            </form>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <span class="footer-copyright">© 2025 les films du losange</span>
-        <div class="footer-links">
-            <a href="#">mentions légales</a>
-            <a href="#">politique de confidentialité</a>
-        </div>
-    </div>
-</footer>
-<script src="script.js"></script>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Gestion du bouton play pour lancer la vidéo YouTube
+        document.addEventListener('DOMContentLoaded', function() {
+            const playBtn = document.querySelector('.film-play-btn');
+            const youtubeContainer = document.querySelector('.youtube-player-container');
+            const youtubeIframe = document.querySelector('.youtube-iframe');
+            const heroImage = document.querySelector('.film-hero-image');
+            
+            if (playBtn && youtubeContainer && youtubeIframe) {
+                playBtn.addEventListener('click', function() {
+                    // Masquer l'image de couverture
+                    if (heroImage) {
+                        heroImage.style.display = 'none';
+                    }
+                    
+                    // Afficher le player YouTube
+                    youtubeContainer.style.display = 'block';
+                    
+                    // Récupérer l'ID YouTube depuis l'attribut data
+                    const youtubeId = youtubeIframe.getAttribute('data-youtube-id');
+                    if (youtubeId) {
+                        // Charger la vidéo avec autoplay
+                        youtubeIframe.src = `https://www.youtube.com/embed/${youtubeId}?autoplay=1&rel=0&modestbranding=1`;
+                    }
+                    
+                    // Masquer le bouton play
+                    playBtn.style.display = 'none';
+                });
+            }
+        });
+    </script>
 </body>
 </html>
