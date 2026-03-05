@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Les Films du Losange</title>
+    <meta name="description" content="Contactez Les Films du Losange - Équipe, adresse et coordonnées. Production et distribution de cinéma d'auteur.">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MVM86CRDW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6MVM86CRDW');
+    </script>
+</head>
+<body class="page-contact">
+    <!-- Header fixe -->
+    <header class="header header-dark">
+        <button class="header-btn menu-btn" aria-label="Menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+            <span class="header-menu-label">MENU / FILMS</span>
+        </button>
+        
+        <a href="index.html" class="header-logo">
+            <img src="images/logo épais.png" alt="Les Films du Losange" class="logo-img">
+        </a>
+        
+        <button class="header-btn search-btn" aria-label="Rechercher">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+    </header>
+
+    <!-- Menu plein écran -->
+    <nav class="fullscreen-menu">
+        <button class="menu-close-btn" aria-label="Fermer le menu">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+        <div class="menu-content">
+            <a href="films.html" class="menu-link">nouveautés</a>
+            <a href="collections-cineaste.html" class="menu-link">collections</a>
+            <a href="actualites.html" class="menu-link">actualités</a>
+            <a href="streaming.html" class="menu-link">à voir en ligne</a>
+            <a href="https://depardoncineaste.com" class="menu-link">depardon cinéaste</a>
+            <a href="contact.html" class="menu-link active">contact</a>
+        </div>
+        <div class="menu-footer">
+            <div class="menu-social">
+                <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+                <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+                <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
+            </div>
+            <div class="menu-newsletter">
+                <span>newsletter</span>
+                <input type="email" id="menu-newsletter-email" name="email" placeholder="votre email">
+                <button class="menu-newsletter-btn">s'inscrire</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search overlay -->
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" id="site-search" name="q" class="search-input" placeholder="rechercher un film, un réalisateur...">
+            <button class="search-close" aria-label="Fermer">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+            </button>
+        </div>
+        <div class="search-suggestions">
+            <span class="search-suggestion-label">suggestions</span>
+            <div class="search-suggestion-tags">
+                <a href="#">Bi Gan</a>
+                <a href="#">Jim Jarmusch</a>
+                <a href="#">Michael Haneke</a>
+                <a href="#">Éric Rohmer</a>
+                <a href="#">Mia Hansen-Løve</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header equipe-header">
+        <h1 class="page-title">CONTACT</h1>
+        <p class="page-subtitle contact-subtitle-coords">7-9 rue des petites écuries · 75010 Paris<br>t. +33 1 44 43 87 10</p>
+    </section>
+
+    <!-- Bouton mailto principal -->
+    <section class="contact-cta-section">
+        <div class="contact-cta-inner">
+            <a href="mailto:contact@filmsdulosange.fr" class="contact-cta-btn">contact@filmsdulosange.fr</a>
+        </div>
+    </section>
+
+    <!-- Contenu Équipe -->
+    <section class="equipe-page-content">
+        <div class="equipe-container">
+            <h2 class="equipe-page-main-title">L'équipe</h2>
+            
+            <!-- Direction -->
+            <div class="equipe-section">
+                <h3 class="equipe-section-title">Direction</h3>
+                <div class="equipe-grid">
+                    <div class="equipe-card">
+                        <h4 class="equipe-name">Charles Gillibert</h4>
+                        <p class="equipe-role">Président</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Distribution France -->
+            <div class="equipe-section">
+                <h3 class="equipe-section-title">Distribution France</h3>
+                <div class="equipe-grid">
+                    <div class="equipe-card">
+                        <img src="images/avatar/régine.jpg" alt="Régine Vial" class="equipe-avatar">
+                        <h4 class="equipe-name">Régine Vial</h4>
+                        <a href="mailto:r.vial@filmsdulosange.fr" class="equipe-email">r.vial@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="images/avatar/camille.jpg" alt="Camille Hardouin" class="equipe-avatar">
+                        <h4 class="equipe-name">Camille Hardouin</h4>
+                        <p class="equipe-role">Programmation Nord</p>
+                        <a href="mailto:c.hardouin@filmsdulosange.fr" class="equipe-email">c.hardouin@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <h4 class="equipe-name">Grégory Petrel</h4>
+                        <p class="equipe-role">Programmation Sud</p>
+                        <a href="mailto:g.petrel@filmsdulosange.fr" class="equipe-email">g.petrel@filmsdulosange.fr</a>
+                        <p class="equipe-phone">01 44 43 87 17</p>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="images/avatar/raphaelle.jpeg" alt="Raphaëlle Ezerzer" class="equipe-avatar">
+                        <h4 class="equipe-name">Raphaëlle Ezerzer</h4>
+                        <p class="equipe-role">Programmation, Continuations et Catalogue</p>
+                        <a href="mailto:r.ezerzer@filmsdulosange.fr" class="equipe-email">r.ezerzer@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="images/avatar/louis.jpg" alt="Louis Descombes" class="equipe-avatar">
+                        <h4 class="equipe-name">Louis Descombes</h4>
+                        <a href="mailto:l.descombes@filmsdulosange.fr" class="equipe-email">l.descombes@filmsdulosange.fr</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ventes Internationales -->
+            <div class="equipe-section">
+                <h3 class="equipe-section-title">Ventes Internationales</h3>
+                <div class="equipe-grid">
+                    <div class="equipe-card">
+                        <img src="images/avatar/alice.jpg" alt="Alice Lesort" class="equipe-avatar">
+                        <h4 class="equipe-name">Alice Lesort</h4>
+                        <a href="mailto:a.lesort@filmsdulosange.fr" class="equipe-email">a.lesort@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="images/avatar/georgia.jpg" alt="Georgia Mouton-Lorenzo" class="equipe-avatar">
+                        <h4 class="equipe-name">Georgia Mouton-Lorenzo</h4>
+                        <a href="mailto:g.mouton@filmsdulosange.fr" class="equipe-email">g.mouton@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="images/avatar/hussein.png" alt="Hussein Akbaraly" class="equipe-avatar">
+                        <h4 class="equipe-name">Hussein Akbaraly</h4>
+                        <a href="mailto:h.akbaraly@filmsdulosange.fr" class="equipe-email">h.akbaraly@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="images/avatar/alberto.jpg" alt="Alberto Alvarez Aguilera" class="equipe-avatar">
+                        <h4 class="equipe-name">Alberto Alvarez Aguilera</h4>
+                        <a href="mailto:a.alvarez@filmsdulosange.fr" class="equipe-email">a.alvarez@filmsdulosange.fr</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marketing -->
+            <div class="equipe-section">
+                <h3 class="equipe-section-title">Marketing</h3>
+                <div class="equipe-grid">
+                    <div class="equipe-card">
+                        <img src="images/avatar/gustave.png" alt="Gustave Shaïmi" class="equipe-avatar">
+                        <h4 class="equipe-name">Gustave Shaïmi</h4>
+                        <p class="equipe-role">Directeur Marketing & Communication</p>
+                        <a href="mailto:g.shaimi@filmsdulosange.fr" class="equipe-email">g.shaimi@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="images/avatar/pauline.jpg" alt="Pauline Vilbert" class="equipe-avatar">
+                        <h4 class="equipe-name">Pauline Vilbert</h4>
+                        <p class="equipe-role">Chargée de Marketing France</p>
+                        <a href="mailto:p.vilbert@filmsdulosange.fr" class="equipe-email">p.vilbert@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="images/avatar/franck.jpg" alt="Franck Bouvat" class="equipe-avatar">
+                        <h4 class="equipe-name">Franck Bouvat</h4>
+                        <p class="equipe-role">Graphiste</p>
+                        <a href="mailto:f.bouvat@filmsdulosange.fr" class="equipe-email">f.bouvat@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <img src="images/avatar/leah.jpg" alt="Leah Guez" class="equipe-avatar">
+                        <h4 class="equipe-name">Leah Guez</h4>
+                        <p class="equipe-role">Chargée de la création & DA</p>
+                        <a href="mailto:l.guez@filmsdulosange.fr" class="equipe-email">l.guez@filmsdulosange.fr</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Production -->
+            <div class="equipe-section">
+                <h3 class="equipe-section-title">Production</h3>
+                <div class="equipe-grid">
+                    <div class="equipe-card">
+                        <h4 class="equipe-name">Léna Corban</h4>
+                        <a href="mailto:l.corban@filmsdulosange.fr" class="equipe-email">l.corban@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <h4 class="equipe-name">Michèle Nguyen</h4>
+                        <a href="mailto:m.nguyen@filmsdulosange.fr" class="equipe-email">m.nguyen@filmsdulosange.fr</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Administration & Finances -->
+            <div class="equipe-section">
+                <h3 class="equipe-section-title">Administration & Finances</h3>
+                <div class="equipe-grid">
+                    <div class="equipe-card">
+                        <img src="images/avatar/coline.jpg" alt="Coline Lalaut" class="equipe-avatar">
+                        <h4 class="equipe-name">Coline Lalaut</h4>
+                        <a href="mailto:c.lalaut@filmsdulosange.fr" class="equipe-email">c.lalaut@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <h4 class="equipe-name">Julie Histremont</h4>
+                        <a href="mailto:j.histrimont@filmsdulosange.fr" class="equipe-email">j.histrimont@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <h4 class="equipe-name">Jamila Saker</h4>
+                        <a href="mailto:j.saker@filmsdulosange.fr" class="equipe-email">j.saker@filmsdulosange.fr</a>
+                    </div>
+                    <div class="equipe-card">
+                        <h4 class="equipe-name">Pierre Michelet</h4>
+                        <a href="mailto:p.michelet@filmsdulosange.fr" class="equipe-email">p.michelet@filmsdulosange.fr</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technique -->
+            <div class="equipe-section">
+                <h3 class="equipe-section-title">Technique</h3>
+                <div class="equipe-grid">
+                    <div class="equipe-card">
+                        <img src="images/avatar/lise.jpg" alt="Lise Zipci" class="equipe-avatar">
+                        <h4 class="equipe-name">Lise Zipci</h4>
+                        <p class="equipe-role">Technical Manager</p>
+                        <a href="mailto:l.zipci@filmsdulosange.fr" class="equipe-email">l.zipci@filmsdulosange.fr</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-main">
+            <div class="footer-col">
+                <h4>le losange</h4>
+                <a href="about.html">à propos</a>
+                <a href="contact.html">contact</a>
+                <a href="logos/LOGOS LES FILMS DU LOSANGE.zip" download>logos</a>
+            </div>
+            <div class="footer-col">
+                <h4>contact</h4>
+                <p class="footer-address">7-9 rue des petites écuries<br>75010 Paris</p>
+                <p class="footer-phone">t. +33 1 44 43 87 10</p>
+                <a href="mailto:contact@filmsdulosange.fr">contact@filmsdulosange.fr</a>
+            </div>
+            <div class="footer-col">
+                <h4>suivez-nous</h4>
+                <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+                <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+                <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>newsletter</h4>
+                <p>restez informé·e des actualités du losange</p>
+                <form class="footer-newsletter-form">
+                    <input type="email" id="footer-newsletter-email" name="email" placeholder="votre email">
+                    <button type="submit">s'inscrire</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-copyright">© 2025 les films du losange</span>
+            <div class="footer-links">
+                <a href="#">mentions légales</a>
+                <a href="#">politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -3,6 +3,7 @@
     {
       "index": 0,
       "active": true,
+      "slug": "fathermothersisterbrother.html",
       "image": "images/films/father mother sister brother/004_FMSB_© Vague Notion 2024_Frederick Elmes.jpeg",
       "alt": "Father Mother Sister Brother",
       "tag": "actuellement en salles",
@@ -15,7 +16,8 @@
     {
       "index": 1,
       "active": false,
-      "image": "images/films/downloaded/victor.jpg",
+      "slug": "victor-comme-tout-le-monde.html",
+      "image": "images/films/Victor-vélo.jpg",
       "alt": "Victor comme tout le monde",
       "tag": "le 11 mars au cinéma",
       "title": "VICTOR<br>COMME TOUT LE MONDE",
@@ -27,6 +29,7 @@
     {
       "index": 2,
       "active": false,
+      "slug": "raymond-depardon-cineaste.html",
       "image": "images/films/depardon.jpg",
       "alt": "Raymond Depardon Cinéaste",
       "tag": "actuellement en salles",
@@ -39,7 +42,8 @@
     {
       "index": 3,
       "active": false,
-      "image": "images/films/downloaded/cri-des-gardes.jpg",
+      "slug": "le-cri-des-gardes.html",
+      "image": "images/films/cridesgardes.jpg",
       "alt": "Le Cri des Gardes",
       "tag": "le 8 avril au cinéma",
       "title": "LE CRI DES GARDES",

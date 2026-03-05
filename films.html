@@ -7,6 +7,14 @@
     <meta name="description" content="Découvrez tous les films distribués et produits par Les Films du Losange - Distribution, Production, Ventes Internationales">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MVM86CRDW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6MVM86CRDW');
+    </script>
 </head>
 <body class="page-films">
     <!-- Header fixe -->
@@ -17,6 +25,7 @@
                 <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.5"/>
                 <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="1.5"/>
             </svg>
+            <span class="header-menu-label">MENU / FILMS</span>
         </button>
         
         <a href="index.html" class="header-logo">
@@ -39,22 +48,23 @@
             </svg>
         </button>
         <div class="menu-content">
-            <a href="films.html" class="menu-link active">films à venir</a>
-            <a href="catalogue.html" class="menu-link">catalogue</a>
+            <a href="films.html" class="menu-link active">nouveautés</a>
+            <a href="collections-cineaste.html" class="menu-link">collections</a>
             <a href="actualites.html" class="menu-link">actualités</a>
-            <a href="streaming.html" class="menu-link">en streaming</a>
+            <a href="streaming.html" class="menu-link">à voir en ligne</a>
             <a href="https://depardoncineaste.com" class="menu-link">depardon cinéaste</a>
-            <a href="about.html" class="menu-link">à propos</a>
+            <a href="contact.html" class="menu-link">contact</a>
         </div>
         <div class="menu-footer">
             <div class="menu-social">
                 <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
                 <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
                 <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
             </div>
             <div class="menu-newsletter">
                 <span>newsletter</span>
-                <input type="email" placeholder="votre email">
+                <input type="email" id="menu-newsletter-email" name="email" placeholder="votre email">
                 <button class="menu-newsletter-btn">s'inscrire</button>
             </div>
         </div>
@@ -63,7 +73,7 @@
     <!-- Search overlay -->
     <div class="search-overlay">
         <div class="search-container">
-            <input type="text" class="search-input" placeholder="rechercher un film, un réalisateur...">
+            <input type="text" id="site-search" name="q" class="search-input" placeholder="rechercher un film, un réalisateur...">
             <button class="search-close" aria-label="Fermer">
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
                     <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
@@ -84,22 +94,42 @@
 
     <!-- Page Header -->
     <section class="page-header">
-        <h1 class="page-title">FILMS</h1>
-        <p class="page-subtitle">distribution • production • ventes internationales</p>
+        <h1 class="page-title">NOUVEAUTÉS</h1>
     </section>
 
-    <!-- Section Films -->
+    <!-- Section Films (grille par catégorie : distribution / ventes / production) -->
     <section id="films" class="films-section films-page">
-        <!-- Actuellement au cinéma -->
-        <div class="films-status-section">
-            <h2 class="films-status-title">Actuellement au cinéma</h2>
-            <div class="films-grid" data-status="actuellement"></div>
+        <div class="catalogue-nav-section films-page-nav">
+            <div class="catalogue-nav">
+                <button type="button" class="catalogue-nav-link active" data-films-category="distribution">distribution</button>
+                <button type="button" class="catalogue-nav-link" data-films-category="ventes internationales">ventes internationales</button>
+                <button type="button" class="catalogue-nav-link" data-films-category="production">production</button>
+            </div>
         </div>
-
-        <!-- Prochainement -->
-        <div class="films-status-section">
-            <h2 class="films-status-title">Prochainement</h2>
-            <div class="films-grid" data-status="prochainement"></div>
+        <div class="films-page-inner">
+            <!-- Onglet Distribution : actuellement / prochainement -->
+            <div class="films-page-category active" data-category="distribution">
+                <div class="films-status-section">
+                    <h2 class="films-status-title">Actuellement au cinéma</h2>
+                    <div class="films-grid" data-status="actuellement" data-category="distribution"></div>
+                </div>
+                <div class="films-status-section">
+                    <h2 class="films-status-title">Prochainement</h2>
+                    <div class="films-grid" data-status="prochainement" data-category="distribution"></div>
+                </div>
+            </div>
+            <!-- Onglet Ventes internationales : tri par date décroissante -->
+            <div class="films-page-category" data-category="ventes internationales">
+                <div class="films-status-section">
+                    <div class="films-grid" data-category="ventes internationales"></div>
+                </div>
+            </div>
+            <!-- Onglet Production : tri par date décroissante -->
+            <div class="films-page-category" data-category="production">
+                <div class="films-status-section">
+                    <div class="films-grid" data-category="production"></div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -109,7 +139,8 @@
             <div class="footer-col">
                 <h4>le losange</h4>
                 <a href="about.html">à propos</a>
-                <a href="equipe.html">équipe</a>
+                <a href="contact.html">contact</a>
+                <a href="logos/LOGOS LES FILMS DU LOSANGE.zip" download>logos</a>
             </div>
             <div class="footer-col">
                 <h4>contact</h4>
@@ -122,12 +153,13 @@
                 <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
                 <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
                 <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
             </div>
             <div class="footer-newsletter">
                 <h4>newsletter</h4>
                 <p>restez informé·e des actualités du losange</p>
                 <form class="footer-newsletter-form">
-                    <input type="email" placeholder="votre email">
+                    <input type="email" id="footer-newsletter-email" name="email" placeholder="votre email">
                     <button type="submit">s'inscrire</button>
                 </form>
             </div>

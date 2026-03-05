@@ -7,6 +7,14 @@
     <meta name="description" content="Découvrez l'histoire des Films du Losange, société de production et distribution de cinéma d'auteur depuis 1962.">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MVM86CRDW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6MVM86CRDW');
+    </script>
 </head>
 <body class="page-about">
     <!-- Header fixe -->
@@ -17,6 +25,7 @@
                 <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.5"/>
                 <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="1.5"/>
             </svg>
+            <span class="header-menu-label">MENU / FILMS</span>
         </button>
         
         <a href="index.html" class="header-logo">
@@ -39,22 +48,23 @@
             </svg>
         </button>
         <div class="menu-content">
-            <a href="films.html" class="menu-link">films à venir</a>
-            <a href="catalogue.html" class="menu-link">catalogue</a>
+            <a href="films.html" class="menu-link">nouveautés</a>
+            <a href="collections-cineaste.html" class="menu-link">collections</a>
             <a href="actualites.html" class="menu-link">actualités</a>
-            <a href="streaming.html" class="menu-link">en streaming</a>
+            <a href="streaming.html" class="menu-link">à voir en ligne</a>
             <a href="https://depardoncineaste.com" class="menu-link">depardon cinéaste</a>
-            <a href="about.html" class="menu-link active">à propos</a>
+            <a href="contact.html" class="menu-link">contact</a>
         </div>
         <div class="menu-footer">
             <div class="menu-social">
                 <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
                 <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
                 <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
             </div>
             <div class="menu-newsletter">
                 <span>newsletter</span>
-                <input type="email" placeholder="votre email">
+                <input type="email" id="menu-newsletter-email" name="email" placeholder="votre email">
                 <button class="menu-newsletter-btn">s'inscrire</button>
             </div>
         </div>
@@ -63,7 +73,7 @@
     <!-- Search overlay -->
     <div class="search-overlay">
         <div class="search-container">
-            <input type="text" class="search-input" placeholder="rechercher un film, un réalisateur...">
+            <input type="text" id="site-search" name="q" class="search-input" placeholder="rechercher un film, un réalisateur...">
             <button class="search-close" aria-label="Fermer">
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
                     <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
@@ -98,11 +108,11 @@
             <div class="about-text-content">
                 <p>Créée en 1962 par Barbet Schroeder pour produire les films d'Eric Rohmer, Les Films du Losange ont toujours accompagné des réalisateurs du monde entier. Margaret Menegoz, productrice, a dirigé la société de 1975 à 2021.</p>
 
-                <p>Alexis Dantec et Charles Gillibert forment la nouvelle direction de la société, respectivement directeur général et président. C'est avec passion et persévérance que la société continue de se développer et diversifier, de la production à la distribution, aux ventes à l'international et au développement de notre catalogue.</p>
+                <p>Alexis Dantec et Charles Gillibert forment la nouvelle direction de la société, respectivement directeur général et président. C'est avec passion et persévérance que la société continue de se développer et diversifier, de la production à la distribution, aux ventes à l'international et au développement de notre collection.</p>
 
-                <p>Notre catalogue rassemble plus de 325 longs métrages, réalisés par des auteurs prestigieux, dont Eric Rohmer, Barbet Schroeder, Jacques Rivette, Jean-Luc Godard, Jean Eustache, Wim Wenders, Roger Planchon, Jean-Claude Brisseau, Romain Goupil, Jean-Marc Moutout et Michael Haneke (Palme d'or 2009 pour Le Ruban Blanc, Palme d'or 2012 et Oscar du Meilleur Film étranger 2013 pour Amour)… Ces films ont été restaurés et numérisés en 2k ou 4k.</p>
+                <p>Notre collection rassemble plus de 325 longs métrages, réalisés par des auteurs prestigieux, dont Eric Rohmer, Barbet Schroeder, Jacques Rivette, Jean-Luc Godard, Jean Eustache, Wim Wenders, Roger Planchon, Jean-Claude Brisseau, Romain Goupil, Jean-Marc Moutout et Michael Haneke (Palme d'or 2009 pour Le Ruban Blanc, Palme d'or 2012 et Oscar du Meilleur Film étranger 2013 pour Amour)… Ces films ont été restaurés et numérisés en 2k ou 4k.</p>
 
-                <p>La distribution, confiée à Régine Vial depuis 1986 et les ventes internationales à Alice Lesort, ont élargi le catalogue à d'autres œuvres cinématographiques : les films de Lars von Trier, Christian Petzold, Ronit et Shlomi Elkabetz, Otar Iosseliani, Nicolas Philibert, Olivier Assayas, Léos Carax, Alain Guiraudie, Mia Hansen-Løve…</p>
+                <p>La distribution, confiée à Régine Vial depuis 1986 et les ventes internationales à Alice Lesort, ont élargi la collection à d'autres œuvres cinématographiques : les films de Lars von Trier, Christian Petzold, Ronit et Shlomi Elkabetz, Otar Iosseliani, Nicolas Philibert, Olivier Assayas, Léos Carax, Alain Guiraudie, Mia Hansen-Løve…</p>
 
                 <p>Et c'est toujours avec la même fidélité et le même engagement que nous poursuivons notre volonté de découvertes à travers la production et distribution de nouveaux auteurs.</p>
             </div>
@@ -110,10 +120,10 @@
             <div class="about-stats-section">
                 <div class="about-stat-item">
                     <span class="stat-number">325+</span>
-                    <span class="stat-label">films au catalogue</span>
+                    <span class="stat-label">films en collection</span>
                 </div>
                 <div class="about-stat-item">
-                    <span class="stat-number">2</span>
+                    <span class="stat-number">3</span>
                     <span class="stat-label">palmes d'or</span>
                 </div>
                 <div class="about-stat-item">
@@ -130,7 +140,8 @@
             <div class="footer-col">
                 <h4>le losange</h4>
                 <a href="about.html">à propos</a>
-                <a href="equipe.html">équipe</a>
+                <a href="contact.html">contact</a>
+                <a href="logos/LOGOS LES FILMS DU LOSANGE.zip" download>logos</a>
             </div>
             <div class="footer-col">
                 <h4>contact</h4>
@@ -143,12 +154,13 @@
                 <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
                 <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
                 <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
             </div>
             <div class="footer-newsletter">
                 <h4>newsletter</h4>
                 <p>restez informé·e des actualités du losange</p>
                 <form class="footer-newsletter-form">
-                    <input type="email" placeholder="votre email">
+                    <input type="email" id="footer-newsletter-email" name="email" placeholder="votre email">
                     <button type="submit">s'inscrire</button>
                 </form>
             </div>
@@ -165,4 +177,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-

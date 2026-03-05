@@ -8,8 +8,16 @@
     <!-- Favicon à remplacer par une image carrée du losange -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MVM86CRDW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6MVM86CRDW');
+    </script>
 </head>
-<body>
+<body class="page-home">
     <!-- Header fixe -->
     <header class="header header-dark">
         <button class="header-btn menu-btn" aria-label="Menu">
@@ -18,6 +26,7 @@
                 <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.5"/>
                 <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="1.5"/>
             </svg>
+            <span class="header-menu-label">MENU / FILMS</span>
         </button>
         
         <a href="index.html" class="header-logo">
@@ -40,22 +49,23 @@
             </svg>
         </button>
         <div class="menu-content">
-            <a href="films.html" class="menu-link">films à venir</a>
-            <a href="catalogue.html" class="menu-link">catalogue</a>
+            <a href="films.html" class="menu-link">nouveautés</a>
+            <a href="collections-cineaste.html" class="menu-link">collections</a>
             <a href="actualites.html" class="menu-link">actualités</a>
-            <a href="streaming.html" class="menu-link">en streaming</a>
+            <a href="streaming.html" class="menu-link">à voir en ligne</a>
             <a href="https://depardoncineaste.com" class="menu-link">depardon cinéaste</a>
-            <a href="about.html" class="menu-link">à propos</a>
+            <a href="contact.html" class="menu-link">contact</a>
         </div>
         <div class="menu-footer">
             <div class="menu-social">
                 <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
                 <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
                 <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
             </div>
             <div class="menu-newsletter">
                 <span>newsletter</span>
-                <input type="email" placeholder="votre email">
+                <input type="email" id="menu-newsletter-email" name="email" placeholder="votre email">
                 <button class="menu-newsletter-btn">s'inscrire</button>
             </div>
         </div>
@@ -64,7 +74,7 @@
     <!-- Search overlay -->
     <div class="search-overlay">
         <div class="search-container">
-            <input type="text" class="search-input" placeholder="rechercher un film, un réalisateur...">
+            <input type="text" id="site-search" name="q" class="search-input" placeholder="rechercher un film, un réalisateur...">
             <button class="search-close" aria-label="Fermer">
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
                     <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
@@ -83,7 +93,7 @@
         </div>
     </div>
 
-                                                                <!-- Hero Carousel - Films actuels et à venir -->
+        <!-- Hero Carousel - Films actuels et à venir -->
     <section class="hero-carousel">
         <div class="carousel-container">
             <!-- Father Mother Sister Brother -->
@@ -104,7 +114,7 @@
             <a href="victor-comme-tout-le-monde.html" class="carousel-slide-link">
                 <div class="carousel-slide" data-index="1">
                     <div class="slide-background">
-                        <img src="images/films/downloaded/victor.jpg" alt="Victor comme tout le monde">
+                        <img src="images/films/Victor-vélo.jpg" alt="Victor comme tout le monde">
                     </div>
                     <div class="slide-content">
                         <span class="film-tag">le 11 mars au cinéma</span>
@@ -132,7 +142,7 @@
             <a href="le-cri-des-gardes.html" class="carousel-slide-link">
                 <div class="carousel-slide" data-index="3">
                     <div class="slide-background">
-                        <img src="images/films/downloaded/cri-des-gardes.jpg" alt="Le Cri des Gardes">
+                        <img src="images/films/cridesgardes.jpg" alt="Le Cri des Gardes">
                     </div>
                     <div class="slide-content">
                         <span class="film-tag">le 8 avril au cinéma</span>
@@ -159,92 +169,104 @@
         </div>
     </section>
 
-    <!-- Section News / Articles -->
-    <section id="actualites" class="news-section">
-        <div class="news-header">
-            <h2 class="section-title">ACTUALITÉS</h2>
-            <a href="actualites.html" class="see-all-link">voir toutes les actualités →</a>
+    <!-- Section Films récents par catégorie -->
+    <section class="home-films-section">
+        <div class="catalogue-nav-section home-films-nav">
+            <div class="catalogue-nav">
+                <button type="button" class="catalogue-nav-link active" data-home-category="distribution">distribution</button>
+                <button type="button" class="catalogue-nav-link" data-home-category="ventes internationales">ventes internationales</button>
+                <button type="button" class="catalogue-nav-link" data-home-category="production">production</button>
+            </div>
         </div>
-        
-        <article class="news-block">
-            <a href="#" class="news-card">
-                <div class="news-image">
-                    <img src="images/films/downloaded/resurrection.jpg" alt="Résurrection sort en salles">
-                </div>
-                <div class="news-info">
-                    <span class="news-date">10 décembre 2025</span>
-                    <h3 class="news-title">RÉSURRECTION, LE NOUVEAU FILM DE Bi Gan, SORT AUJOURD'HUI EN SALLES</h3>
-                    <p class="news-excerpt">après le succès de "Un grand voyage vers la nuit", Bi Gan revient avec une œuvre hypnotique qui repousse les frontières du cinéma contemplatif...</p>
-                    <span class="news-cta">lire l'article →</span>
-                </div>
-            </a>
-        </article>
+        <div class="home-films-inner">
+            <div class="home-films-category active" data-category="distribution">
+                <div class="films-grid home-films-grid" data-category="distribution"></div>
+                <p class="home-films-all-link-wrap">
+                    <a href="films.html#distribution" class="home-films-all-link">voir tous les films en distribution</a>
+                </p>
+            </div>
 
-        <article class="news-block">
-            <a href="#" class="news-card">
-                <div class="news-image">
-                    <img src="images/films/father mother sister brother/004_FMSB_© Vague Notion 2024_Frederick Elmes.jpeg" alt="Jim Jarmusch Lion d'Or">
-                </div>
-                <div class="news-info">
-                    <span class="news-date">8 septembre 2025</span>
-                    <h3 class="news-title">FATHER MOTHER SISTER BROTHER REMPORTE LE LION D'OR À LA MOSTRA DE VENISE</h3>
-                    <p class="news-excerpt">le nouveau film de Jim Jarmusch a été couronné du prestigieux Lion d'Or lors de la 82ème Mostra de Venise. Une consécration pour le cinéaste américain...</p>
-                    <span class="news-cta">lire l'article →</span>
-                </div>
-            </a>
-        </article>
+            <div class="home-films-category" data-category="ventes internationales">
+                <div class="films-grid home-films-grid" data-category="ventes internationales"></div>
+                <p class="home-films-all-link-wrap">
+                    <a href="films.html#ventes-internationales" class="home-films-all-link">voir tous les films en ventes internationales</a>
+                </p>
+            </div>
+
+            <div class="home-films-category" data-category="production">
+                <div class="films-grid home-films-grid" data-category="production"></div>
+                <p class="home-films-all-link-wrap">
+                    <a href="films.html#production" class="home-films-all-link">voir tous les films en production</a>
+                </p>
+            </div>
+        </div>
     </section>
 
-    <!-- Section À regarder en streaming -->
-    <section class="watch-now-section">
-        <div class="watch-now-header">
-            <div class="watch-now-label">à regarder en streaming</div>
-            <a href="streaming.html" class="see-all-link">tous les films en streaming →</a>
-        </div>
-        <a href="https://boutique.arte.tv/detail/melancholia" target="_blank" class="watch-now-card">
-            <div class="watch-now-video">
-                <img src="images/films/melancholia-lars-von-trier.jpg" alt="Melancholia - Lars von Trier">
-                <div class="play-overlay">
-                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none">
-                        <circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="1"/>
-                        <path d="M10 8v8l6-4-6-4z" fill="currentColor"/>
-                    </svg>
-                </div>
-                <span class="streaming-badge">disponible sur ARTE</span>
-            </div>
-            <div class="watch-now-info">
-                <h2 class="watch-now-title">MELANCHOLIA</h2>
-                <p class="watch-now-meta">Kirsten Dunst • Charlotte Gainsbourg • Kiefer Sutherland</p>
-                <span class="watch-now-director">un film de Lars von Trier</span>
-                <span class="watch-now-award">🏆 Prix d'interprétation féminine • Cannes 2011</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- Section Séances -->
+    <!-- Section Trouver une séance (mini-sites par film) -->
     <section class="showtimes-section">
         <div class="showtimes-inner">
             <div class="showtimes-header">
-                <h2 class="showtimes-title">TROUVER UNE SÉANCE</h2>
-                <p class="showtimes-subtitle">découvrez où voir nos films près de chez vous</p>
+                <h2 class="showtimes-title">Trouver une séance <em>près de chez vous</em></h2>
             </div>
-            <form class="showtimes-search" id="showtimes-form">
-                <select class="showtimes-select" id="film-select">
+            <div class="showtimes-picker">
+                <div class="showtimes-dropdown" id="showtimes-dropdown">
+                    <button type="button" class="showtimes-dropdown-trigger" id="showtimes-dropdown-trigger" aria-haspopup="listbox" aria-expanded="false" aria-label="Choisir un film">
+                        <svg class="showtimes-dropdown-loupe" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+                            <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <span class="showtimes-dropdown-label">Choisir un film...</span>
+                        <svg class="showtimes-dropdown-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+                    </button>
+                    <div class="showtimes-dropdown-list" id="showtimes-dropdown-list" role="listbox" hidden></div>
+                </div>
+                <select class="showtimes-select visually-hidden" id="showtimes-film-select" aria-label="Choisir un film" tabindex="-1">
                     <option value="">choisir un film</option>
-                    <option value="319858">Résurrection — Bi Gan</option>
-                    <option value="326117">Father Mother Sister Brother — Jim Jarmusch</option>
-                    <option value="1000021956">Victor comme tout le monde — Pascal Bonitzer</option>
-                    <option value="327653">Le Cri des Gardes — Claire Denis</option>
+                    <!-- Nouveaux films : ajouter une option avec value="URL du mini-site /showtimes/..." et data-clip-offset="-400" (ou autre si maquette différente). Le cadrage s'applique automatiquement. -->
+                    <option value="https://father-mother-sister-brother.lefilm.co/showtimes/#showtimes" data-clip-offset="-400">Father Mother Sister Brother — Jim Jarmusch</option>
+                    <option value="https://victor-comme-tout-le-monde.lefilm.co/showtimes/?starts_at=1770076800000" data-clip-offset="-750">Victor, comme tout le monde — Pascal Bonitzer</option>
                 </select>
-                <input type="text" class="showtimes-input" id="city-input" placeholder="votre ville ou code postal...">
-                <button type="submit" class="showtimes-btn">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
-                        <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2"/>
-                    </svg>
-                </button>
-            </form>
-            <p class="showtimes-credit">séances via <a href="https://www.allocine.fr" target="_blank">Allociné</a></p>
+            </div>
+            <!-- Overlay (fond assombri) quand la 2e bulle est ouverte -->
+            <div class="showtimes-bubble-overlay" id="showtimes-bubble-overlay" aria-hidden="true" hidden></div>
+            <!-- Deuxième bulle : séances (s'ouvre élégamment au clic, style Airbnb) -->
+            <div class="showtimes-embed-wrapper showtimes-bubble" id="showtimes-embed-wrapper" hidden>
+                <div class="showtimes-iframe-clip" id="showtimes-iframe-clip">
+                    <iframe id="showtimes-iframe" class="showtimes-iframe" title="Séances du film"></iframe>
+                </div>
+                <a id="showtimes-open-link" class="showtimes-open-link" href="#" target="_blank" rel="noopener">ouvrir le site des séances dans un nouvel onglet</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Actualités (chargée depuis data/actualites.json, tri par date, slider) -->
+    <section id="actualites" class="news-section">
+        <div class="news-header">
+            <h2 class="section-title news-section-title">actualités</h2>
+        </div>
+        <div class="news-slider-wrapper">
+            <button type="button" class="news-slider-btn news-slider-prev" aria-label="Actualités précédentes">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+            </button>
+            <div class="news-slider-track-container">
+                <div class="news-slider-track"></div>
+            </div>
+            <button type="button" class="news-slider-btn news-slider-next" aria-label="Actualités suivantes">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2"/></svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Section À voir en ligne – mise en avant du moment (chargée depuis data/streaming_spotlight.json) -->
+    <section class="watch-now-section">
+        <div class="watch-now-inner">
+            <div class="watch-now-header watch-now-header-centered">
+                <h2 class="watch-now-section-title">À voir en ligne</h2>
+            </div>
+            <p class="watch-now-see-all-wrap">
+                <a href="streaming.html" class="watch-now-see-all-link">tous les films disponibles →</a>
+            </p>
+            <div id="streaming-spotlight" class="streaming-spotlight-wrap"></div>
         </div>
     </section>
 
@@ -262,7 +284,8 @@
             <div class="footer-col">
                 <h4>le losange</h4>
                 <a href="about.html">à propos</a>
-                <a href="equipe.html">équipe</a>
+                <a href="contact.html">contact</a>
+                <a href="logos/LOGOS LES FILMS DU LOSANGE.zip" download>logos</a>
             </div>
             <div class="footer-col">
                 <h4>contact</h4>
@@ -275,12 +298,13 @@
                 <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
                 <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
                 <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
             </div>
             <div class="footer-newsletter">
                 <h4>newsletter</h4>
                 <p>restez informé·e des actualités du losange</p>
                 <form class="footer-newsletter-form">
-                    <input type="email" placeholder="votre email">
+                    <input type="email" id="footer-newsletter-email" name="email" placeholder="votre email">
                     <button type="submit">s'inscrire</button>
                 </form>
             </div>

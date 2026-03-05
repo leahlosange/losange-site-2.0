@@ -1,0 +1,5 @@
+# Redirections catalogue → collections (rétrocompatibilité)
+/catalogue.html /collections-cineaste.html 302
+/catalogue-cineaste.html /collections-cineaste.html 302
+/catalogue-thematique.html /collections-thematique.html 302
+/catalogue-tous.html /collections-tous.html 302

@@ -1,0 +1,17 @@
+{
+  "comment": "Mise en avant du moment : film(s) du catalogue (ou hors catalogue) actuellement en SVOD avec lien direct vers la plateforme. slug = optionnel, pour lier à la fiche film. Si pas de slug : fournir title, director, image, etc.",
+  "spotlight": [
+    {
+      "slug": "",
+      "title": "The Rider",
+      "director": "un film de Chloé Zhao",
+      "meta": "Brady Jandreau, Tim Jandreau, Lilly Jandreau",
+      "image": "images/films/therider.webp",
+      "award": "Quinzaine des réalisateurs Cannes 2017 • Grand prix Deauville",
+      "svod_platform": "France TV",
+      "svod_url": "https://www.france.tv/films/films-drame/8119746-the-rider.html",
+      "platform_logo": "logos/FranceTv.png",
+      "badge_label": "disponible sur France TV"
+    }
+  ]
+}

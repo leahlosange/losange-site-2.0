@@ -7,6 +7,14 @@
     <meta name="description" content="Toutes les actualités des Films du Losange - Sorties en salles, festivals, récompenses et événements.">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MVM86CRDW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6MVM86CRDW');
+    </script>
 </head>
 <body class="page-actualites">
     <!-- Header fixe -->
@@ -17,6 +25,7 @@
                 <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.5"/>
                 <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="1.5"/>
             </svg>
+            <span class="header-menu-label">MENU / FILMS</span>
         </button>
         
         <a href="index.html" class="header-logo">
@@ -39,22 +48,23 @@
             </svg>
         </button>
         <div class="menu-content">
-            <a href="films.html" class="menu-link">films à venir</a>
-            <a href="catalogue.html" class="menu-link">catalogue</a>
+            <a href="films.html" class="menu-link">nouveautés</a>
+            <a href="collections-cineaste.html" class="menu-link">collections</a>
             <a href="actualites.html" class="menu-link active">actualités</a>
-            <a href="streaming.html" class="menu-link">en streaming</a>
+            <a href="streaming.html" class="menu-link">à voir en ligne</a>
             <a href="https://depardoncineaste.com" class="menu-link">depardon cinéaste</a>
-            <a href="about.html" class="menu-link">à propos</a>
+            <a href="contact.html" class="menu-link">contact</a>
         </div>
         <div class="menu-footer">
             <div class="menu-social">
                 <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
                 <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
                 <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
             </div>
             <div class="menu-newsletter">
                 <span>newsletter</span>
-                <input type="email" placeholder="votre email">
+                <input type="email" id="menu-newsletter-email" name="email" placeholder="votre email">
                 <button class="menu-newsletter-btn">s'inscrire</button>
             </div>
         </div>
@@ -63,7 +73,7 @@
     <!-- Search overlay -->
     <div class="search-overlay">
         <div class="search-container">
-            <input type="text" class="search-input" placeholder="rechercher un film, un réalisateur...">
+            <input type="text" id="site-search" name="q" class="search-input" placeholder="rechercher un film, un réalisateur...">
             <button class="search-close" aria-label="Fermer">
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
                     <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
@@ -88,122 +98,12 @@
         <p class="page-subtitle">sorties • festivals • événements</p>
     </section>
 
-    <!-- Section Actualités -->
+    <!-- Section Actualités (chargée depuis data/actualites.json) -->
     <section class="actualites-page">
         <div class="actualites-container">
-            
-            <!-- Article à la une -->
-            <article class="news-featured">
-                <a href="#" class="news-featured-link">
-                    <div class="news-featured-image">
-                        <img src="images/films/downloaded/resurrection.jpg" alt="Résurrection sort en salles">
-                    </div>
-                    <div class="news-featured-content">
-                        <span class="news-category">sortie en salles</span>
-                        <span class="news-date">10 décembre 2025</span>
-                        <h2 class="news-featured-title">RÉSURRECTION, LE NOUVEAU FILM DE Bi Gan, SORT AUJOURD'HUI EN SALLES</h2>
-                        <p class="news-featured-excerpt">
-                            Après le succès de "Un grand voyage vers la nuit", Bi Gan revient avec une œuvre hypnotique qui repousse les frontières du cinéma contemplatif. Résurrection explore les thèmes de la mémoire, du temps et de la perte à travers une narration visuelle envoûtante.
-                        </p>
-                        <span class="news-cta">lire l'article →</span>
-                    </div>
-                </a>
-            </article>
-
-            <!-- Grille d'articles -->
-            <div class="news-grid">
-                <article class="news-card-item">
-                    <a href="#">
-                        <div class="news-card-image">
-                            <img src="images/films/father mother sister brother/004_FMSB_© Vague Notion 2024_Frederick Elmes.jpeg" alt="Jim Jarmusch Lion d'Or">
-                        </div>
-                        <div class="news-card-content">
-                            <span class="news-category">festival</span>
-                            <span class="news-date">8 septembre 2025</span>
-                            <h3 class="news-card-title">FATHER MOTHER SISTER BROTHER REMPORTE LE LION D'OR À VENISE</h3>
-                            <p class="news-card-excerpt">Le nouveau film de Jim Jarmusch a été couronné du prestigieux Lion d'Or lors de la 82ème Mostra de Venise.</p>
-                        </div>
-                    </a>
-                </article>
-
-                <article class="news-card-item">
-                    <a href="#">
-                        <div class="news-card-image">
-                            <img src="images/films/downloaded/depardon.jpg" alt="Rétrospective Depardon">
-                        </div>
-                        <div class="news-card-content">
-                            <span class="news-category">rétrospective</span>
-                            <span class="news-date">15 novembre 2025</span>
-                            <h3 class="news-card-title">RAYMOND DEPARDON CINÉASTE : UNE RÉTROSPECTIVE INTÉGRALE</h3>
-                            <p class="news-card-excerpt">Découvrez l'intégralité de l'œuvre du photographe et cinéaste Raymond Depardon dans une rétrospective événement.</p>
-                        </div>
-                    </a>
-                </article>
-
-                <article class="news-card-item">
-                    <a href="#">
-                        <div class="news-card-image">
-                            <img src="images/films/downloaded/victor.jpg" alt="Victor comme tout le monde">
-                        </div>
-                        <div class="news-card-content">
-                            <span class="news-category">annonce</span>
-                            <span class="news-date">20 octobre 2025</span>
-                            <h3 class="news-card-title">VICTOR COMME TOUT LE MONDE : PREMIER APERÇU DU NOUVEAU Pascal Bonitzer</h3>
-                            <p class="news-card-excerpt">Les premières images du nouveau film de Pascal Bonitzer viennent d'être dévoilées.</p>
-                        </div>
-                    </a>
-                </article>
-
-                <article class="news-card-item">
-                    <a href="#">
-                        <div class="news-card-image">
-                            <img src="images/catalogue/downloaded/amour.jpg" alt="Amour restauré">
-                        </div>
-                        <div class="news-card-content">
-                            <span class="news-category">restauration</span>
-                            <span class="news-date">5 octobre 2025</span>
-                            <h3 class="news-card-title">AMOUR DE Michael Haneke RESSORT EN VERSION RESTAURÉE 4K</h3>
-                            <p class="news-card-excerpt">Le chef-d'œuvre de Michael Haneke, Palme d'Or 2012 et Oscar du Meilleur Film Étranger, ressort en salles.</p>
-                        </div>
-                    </a>
-                </article>
-
-                <article class="news-card-item">
-                    <a href="#">
-                        <div class="news-card-image">
-                            <img src="https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-chronology-vf.jpg" alt="The Chronology of Water">
-                        </div>
-                        <div class="news-card-content">
-                            <span class="news-category">sortie en salles</span>
-                            <span class="news-date">25 septembre 2025</span>
-                            <h3 class="news-card-title">THE CHRONOLOGY OF WATER : LES DÉBUTS DE Kristen Stewart DERRIÈRE LA CAMÉRA</h3>
-                            <p class="news-card-excerpt">L'actrice américaine signe un premier film remarqué, adaptation du récit autobiographique de Lidia Yuknavitch.</p>
-                        </div>
-                    </a>
-                </article>
-
-                <article class="news-card-item">
-                    <a href="#">
-                        <div class="news-card-image">
-                            <img src="https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-6-jours-vf-1.jpg" alt="Six Jours ce printemps-là">
-                        </div>
-                        <div class="news-card-content">
-                            <span class="news-category">sortie en salles</span>
-                            <span class="news-date">10 septembre 2025</span>
-                            <h3 class="news-card-title">SIX JOURS, CE PRINTEMPS-LÀ : Joachim Lafosse DE RETOUR</h3>
-                            <p class="news-card-excerpt">Le réalisateur belge revient avec un nouveau drame familial intense et bouleversant.</p>
-                        </div>
-                    </a>
-                </article>
-            </div>
-
-            <!-- Pagination -->
-            <div class="news-pagination">
-                <span class="pagination-current">1</span>
-                <a href="#" class="pagination-link">2</a>
-                <a href="#" class="pagination-link">3</a>
-                <a href="#" class="pagination-next">suivant →</a>
-            </div>
+            <div class="actualites-featured-wrap"></div>
+            <div class="news-grid"></div>
+            <div class="news-pagination news-pagination--hidden" aria-hidden="true"></div>
         </div>
     </section>
 
@@ -213,7 +113,8 @@
             <div class="footer-col">
                 <h4>le losange</h4>
                 <a href="about.html">à propos</a>
-                <a href="equipe.html">équipe</a>
+                <a href="contact.html">contact</a>
+                <a href="logos/LOGOS LES FILMS DU LOSANGE.zip" download>logos</a>
             </div>
             <div class="footer-col">
                 <h4>contact</h4>
@@ -226,12 +127,13 @@
                 <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
                 <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
                 <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
             </div>
             <div class="footer-newsletter">
                 <h4>newsletter</h4>
                 <p>restez informé·e des actualités du losange</p>
                 <form class="footer-newsletter-form">
-                    <input type="email" placeholder="votre email">
+                    <input type="email" id="footer-newsletter-email" name="email" placeholder="votre email">
                     <button type="submit">s'inscrire</button>
                 </form>
             </div>

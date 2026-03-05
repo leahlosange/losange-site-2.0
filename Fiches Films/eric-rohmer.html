@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eric Rohmer - Les Films du Losange">
+    <title>Eric Rohmer | Les Films du Losange</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/favicon.png">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MVM86CRDW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6MVM86CRDW');
+    </script>
+</head>
+<body class="page-film-individuel page-cineaste-rohmer">
+    <!-- Header fixe -->
+    <header class="header header-dark">
+        <button class="header-btn menu-btn" aria-label="Menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+            <span class="header-menu-label">MENU / FILMS</span>
+        </button>
+        
+        <a href="../index.html" class="header-logo">
+            <img src="../images/logo épais.png" alt="Les Films du Losange" class="logo-img">
+        </a>
+        
+        <button class="header-btn search-btn" aria-label="Rechercher">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+    </header>
+
+    <!-- Menu plein écran -->
+    <nav class="fullscreen-menu">
+        <button class="menu-close-btn" aria-label="Fermer le menu">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+        <div class="menu-content">
+            <a href="../films.html" class="menu-link">nouveautés</a>
+            <a href="../collections-cineaste.html" class="menu-link">collections</a>
+            <a href="../actualites.html" class="menu-link">actualités</a>
+            <a href="../streaming.html" class="menu-link">à voir en ligne</a>
+            <a href="https://depardoncineaste.com" class="menu-link">depardon cinéaste</a>
+            <a href="../contact.html" class="menu-link">contact</a>
+        </div>
+        <div class="menu-footer">
+            <div class="menu-social">
+                <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+                <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+                <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
+            </div>
+            <div class="menu-newsletter">
+                <span>newsletter</span>
+                <input type="email" id="menu-newsletter-email" name="email" placeholder="votre email">
+                <button class="menu-newsletter-btn">s'inscrire</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search overlay -->
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" id="site-search" name="q" class="search-input" placeholder="rechercher un film, un réalisateur...">
+            <button class="search-close" aria-label="Fermer">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+            </button>
+        </div>
+        <div class="search-suggestions">
+            <span class="search-suggestion-label">suggestions</span>
+            <div class="search-suggestion-tags">
+                <a href="#">Bi Gan</a>
+                <a href="#">Jim Jarmusch</a>
+                <a href="#">Michael Haneke</a>
+                <a href="eric-rohmer.html">Éric Rohmer</a>
+                <a href="#">Mia Hansen-Løve</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="film-page-main">
+        <!-- Header : photo plein cadre, titre en bas à gauche sur l'image -->
+        <section class="film-hero-video cineaste-hero">
+            <div class="film-hero-image">
+                <img src="../images/cineastes/rohmer.JPG" alt="Éric Rohmer">
+            </div>
+            <style>.film-play-btn { display: none; }</style>
+            <div class="film-hero-overlay cineaste-hero-overlay">
+                <h1 class="film-hero-title cineaste-hero-title">Éric Rohmer</h1>
+            </div>
+        </section>
+
+        <!-- Description + voir plus (déroule le paragraphe) -->
+        <section class="film-info-section cineaste-bio-section">
+            <div class="film-info-container">
+                <div class="cineaste-bio-wrap">
+                    <p class="cineaste-bio" data-collapsed="true">
+                        <span class="cineaste-bio-text">Eric Rohmer est l'auteur d'un cinéma de l'économie, réaliste, fait de sagesse et de pureté, devenu un quasi manifeste. Portrait d'un homme discret, d'un cinéaste libre et indépendant.</span>
+                        <button type="button" class="cineaste-voir-plus-btn" aria-expanded="false">voir plus</button>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catégories (collections) + bulle au survol + grilles par collection -->
+        <section class="film-info-section" id="rohmer-collections-section">
+            <div class="film-info-container">
+                <div class="rohmer-categories-wrap">
+                    <div class="rohmer-categories-grid" id="rohmer-categories-grid"></div>
+                    <div class="rohmer-category-tooltip" id="rohmer-category-tooltip" aria-hidden="true">
+                        <div class="rohmer-category-tooltip-content"></div>
+                    </div>
+                </div>
+                <div id="rohmer-collections-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-main">
+            <div class="footer-col">
+                <h4>le losange</h4>
+                <a href="../about.html">à propos</a>
+                <a href="../contact.html">contact</a>
+                <a href="../logos/LOGOS LES FILMS DU LOSANGE.zip" download>logos</a>
+            </div>
+            <div class="footer-col">
+                <h4>contact</h4>
+                <p class="footer-address">7-9 rue des petites écuries<br>75010 Paris</p>
+                <p class="footer-phone">t. +33 1 44 43 87 10</p>
+                <a href="mailto:contact@filmsdulosange.fr">contact@filmsdulosange.fr</a>
+            </div>
+            <div class="footer-col">
+                <h4>suivez-nous</h4>
+                <a href="https://www.instagram.com/filmsdulosange/" target="_blank">instagram</a>
+                <a href="https://www.youtube.com/@filmsdulosange" target="_blank">youtube</a>
+                <a href="https://www.facebook.com/filmslosange" target="_blank">facebook</a>
+                <a href="https://letterboxd.com/filmsdulosange/" target="_blank">letterboxd</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>newsletter</h4>
+                <p>restez informé·e des actualités du losange</p>
+                <form class="footer-newsletter-form">
+                    <input type="email" id="footer-newsletter-email" name="email" placeholder="votre email">
+                    <button type="submit">s'inscrire</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-copyright">© 2025 les films du losange</span>
+            <div class="footer-links">
+                <a href="#">mentions légales</a>
+                <a href="#">politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        // Description : voir plus / voir moins avec déroulement
+        (function() {
+            var wrap = document.querySelector('.cineaste-bio-wrap');
+            var bio = wrap && wrap.querySelector('.cineaste-bio');
+            var btn = wrap && wrap.querySelector('.cineaste-voir-plus-btn');
+            if (!bio || !btn) return;
+            bio.dataset.collapsed = 'true';
+
+            function toggle() {
+                var collapsed = bio.dataset.collapsed === 'true';
+                bio.dataset.collapsed = collapsed ? 'false' : 'true';
+                btn.textContent = collapsed ? 'voir moins' : 'voir plus';
+                btn.setAttribute('aria-expanded', collapsed ? 'true' : 'false');
+            }
+            btn.addEventListener('click', toggle);
+        })();
+
+        // Films d'Éric Rohmer par collection
+        document.addEventListener('DOMContentLoaded', async function() {
+            var container = document.getElementById('rohmer-collections-container');
+            var catsGrid = document.getElementById('rohmer-categories-grid');
+            if (!container) return;
+
+            function norm(s) {
+                return (s || '')
+                    .trim()
+                    .toLowerCase()
+                    .normalize('NFD')
+                    .replace(/[\u0300-\u036f]/g, '')          // accents
+                    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")  // apostrophes typographiques
+                    .replace(/\s+/g, ' ');
+            }
+
+            // Ordre d'affichage dans chaque collection (titres normalisés)
+            var ORDER_CONTES_MORAUX = ['la boulangere de monceau', 'la carriere de suzanne', 'la collectionneuse', 'ma nuit chez maud', 'le genou de claire', 'l\'amour l\'apres-midi', 'lamour lapres-midi'];
+            var ORDER_COMEDIES = ['la femme de l\'aviateur', 'la femme de laviateur', 'le beau mariage', 'pauline a la plage', 'les nuits de la pleine lune', 'le rayon vert', 'l\'ami de mon amie', 'lami de mon amie'];
+            // Ordre chronologique : Printemps (1990) → Hiver (1992) → Été (1996) → Automne (1998)
+            var ORDER_QUATRE_SAISONS = ['conte de printemps', 'conte d\'hiver', 'conte dhiver', 'conte d\'ete', 'conte dete', 'conte d\'automne', 'conte dautomne'];
+
+            var COLLECTIONS = [
+                { id: 'contes-moraux', title: 'Contes moraux', titles: ORDER_CONTES_MORAUX, tooltip: 'Six films où le narrateur hésite entre deux femmes avant de faire son choix. Une structure commune : un homme rencontre une première femme, en croise une seconde, et doit décider. De La Boulangère de Monceau à L\'Amour l\'après-midi.' },
+                { id: 'comedies-proverbes', title: 'Comédies & proverbes', titles: ORDER_COMEDIES, tooltip: 'Une série de comédies légères inspirées de proverbes. Chaque film explore une maxime populaire à travers les aventures sentimentales et les dilemmes de personnages ordinaires. De La Femme de l\'aviateur à L\'Ami de mon amie.' },
+                { id: 'contes-quatre-saisons', title: 'Contes des quatre saisons', titles: ORDER_QUATRE_SAISONS, tooltip: 'Quatre films magistraux, un par saison. Printemps, Hiver, Été, Automne : chaque conte capture l\'atmosphère unique d\'une période de l\'année et les histoires d\'amour qui s\'y déroulent.' },
+                { id: 'autres', title: 'Autres films', titles: [], tooltip: 'Les longs métrages qui ne font pas partie des séries emblématiques. Des œuvres singulières comme Perceval le Gallois, La Marquise d\'O, ou les collaborations avec d\'autres cinéastes.' },
+                { id: 'courts', title: 'Courts-métrages', titles: [], tooltip: 'Les formes brèves de Rohmer : sketches, expérimentations et récits condensés. Un cinéma de l\'économie et de la précision, où chaque plan compte.' }
+            ];
+
+            function getCollection(film) {
+                var t = norm(film.titre || '');
+                var dur = film.duree_minutes != null ? Number(film.duree_minutes) : null;
+                var isShort = (dur != null && dur > 0 && dur < 60);
+                for (var i = 0; i < COLLECTIONS.length - 2; i++) {
+                    var c = COLLECTIONS[i];
+                    if (c.titles.some(function(tt) { return t.indexOf(tt) >= 0 || tt.indexOf(t) >= 0; })) return c.id;
+                }
+                if (isShort) return 'courts';
+                return 'autres';
+            }
+
+            function sortByOrder(list, orderNormTitles) {
+                return list.slice().sort(function(a, b) {
+                    var ia = orderNormTitles.indexOf(norm(a.titre || ''));
+                    var ib = orderNormTitles.indexOf(norm(b.titre || ''));
+                    if (ia < 0) ia = 999; if (ib < 0) ib = 999;
+                    return ia - ib;
+                });
+            }
+
+            function createCard(film) {
+                var article = document.createElement('article');
+                article.className = 'film-card';
+                var link = document.createElement('a');
+                link.className = 'film-card-link';
+                link.href = film.slug ? film.slug : '#';
+                var imgSrc = (film.affiche_photos && film.affiche_photos.trim()) ? film.affiche_photos : (film.affiche_image || 'images/catalogue/l-avenir.jpg');
+                if (!/^https?:\/\//.test(imgSrc)) imgSrc = '../' + imgSrc;
+                link.innerHTML = '<div class="film-card-image">' +
+                    '<img src="' + imgSrc.replace(/"/g, '&quot;') + '" alt="">' +
+                    '<div class="film-card-overlay"><span class="film-card-play">▶</span></div></div>' +
+                    '<div class="film-card-info">' +
+                    '<h3 class="film-card-title">' + (film.titre || '').toUpperCase().replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</h3>' +
+                    '<p class="film-card-director">' + (film.cineaste || '') + '</p></div>';
+                article.appendChild(link);
+                return article;
+            }
+
+            try {
+                var res = await fetch('../data/films.json', { cache: 'no-store' });
+                if (!res.ok) return;
+                var data = await res.json();
+                var films = Array.isArray(data.films) ? data.films : [];
+                var rohmer = films.filter(function(f) { return norm(f.cineaste || '') === norm('Eric Rohmer'); });
+
+                var byCol = { 'contes-moraux': [], 'comedies-proverbes': [], 'contes-quatre-saisons': [], 'autres': [], 'courts': [] };
+                rohmer.forEach(function(f) {
+                    if (!f.slug) return;
+                    var col = getCollection(f);
+                    if (byCol[col]) byCol[col].push(f);
+                });
+
+                var haveCollections = [];
+                COLLECTIONS.forEach(function(c) {
+                    var list = byCol[c.id];
+                    if (!list || list.length === 0) return;
+                    var ordered = c.titles.length ? sortByOrder(list, c.titles) : list;
+                    var section = document.createElement('div');
+                    section.className = 'rohmer-collection';
+                    var h2 = document.createElement('h2');
+                    h2.className = 'section-label rohmer-collection-title';
+                    h2.textContent = c.title;
+                    section.appendChild(h2);
+                    var grid = document.createElement('div');
+                    grid.className = 'films-grid cineaste-films-grid';
+                    ordered.forEach(function(f) { grid.appendChild(createCard(f)); });
+                    section.appendChild(grid);
+                    container.appendChild(section);
+                    haveCollections.push({ meta: c, el: section, count: ordered.length });
+                });
+
+                // Affichage des catégories en grille en haut + bulle au survol
+                var tooltipEl = document.getElementById('rohmer-category-tooltip');
+                var wrapEl = document.querySelector('.rohmer-categories-wrap');
+                if (catsGrid && haveCollections.length) {
+                    haveCollections.forEach(function(entry) {
+                        var c = entry.meta;
+                        var count = entry.count;
+                        var card = document.createElement('button');
+                        card.type = 'button';
+                        card.className = 'rohmer-category-card';
+                        var targetId = 'rohmer-col-' + c.id;
+                        entry.el.id = targetId;
+                        card.dataset.target = targetId;
+                        card.dataset.tooltip = (c.tooltip || '').replace(/\n/g, '<br>');
+                        card.innerHTML = '<span class="rohmer-category-title">' + c.title + '</span>' +
+                            '<span class="rohmer-category-count">' + count + ' film' + (count > 1 ? 's' : '') + '</span>';
+                        card.addEventListener('click', function() {
+                            var target = document.getElementById(this.dataset.target);
+                            if (target) {
+                                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                            }
+                        });
+                        card.addEventListener('mouseenter', function() {
+                            if (!tooltipEl || !this.dataset.tooltip) return;
+                            var contentEl = tooltipEl.querySelector('.rohmer-category-tooltip-content');
+                            var newHtml = this.dataset.tooltip;
+                            if (!contentEl) return;
+                            if (contentEl.innerHTML === newHtml && tooltipEl.classList.contains('is-visible')) return;
+                            function show() {
+                                contentEl.innerHTML = newHtml;
+                                contentEl.style.opacity = '1';
+                                tooltipEl.classList.add('is-visible');
+                                tooltipEl.setAttribute('aria-hidden', 'false');
+                            }
+                            if (tooltipEl.classList.contains('is-visible')) {
+                                contentEl.style.opacity = '0';
+                                contentEl.addEventListener('transitionend', function onEnd() {
+                                    contentEl.removeEventListener('transitionend', onEnd);
+                                    show();
+                                }, { once: true });
+                            } else {
+                                show();
+                            }
+                        });
+                        catsGrid.appendChild(card);
+                    });
+                    if (wrapEl && tooltipEl) {
+                        wrapEl.addEventListener('mouseleave', function() {
+                            tooltipEl.classList.remove('is-visible');
+                            tooltipEl.setAttribute('aria-hidden', 'true');
+                        });
+                    }
+                }
+            } catch (e) {
+                console.error("Erreur chargement films Rohmer:", e);
+            }
+        });
+    </script>
+</body>
+</html>

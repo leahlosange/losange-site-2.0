@@ -173,7 +173,7 @@ function createFilmCard(film) {
 
     if (film.slug) {
         const detailsLink = document.createElement('a');
-        detailsLink.href = film.slug;
+        detailsLink.href = 'Fiches Films/' + film.slug;
         detailsLink.className = 'film-action-btn primary';
         detailsLink.textContent = 'voir la fiche';
         actions.appendChild(detailsLink);

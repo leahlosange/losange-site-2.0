@@ -1,0 +1,976 @@
+{
+  "comment": "Généré par scripts/sync-tmdb-streaming.js (API TMDB gratuite). plateformes = SVOD en France (flatrate/free/ads). Optionnel : platform_urls = { \"arte\": \"https://...\", \"mubi\": \"https://...\" } pour renvoyer directement sur la plateforme au lieu de JustWatch.",
+  "films": [
+    {
+      "slug": "fathermothersisterbrother.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/fathermothersisterbrother",
+      "plateformes": []
+    },
+    {
+      "slug": "resurrection.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/resurrection",
+      "plateformes": []
+    },
+    {
+      "slug": "six-jours-ce-printemps-la.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/six-jours-ce-printemps-la",
+      "plateformes": []
+    },
+    {
+      "slug": "le-cri-des-gardes.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-cri-des-gardes",
+      "plateformes": []
+    },
+    {
+      "slug": "the-chronology-of-water.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/the-chronology-of-water",
+      "plateformes": []
+    },
+    {
+      "slug": "oui.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/oui",
+      "plateformes": []
+    },
+    {
+      "slug": "lettres-siciliennes.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/lettres-siciliennes",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/1148663-iddu-l-ultimo-padrino/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "la-cache.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-cache",
+      "plateformes": []
+    },
+    {
+      "slug": "les-damnes.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/les-damnes",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/1059010-i-dannati/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "spectateurs.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/spectateurs",
+      "plateformes": [
+        "ocs"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/1084808-spectateurs/watch?locale=FR",
+      "svod_platform": "Molotov TV"
+    },
+    {
+      "slug": "mon-inseparable.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/mon-inseparable",
+      "plateformes": [
+        "canal"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/1032765-mon-inseparable/watch?locale=FR",
+      "svod_platform": "Canal+"
+    },
+    {
+      "slug": "misericorde.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/misericorde",
+      "plateformes": [
+        "ocs"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/1063574-misericorde/watch?locale=FR",
+      "svod_platform": "Cine+ OCS Amazon Channel "
+    },
+    {
+      "slug": "lamour-fou.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/lamour-fou",
+      "plateformes": [
+        "mubi"
+      ],
+      "platform_urls": {
+        "mubi": "https://mubi.com/fr/films/lamour-fou"
+      },
+      "svod_url": "https://www.themoviedb.org/movie/63401-l-amour-fou/watch?locale=FR",
+      "svod_platform": "MUBI"
+    },
+    {
+      "slug": "la-prisonniere-de-bordeaux.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-prisonniere-de-bordeaux",
+      "plateformes": [
+        "ocs"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/961080-la-prisonniere-de-bordeaux/watch?locale=FR",
+      "svod_platform": "Molotov TV"
+    },
+    {
+      "slug": "sons.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/sons",
+      "plateformes": []
+    },
+    {
+      "slug": "cest-pas-moi.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/cest-pas-moi",
+      "plateformes": []
+    },
+    {
+      "slug": "averroes-rosa-parks.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/averroes-rosa-parks",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/1204067-averroes-rosa-parks/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "ange.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/ange",
+      "plateformes": []
+    },
+    {
+      "slug": "la-machine-a-ecrire-et-autres-sources-de-tracas.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-machine-a-ecrire-et-autres-sources-de-tracas",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/1243129-la-machine-a-ecrire-et-autres-sources-de-tracas/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "il-ny-a-pas-dombre-dans-le-desert.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/il-ny-a-pas-dombre-dans-le-desert",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/978100-il-n-y-a-pas-d-ombre-dans-le-desert/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "un-silence.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/un-silence",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/962319-un-silence/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "ricardo-et-la-peinture.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/ricardo-et-la-peinture",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/999257-ricardo-et-la-peinture/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "anselm-le-bruit-du-temps.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/anselm-le-bruit-du-temps",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/1112547-anselm-das-rauschen-der-zeit/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-ciel-rouge.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-ciel-rouge",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/900379-roter-himmel/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "la-bete-dans-la-jungle.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-bete-dans-la-jungle",
+      "plateformes": [
+        "mubi",
+        "universciné"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/820694-la-bete-dans-la-jungle/watch?locale=FR",
+      "svod_platform": "MUBI"
+    },
+    {
+      "slug": "war-pony.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/war-pony",
+      "plateformes": [
+        "universciné"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/962566-war-pony/watch?locale=FR",
+      "svod_platform": "Universcine"
+    },
+    {
+      "slug": "sur-ladamant.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/sur-ladamant",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/1070449-sur-l-adamant/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "el-agua.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/el-agua",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/936386-el-agua/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "titina.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/titina",
+      "plateformes": [
+        "universciné"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/678320-titina/watch?locale=FR",
+      "svod_platform": "Universcine"
+    },
+    {
+      "slug": "retour-a-seoul.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/retour-a-seoul",
+      "plateformes": [
+        "universciné"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/952701-retour-a-seoul/watch?locale=FR",
+      "svod_platform": "Universcine"
+    },
+    {
+      "slug": "de-humani-corporis-fabrica.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/de-humani-corporis-fabrica",
+      "plateformes": []
+    },
+    {
+      "slug": "par-coeurs.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/par-coeurs",
+      "plateformes": [
+        "universciné"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/998764-par-coeurs/watch?locale=FR",
+      "svod_platform": "Universcine"
+    },
+    {
+      "slug": "saint-omer.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/saint-omer",
+      "plateformes": [
+        "universciné"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/925943-saint-omer/watch?locale=FR",
+      "svod_platform": "Universcine"
+    },
+    {
+      "slug": "pacifiction-tourment-sur-les-iles.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/pacifiction-tourment-sur-les-iles",
+      "plateformes": [
+        "universciné"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/691214-pacifiction-tourment-sur-les-iles/watch?locale=FR",
+      "svod_platform": "Universcine"
+    },
+    {
+      "slug": "un-beau-matin.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/un-beau-matin",
+      "plateformes": [
+        "universciné"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/747779-un-beau-matin/watch?locale=FR",
+      "svod_platform": "Universcine"
+    },
+    {
+      "slug": "rodeo.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/rodeo",
+      "plateformes": []
+    },
+    {
+      "slug": "la-derive-des-continents.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-derive-des-continents",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/57800-ice-age-continental-drift/watch?locale=FR",
+      "svod_platform": "Disney Plus"
+    },
+    {
+      "slug": "la-maman-et-la-putain.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-maman-et-la-putain",
+      "plateformes": [
+        "mubi"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/48693-la-maman-et-la-putain/watch?locale=FR",
+      "svod_platform": "MUBI"
+    },
+    {
+      "slug": "il-buco.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/il-buco",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/660708-il-buco/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "viens-je-temmene.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/viens-je-temmene",
+      "plateformes": [
+        "mubi"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/660709-viens-je-t-emmene/watch?locale=FR",
+      "svod_platform": "MUBI"
+    },
+    {
+      "slug": "lhorizon.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/lhorizon",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/848144-l-horizon/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "white-building.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/white-building",
+      "plateformes": []
+    },
+    {
+      "slug": "marcher-sur-leau.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/marcher-sur-leau",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/842257-marcher-sur-l-eau/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "les-intranquilles.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/les-intranquilles",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/788942-les-intranquilles/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "tom-medina.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/tom-medina",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/846198-tom-medina/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "une-histoire-a-soi.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/une-histoire-a-soi",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/803687-une-histoire-a-soi/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "bergman-island.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/bergman-island",
+      "plateformes": [
+        "mubi",
+        "universciné"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/477044-bergman-island/watch?locale=FR",
+      "svod_platform": "FILMO"
+    },
+    {
+      "slug": "oskar-lily.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/oskar-lily",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/655513-ein-bisschen-bleiben-wir-noch/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "ondine.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/ondine",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/38448-ondine/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-venerable-w.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-venerable-w",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/454825-le-venerable-w/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "happy-end.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/happy-end",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/29079-happy-end/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "une-enfance.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/une-enfance",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/360287-une-enfance/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "amnesia.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/amnesia",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/336197-amnesia/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "les-jours-venus.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/les-jours-venus",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/323421-les-jours-venus/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "amour.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/amour",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/86837-amour/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "de-bon-matin.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/de-bon-matin",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/89705-de-bon-matin/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "les-mains-en-lair.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/les-mains-en-lair",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/54155-les-mains-en-l-air/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-ruban-blanc.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-ruban-blanc",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/37903-das-weisse-band-eine-deutsche-kindergeschichte/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "pour-un-instant-la-liberte.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/pour-un-instant-la-liberte",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/59935-ein-augenblick-freiheit/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "la-fabrique-des-sentiments.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-fabrique-des-sentiments",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/71001-la-fabrique-des-sentiments/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "bled-number-one.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/bled-number-one",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/99739-bled-number-one/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "cache.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/cache",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/445-cache/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "ne-quittez-pas.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/ne-quittez-pas",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/144098-ne-quittez-pas/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-temps-du-loup.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-temps-du-loup",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/24190-le-temps-du-loup/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "raja.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/raja",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/267779-raja/watch?locale=FR",
+      "svod_platform": "Sun Nxt"
+    },
+    {
+      "slug": "une-pure-coincidence.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/une-pure-coincidence",
+      "plateformes": []
+    },
+    {
+      "slug": "la-saison-des-hommes.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-saison-des-hommes",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/265761/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "la-vierge-des-tueurs.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-vierge-des-tueurs",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/44321-la-virgen-de-los-sicarios/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "pan-tadeusz.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/pan-tadeusz",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/4966-pan-tadeusz/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "a-mort-la-mort.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/a-mort-la-mort",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/64571-a-mort-la-mort/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "conte-dautomne.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/conte-dautomne",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/10239-conte-d-automne/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "lautrec.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/lautrec",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/136646-lautrec/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-bel-ete-1914.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-bel-ete-1914",
+      "plateformes": []
+    },
+    {
+      "slug": "conte-dete.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/conte-dete",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/37563-conte-d-ete/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "lettre-pour-l.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/lettre-pour-l",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/384009-lettre-pour-l/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "louis-enfant-roi.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/louis-enfant-roi",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/198441-louis-enfant-roi/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "la-regle-du-je.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-regle-du-je",
+      "plateformes": []
+    },
+    {
+      "slug": "conte-dhiver.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/conte-dhiver",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/10241-conte-d-hiver/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-jour-des-rois.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-jour-des-rois",
+      "plateformes": [
+        "mubi"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/378473-le-jour-des-rois/watch?locale=FR",
+      "svod_platform": "MUBI"
+    },
+    {
+      "slug": "europa-europa.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/europa-europa",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/8996-europa-europa/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "conte-de-printemps.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/conte-de-printemps",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/28213-conte-de-printemps/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "noce-blanche.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/noce-blanche",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/37533-noce-blanche/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "de-bruit-et-de-fureur.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/de-bruit-et-de-fureur",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/51228-de-bruit-et-de-fureur/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "dandin.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/dandin",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/493571-dandin/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "la-mort-dempedocle.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-mort-dempedocle",
+      "plateformes": []
+    },
+    {
+      "slug": "lami-de-mon-amie.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/lami-de-mon-amie",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/64544-l-ami-de-mon-amie/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "quatre-aventures-de-reinette-et-mirabelle.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/quatre-aventures-de-reinette-et-mirabelle",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/37189-4-aventures-de-reinette-et-mirabelle/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-rayon-vert.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-rayon-vert",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/54898-le-rayon-vert/watch?locale=FR",
+      "svod_platform": "LaCinetek"
+    },
+    {
+      "slug": "les-nuits-de-la-pleine-lune.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/les-nuits-de-la-pleine-lune",
+      "plateformes": [
+        "mubi"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/27102-les-nuits-de-la-pleine-lune/watch?locale=FR",
+      "svod_platform": "MUBI"
+    },
+    {
+      "slug": "mauvaise-conduite.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/mauvaise-conduite",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/211835-mauvaise-conduite/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "tricheurs.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/tricheurs",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/63328-tricheurs/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "liberty-belle.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/liberty-belle",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/444484-liberty-belle/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "un-jeu-brutal.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/un-jeu-brutal",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/80307-un-jeu-brutal/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "pauline-a-la-plage.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/pauline-a-la-plage",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/10293-pauline-a-la-plage/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-beau-mariage.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-beau-mariage",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/2861-le-beau-mariage/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "lettres-damour-en-somalie.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/lettres-damour-en-somalie",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/266831-lettres-d-amour-en-somalie/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-pont-du-nord.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-pont-du-nord",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/59484-le-pont-du-nord/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "bukowski.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/bukowski",
+      "plateformes": []
+    },
+    {
+      "slug": "la-femme-de-laviateur.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-femme-de-laviateur",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/27145-la-femme-de-l-aviateur/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "navire-night.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/navire-night",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/220991-le-navire-night/watch?locale=FR",
+      "svod_platform": "FILMO"
+    },
+    {
+      "slug": "perceval-le-gallois.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/perceval-le-gallois",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/75733-perceval-le-gallois/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "koko-le-gorille-qui-parle.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/koko-le-gorille-qui-parle",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/54194-koko-le-gorille-qui-parle/watch?locale=FR",
+      "svod_platform": "INA  madelen Amazon Channel"
+    },
+    {
+      "slug": "la-marquise-do.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-marquise-do",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/48205-die-marquise-von-o/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "maitresse.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/maitresse",
+      "plateformes": [
+        "ocs"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/46978-maitresse/watch?locale=FR",
+      "svod_platform": "Cine+ OCS Amazon Channel "
+    },
+    {
+      "slug": "celine-et-julie-vont-en-bateau.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/celine-et-julie-vont-en-bateau",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/27019-celine-et-julie-vont-en-bateau/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "general-idi-amin-dada.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/general-idi-amin-dada",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/36665-general-idi-amin-dada-autoportrait/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "lamour-lapres-midi.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/lamour-lapres-midi",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/12116-l-amour-l-apres-midi/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "la-vallee.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-vallee",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/140870-minuscule-la-vallee-des-fourmis-perdues/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-genou-de-claire.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-genou-de-claire",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/2860-le-genou-de-claire/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "more.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/more",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/21323-more/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "ma-nuit-chez-maud.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/ma-nuit-chez-maud",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/48831-ma-nuit-chez-maud/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "la-collectionneuse.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-collectionneuse",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/4837-la-collectionneuse/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "paris-vu-par.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/paris-vu-par",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/51808-paris-vu-par/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "la-boulangere-de-monceau.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-boulangere-de-monceau",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/81399-la-boulangere-de-monceau/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "la-carriere-de-suzanne.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-carriere-de-suzanne",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/86764-la-carriere-de-suzanne/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "le-signe-du-lion.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/le-signe-du-lion",
+      "plateformes": [
+        "mubi"
+      ],
+      "svod_url": "https://www.themoviedb.org/movie/64414-le-signe-du-lion/watch?locale=FR",
+      "svod_platform": "MUBI"
+    },
+    {
+      "slug": "veronique-et-son-cancre.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/veronique-et-son-cancre",
+      "plateformes": []
+    },
+    {
+      "slug": "nina-et-le-secret-du-herisson.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/nina-et-le-secret-du-herisson",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/588524-nina-et-le-secret-du-herisson/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "a-short-story.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/a-short-story",
+      "plateformes": []
+    },
+    {
+      "slug": "fabian.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/fabian",
+      "plateformes": []
+    },
+    {
+      "slug": "la-riviere.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/la-riviere",
+      "plateformes": []
+    },
+    {
+      "slug": "garcon-chiffon.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/garcon-chiffon",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/661229-garcon-chiffon/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "merveilles-a-montfermeil.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/merveilles-a-montfermeil",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/592566-merveilles-a-montfermeil/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "suzanna-andler.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/suzanna-andler",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/660005-suzanna-andler/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "lola-vers-la-mer.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/lola-vers-la-mer",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/617299-lola-vers-la-mer/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "laudition.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/laudition",
+      "plateformes": []
+    },
+    {
+      "slug": "haut-les-filles.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/haut-les-filles",
+      "plateformes": []
+    },
+    {
+      "slug": "vif-argent.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/vif-argent",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/597693-vif-argent/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "les-particules.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/les-particules",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/582926-les-particules/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "hellhole.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/hellhole",
+      "plateformes": []
+    },
+    {
+      "slug": "mes-provinciales.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/mes-provinciales",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/490862-mes-provinciales/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "ouvrir-la-voix.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/ouvrir-la-voix",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/434692-ouvrir-la-voix/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "makala.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/makala",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/453358-makala/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "djam.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/djam",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/463633-djam/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "a-mon-age-je-me-cache-encore-pour-fumer.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/a-mon-age-je-me-cache-encore-pour-fumer",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/422566-a-mon-age-je-me-cache-encore-pour-fumer/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "lopera.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/lopera",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/95378-l-opera-mouffe/watch?locale=FR",
+      "svod_platform": "DocAlliance Films"
+    },
+    {
+      "slug": "diamond-island.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/diamond-island",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/396253-diamond-island/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "olli-mki.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/olli-mki",
+      "plateformes": [],
+      "svod_url": "https://www.themoviedb.org/movie/392807-hymyileva-mies/watch?locale=FR",
+      "svod_platform": ""
+    },
+    {
+      "slug": "outofthisworld.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/outofthisworld",
+      "plateformes": []
+    },
+    {
+      "slug": "hautefaye.html",
+      "justwatch_url": "https://www.justwatch.com/fr/film/hautefaye",
+      "plateformes": []
+    }
+  ]
+}

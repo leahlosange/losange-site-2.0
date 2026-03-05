@@ -1,0 +1,84 @@
+{
+  "articles": [
+    {
+      "title": "Chilean Mystery Drama ‘The Meltdown’ From ‘1976’ Director Manuela Martelli Lands on Losange Films Slate",
+      "date": "Feb 2, 2026",
+      "category": "Line up",
+      "excerpt": "Set in 1992, in post-dictatorship Chile, “The Meltdown” is a mystery drama that opens at a remote hotel near an Andean ski resort where nine-year old Inés befriends Hanna, a 15-year old German skier, while staying with her grandparents. When Hanna vanishes without a trace, the search for her begins to uncover hidden truths.",
+      "url": "https://variety.com/2026/film/global/chilean-the-meltdown-1976-manuela-martelli-losange-films-1236649866/",
+      "image": "images/THE-MELTDOWN.webp",
+      "featured": true,
+      "date_iso": "2026-02-02"
+    },
+    {
+      "title": "RÉSURRECTION, LE NOUVEAU FILM DE Bi Gan, SORT AUJOURD'HUI EN SALLES",
+      "date": "10 décembre 2025",
+      "date_iso": "2025-12-10",
+      "category": "sortie en salles",
+      "excerpt": "Après le succès de \"Un grand voyage vers la nuit\", Bi Gan revient avec une œuvre hypnotique qui repousse les frontières du cinéma contemplatif. Résurrection explore les thèmes de la mémoire, du temps et de la perte à travers une narration visuelle envoûtante.",
+      "url": "https://www.allocine.fr/film/fichefilm-319234/",
+      "image": "images/films/resurrection/Jackson-YEE-Large.jpeg",
+      "featured": false
+    },
+    {
+      "title": "FATHER MOTHER SISTER BROTHER REMPORTE LE LION D'OR À VENISE",
+      "date": "8 septembre 2025",
+      "date_iso": "2025-09-08",
+      "category": "festival",
+      "excerpt": "Le nouveau film de Jim Jarmusch a été couronné du prestigieux Lion d'Or lors de la 82ème Mostra de Venise.",
+      "url": "https://www.festival-larochelle.org/",
+      "image": "images/films/father mother sister brother/004_FMSB_© Vague Notion 2024_Frederick Elmes.jpeg",
+      "featured": false
+    },
+    {
+      "title": "RAYMOND DEPARDON CINÉASTE : UNE RÉTROSPECTIVE INTÉGRALE",
+      "date": "15 novembre 2025",
+      "date_iso": "2025-11-15",
+      "category": "rétrospective",
+      "excerpt": "Découvrez l'intégralité de l'œuvre du photographe et cinéaste Raymond Depardon dans une rétrospective événement.",
+      "url": "https://depardoncineaste.com",
+      "image": "images/films/depardon.jpg",
+      "featured": false
+    },
+    {
+      "title": "VICTOR COMME TOUT LE MONDE : PREMIER APERÇU DU NOUVEAU Pascal Bonitzer",
+      "date": "20 octobre 2025",
+      "date_iso": "2025-10-20",
+      "category": "annonce",
+      "excerpt": "Les premières images du nouveau film de Pascal Bonitzer viennent d'être dévoilées.",
+      "url": "https://www.premiersplans.org/",
+      "image": "images/films/Victor-vélo.jpg",
+      "featured": false
+    },
+    {
+      "title": "AMOUR DE Michael Haneke RESSORT EN VERSION RESTAURÉE 4K",
+      "date": "5 octobre 2025",
+      "date_iso": "2025-10-05",
+      "category": "restauration",
+      "excerpt": "Le chef-d'œuvre de Michael Haneke, Palme d'Or 2012 et Oscar du Meilleur Film Étranger, ressort en salles.",
+      "url": "https://www.allocine.fr/film/fichefilm-186615/",
+      "image": "images/catalogue/downloaded/amour.jpg",
+      "featured": false
+    },
+    {
+      "title": "THE CHRONOLOGY OF WATER : LES DÉBUTS DE Kristen Stewart DERRIÈRE LA CAMÉRA",
+      "date": "25 septembre 2025",
+      "date_iso": "2025-09-25",
+      "category": "sortie en salles",
+      "excerpt": "L'actrice américaine signe un premier film remarqué, adaptation du récit autobiographique de Lidia Yuknavitch.",
+      "url": "https://www.lesinrocks.com/cinema/the-chronology-of-water-kristen-stewart-56234-15-01-2025/",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-chronology-vf.jpg",
+      "featured": false
+    },
+    {
+      "title": "SIX JOURS, CE PRINTEMPS-LÀ : Joachim Lafosse DE RETOUR",
+      "date": "10 septembre 2025",
+      "date_iso": "2025-09-10",
+      "category": "sortie en salles",
+      "excerpt": "Le réalisateur belge revient avec un nouveau drame familial intense et bouleversant.",
+      "url": "https://www.lesinrocks.com/cinema/",
+      "image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-6-jours-vf-1.jpg",
+      "featured": false
+    }
+  ]
+}

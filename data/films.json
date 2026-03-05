@@ -33,7 +33,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-FAther-mother-sister-brother-2.jpg",
       "kit_materiel": "https://drive.google.com/drive/folders/1-9IJRgVV0gucsZsbt8wJ7i3OkvfQlfFh",
       "affiche_photos": "images/films/father mother sister brother/043_FMSB_© Vague Notion 2024_Yorick Le Saux.jpeg",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "https://www.youtube.com/watch?v=7gAAXuvHkzQ",
       "slug": "fathermothersisterbrother.html"
     },
@@ -63,14 +62,13 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-conte-dete.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://pbs.twimg.com/media/FrCO7SsX0AAIVFm.jpg",
       "bande_annonce_url": "https://www.youtube.com/watch?v=HjG-KHkTcDE",
-      "slug": ""
+      "slug": "conte-dete.html"
     },
     {
       "titre": "Resurrection",
-      "cineaste": "BI Gan",
+      "cineaste": "Bi Gan",
       "casting": [
         "Jackson Yee",
         "Shu Qi",
@@ -89,16 +87,16 @@
       "synopsis": "Un jeune homme rêveur se réincarne dans cinq époques. Tandis que le XXe siècle défile, une femme suit sa trace…",
       "status": "actuellement",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
         "Asie"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Resurrection-vf-1.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "images/films/resurrection/Jackson-YEE-Large.jpeg",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=FAaL2uJgscc",
       "slug": "resurrection.html"
     },
     {
@@ -115,10 +113,12 @@
       "date_sortie": "Date(2025,10,12)",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "",
+      "synopsis": "Malgré les difficultés, Sana tente d'offrir à ses jumeaux des vacances de printemps. Comme son projet tombe à l'eau, elle décide avec eux de séjourner sur la côte d'Azur dans la villa luxueuse de son ex belle-famille. En cachette. Six jours de soleil qui marqueront la fin de l'insouciance.",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "production",
+        "ventes internationales"
       ],
       "thematiques": [
         "Contes de printemps",
@@ -126,9 +126,8 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-6-jours-vf-1.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/6-jours-5-scaled.jpg",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=phqHua4pxj8",
       "slug": "six-jours-ce-printemps-la.html"
     },
     {
@@ -149,12 +148,15 @@
         "distribution"
       ],
       "thematiques": [
-        "Afrique"
+        "Afrique",
+        "Décolonial",
+        "Théâtre",
+        "Adaptations",
+        "Racisme"
       ],
-      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/Le-cri-des-gardes-Grande-1030x686.jpeg",
+      "affiche_image": "images/films/cridesgardes_affiche.jpeg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "images/films/cridesgardes.jpg",
       "bande_annonce_url": "",
       "slug": "le-cri-des-gardes.html"
     },
@@ -186,33 +188,38 @@
         "ventes internationales"
       ],
       "thematiques": [
-        "Comédie"
+        "Comédie",
+        "Artistes",
+        "Littérature",
+        "Théâtre"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/VICTOR_120x160-scaled.jpg",
       "kit_materiel": "",
       "affiche_photos": "images/films/victor.jpg",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "https://www.youtube.com/watch?v=t0RrVuOml0M",
       "slug": "victor-comme-tout-le-monde.html"
     },
     {
       "titre": "Raymond Depardon Cinéaste",
-      "cineaste": "",
+      "cineaste": "Raymond Depardon",
       "casting": [],
       "date_sortie": "Date(2025,1,26)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
-      "status": "prochainement",
+      "status": "actuellement",
       "categories": [
-        "distribution"
+        "distribution",
+        "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Artistes",
+        "Documentaires"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-retro-Depardon.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "images/films/JournaldeFrance-4.jpg",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=arWTFbaHk6E",
       "slug": "raymond-depardon-cineaste.html"
     },
     {
@@ -235,17 +242,20 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
         "Amérique",
-        "Adaptations"
+        "Adaptations",
+        "Réalisatrices",
+        "Premiers Films",
+        "LGBT"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-chronology-vf.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/TCOW-1-Grande.jpeg",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=2bTZwCRp4kg",
       "slug": "the-chronology-of-water.html"
     },
     {
@@ -263,14 +273,19 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Décolonial",
+        "Fascisme",
+        "Moyen-Orient",
+        "Politique"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/OUI-affiche-OK-2-Large-773x1030.jpeg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/Oui-1-scaled.jpg",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=LP9rS4svLWM",
       "slug": "oui.html"
     },
     {
@@ -292,13 +307,14 @@
         "distribution"
       ],
       "thematiques": [
-        "Allemagne"
+        "Allemagne",
+        "Fantômes",
+        "Héroïnes"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-miroirs-n3.jpeg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/miroir-1-Grande.jpeg",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=rOmEcYcQeEo",
       "slug": "miroirs-n3.html"
     },
     {
@@ -319,14 +335,17 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Crimes",
+        "Italie"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-lettres-siciliennes-vf.jpeg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/Elio-Germano-copyright-Giulia-Parlato-Grande.jpeg",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=FIuUWq6MILA",
       "slug": "lettres-siciliennes.html"
     },
     {
@@ -351,12 +370,15 @@
       "categories": [
         "distribution"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Adaptations",
+        "Comédie",
+        "Famille"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-La-cache.jpeg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=-NJM3MGF1dQ",
       "slug": "la-cache.html"
     },
     {
@@ -376,7 +398,8 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
         "Amérique"
@@ -384,8 +407,7 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-damnes-vf.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=GtACT-TSK6k",
       "slug": "les-damnes.html"
     },
     {
@@ -414,13 +436,13 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-spectateurs-vf-1.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "spectateurs.html"
     },
@@ -443,13 +465,17 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Réalisatrices",
+        "Premiers Films",
+        "Handicap"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-inseparable-vf.jpeg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "mon-inseparable.html"
     },
@@ -469,13 +495,17 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Comédie",
+        "Rural",
+        "LGBT"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-misericorde-vf.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/photo-4-linconnu-du-lac.jpg",
       "bande_annonce_url": "",
       "slug": "misericorde.html"
     },
@@ -521,15 +551,16 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
-        "Afrique"
+        "Afrique",
+        "Décolonial"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Dahomey-vf.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/01/Dahomey-1-scaled.jpg",
       "bande_annonce_url": "",
       "slug": "dahomey.html"
     },
@@ -566,9 +597,8 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/04/LAmour-fou-Affiche-1-758x1030.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/05/Amour-fou-Photo-Pierre-Zucca.jpg",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=xwOVVyirDyw",
       "slug": "lamour-fou.html"
     },
     {
@@ -584,15 +614,16 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
-        "Lutte des classes"
+        "Lutte des classes",
+        "Héroïnes"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-prisonniere-va-1.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/VISITING-HOURS-4-copyright-Rectangle-Productions-scaled.jpg",
       "bande_annonce_url": "",
       "slug": "la-prisonniere-de-bordeaux.html"
     },
@@ -612,13 +643,15 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Prison"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-Sons.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "sons.html"
     },
@@ -640,13 +673,13 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2024/04/mea-Cest-pas-moi-vf.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "cest-pas-moi.html"
     },
@@ -664,15 +697,16 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
-        "Santé"
+        "Santé",
+        "Documentaires"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/120x160-Averroes-Rosa-Parks-1-758x1030.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/photo-2-etre-et-avoir.jpg",
       "bande_annonce_url": "",
       "slug": "averroes-rosa-parks.html"
     },
@@ -695,12 +729,11 @@
         "distribution"
       ],
       "thematiques": [
-        "Musicaux"
+        "Musique"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2025/08/mea-Ange-vf.jpeg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://m.media-amazon.com/images/M/MV5BZTBjMWRhYmUtMGQ4Yy00NzhmLThlNDYtZTcyYmU3ZmI1OWUzXkEyXkFqcGc@._V1_.jpg",
       "bande_annonce_url": "",
       "slug": "ange.html"
     },
@@ -714,15 +747,16 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
-        "Santé"
+        "Santé",
+        "Documentaires"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-La-machine.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "la-machine-a-ecrire-et-autres-sources-de-tracas.html"
     },
@@ -748,13 +782,13 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-ombre.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "il-ny-a-pas-dombre-dans-le-desert.html"
     },
@@ -780,7 +814,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/02/mea-un-silence.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "un-silence.html"
     },
@@ -794,7 +827,8 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
         "Artistes"
@@ -802,7 +836,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/02/mea-ricardo-1.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "ricardo-et-la-peinture.html"
     },
@@ -827,8 +860,7 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/04/mea-Anselm.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/12/AMF01cWWS-copie.jpg",
       "bande_annonce_url": "",
       "slug": "anselm-le-bruit-du-temps.html"
     },
@@ -851,12 +883,12 @@
         "distribution"
       ],
       "thematiques": [
-        "Allemagne"
+        "Allemagne",
+        "Écologie"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-ciel-rouge.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "le-ciel-rouge.html"
     },
@@ -874,15 +906,16 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
-        "Musicaux"
+        "Musique",
+        "Fête"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/06/mea-jungle.jpg",
       "kit_materiel": "",
-      "affiche_photos": "16/08/2023",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "la-bete-dans-la-jungle.html"
     },
@@ -907,11 +940,15 @@
       "categories": [
         "distribution"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Communautés",
+        "Enfance",
+        "Premiers Films",
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-war-pony.jpg",
       "kit_materiel": "",
-      "affiche_photos": "10/05/2023",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "war-pony.html"
     },
@@ -927,15 +964,16 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
-        "Santé"
+        "Santé",
+        "Documentaires"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-adamant.jpg",
       "kit_materiel": "",
-      "affiche_photos": "19/04/2023",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "sur-ladamant.html"
     },
@@ -952,7 +990,7 @@
         "Lidia María CANOVAS",
         "Pascual VALERO"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2022,10,4)",
       "duree_minutes": "104.0",
       "nationalites": [],
       "synopsis": "",
@@ -965,8 +1003,7 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-el-agua.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "el-agua.html"
     },
@@ -974,21 +1011,22 @@
       "titre": "Titina",
       "cineaste": "Kajsa Næss",
       "casting": [],
-      "date_sortie": "",
+      "date_sortie": "Date(2023,1,8)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
-        "Enfants"
+        "Jeunesse",
+        "Contes d'hiver"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-Titina-1.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "titina.html"
     },
@@ -1016,12 +1054,13 @@
         "distribution"
       ],
       "thematiques": [
-        "Asie"
+        "Asie",
+        "Immigration",
+        "Héroïnes"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-RES.jpg",
       "kit_materiel": "",
-      "affiche_photos": "25/01/2023",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "retour-a-seoul.html"
     },
@@ -1029,21 +1068,23 @@
       "titre": "De humani corporis fabrica",
       "cineaste": "Verena PARAVEL et Lucien CASTAING-TAYLOR",
       "casting": [],
-      "date_sortie": "",
+      "date_sortie": "Date(2023,0,11)",
       "duree_minutes": "115.0",
       "nationalites": [],
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
-        "Santé"
+        "Santé",
+        "Expérimental",
+        "Sciences"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-humani.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "de-humani-corporis-fabrica.html"
     },
@@ -1054,7 +1095,7 @@
         "Isabelle Huppert",
         "Fabrice Luchini"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2022,11,28)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1062,11 +1103,12 @@
       "categories": [
         "distribution"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Théâtre"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-par-coeurs.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "par-coeurs.html"
     },
@@ -1083,7 +1125,7 @@
         "Salimata KAMATE",
         "Thomas DE POURQUERY"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2022,10,23)",
       "duree_minutes": "122.0",
       "nationalites": [],
       "synopsis": "",
@@ -1096,8 +1138,7 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-st-omer.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "saint-omer.html"
     },
@@ -1132,14 +1173,13 @@
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-pacifiction-1.jpg",
       "kit_materiel": "",
-      "affiche_photos": "09/11/2022",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "pacifiction-tourment-sur-les-iles.html"
     },
     {
       "titre": "Un beau matin",
-      "cineaste": "Mia HANSEN-LØVE",
+      "cineaste": "Mia Hansen-Løve",
       "casting": [
         "Léa SEYDOUX",
         "Pascal GREGGORY",
@@ -1153,13 +1193,16 @@
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Famille",
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/09/mea-UBM.jpg",
       "kit_materiel": "",
-      "affiche_photos": "05/10/2022",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/09/Un-beau-matin_2-%C2%A9Les-Films-Pelleas.jpg",
       "bande_annonce_url": "",
       "slug": "un-beau-matin.html"
     },
@@ -1183,21 +1226,23 @@
         "Quentin ARIZZI",
         "Brice STRAEHLI"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2022,8,7)",
       "duree_minutes": "20.0",
       "nationalites": [],
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
-        "Premiers Films"
+        "Premiers Films",
+        "Réalisatrices",
+        "Banlieux"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-rodeo-1.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "rodeo.html"
     },
@@ -1223,19 +1268,21 @@
         "Maria Antonietta Scornavacca",
         "Nicolas Roussi"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2022,7,24)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Immigration"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-derive-1.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "la-derive-des-continents.html"
     },
@@ -1253,19 +1300,19 @@
         "Pierre Cottrell",
         "Jean Douchet"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2022,5,8)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/mea-vf-maman.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/04/Photo-copyright-Bernard-Prim-2.jpg",
       "bande_annonce_url": "",
       "slug": "la-maman-et-la-putain.html"
     },
@@ -1278,7 +1325,7 @@
         "Denise Trombin",
         "Nicola Lanza"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2022,2,2)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1286,11 +1333,12 @@
       "categories": [
         "distribution"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Italie"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/01/mea-WB.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "il-buco.html"
     },
@@ -1310,21 +1358,21 @@
         "Yves-Robert Viala",
         "Patrick Ligardes"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2021,7,18)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [
         "Amoureux Amoureuses"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/mea-site.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/VJT-4.jpg",
       "bande_annonce_url": "",
       "slug": "viens-je-temmene.html"
     },
@@ -1339,19 +1387,22 @@
         "Dembélé",
         "Slimane Dazi"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2021,11,8)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Écologie",
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/LHORIZON_Doc120.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "lhorizon.html"
     },
@@ -1367,19 +1418,19 @@
         "Jany Min",
         "Chandalin Y"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2021,10,10)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
       "status": "catalogue",
       "categories": [
-        "distribution"
+        "distribution",
+        "ventes internationales"
       ],
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/mea-WB-1.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "white-building.html"
     },
@@ -1387,7 +1438,7 @@
       "titre": "Marcher sur l’eau",
       "cineaste": "Aïssa Maïga",
       "casting": [],
-      "date_sortie": "",
+      "date_sortie": "Date(2021,9,20)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1395,11 +1446,12 @@
       "categories": [
         "distribution"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/Marchersurleau_mea-1.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "marcher-sur-leau.html"
     },
@@ -1411,7 +1463,7 @@
         "Damien Bonnard",
         "Gabriel Merz Chammah"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2021,7,4)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1422,8 +1474,7 @@
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/588x799.jpg",
       "kit_materiel": "",
-      "affiche_photos": "—",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "",
       "bande_annonce_url": "",
       "slug": "les-intranquilles.html"
     },
@@ -1436,7 +1487,7 @@
         "Karoline Rose Sun",
         "Suzanne Aubert"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2021,5,23)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1448,7 +1499,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/TOMMEDINA_MEA.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "tom-medina.html"
     },
@@ -1462,7 +1512,7 @@
         "Niyongira Bugingo/Nicolas Guieu",
         "Céline Chandralatha Grimaud"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2021,6,14)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1470,11 +1520,14 @@
       "categories": [
         "distribution"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Documentaires",
+        "Enfance",
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/01/UHAS_AFFICHE-120-40x60.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "une-histoire-a-soi.html"
     },
@@ -1487,7 +1540,7 @@
         "Mia Wasikowska",
         "Anders Danielsen Lie"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2020,2,4)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1495,23 +1548,25 @@
       "categories": [
         "distribution"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Littérature",
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/05/Bergmanisland_mea-1.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "bergman-island.html"
     },
     {
-      "titre": "OSKAR & LILY",
-      "cineaste": "",
+      "titre": "Oskar et Lily",
+      "cineaste": "Arash T. Riahi",
       "casting": [
         "LEOPOLD PALLUA",
         "ROSA ZANT",
         "CHRISTINE OSTERMAYER"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2020,8,23)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1523,7 +1578,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/01/mea-Oskar-Lily.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "oskar-lily.html"
     },
@@ -1542,7 +1596,7 @@
         "José Barros",
         "Enno Trebs"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2017,5,7)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1551,12 +1605,12 @@
         "distribution"
       ],
       "thematiques": [
-        "Allemagne"
+        "Allemagne",
+        "Héroïnes"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/02/mea-Ondine.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/02/Undine_52_PH_eng-B.jpg",
       "bande_annonce_url": "",
       "slug": "ondine.html"
     },
@@ -1564,19 +1618,20 @@
       "titre": "LE VENERABLE W.",
       "cineaste": "Barbet Schroeder",
       "casting": [],
-      "date_sortie": "",
+      "date_sortie": "Date(2017,9,4)",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "",
+      "synopsis": "En Birmanie, le « Vénérable W. » est un moine bouddhiste très influent. Partir à sa rencontre, c’est se retrouver au cœur du racisme quotidien, et observer comment l’islamophobie et le discours haineux se transforment en violence et en destruction. Pourtant nous sommes dans un pays où 90% de la population est bouddhiste, religion fondée sur un mode de vie pacifique, tolérant et non-violent.",
       "status": "catalogue",
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Portraits"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/06/poster-0-le-venerable-w.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "le-venerable-w.html"
     },
@@ -1591,7 +1646,7 @@
         "Franz Rogowski",
         "Laura Verlinden et Toby Jones"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2017,9,18)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1603,7 +1658,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/05/poster-0-happy-end.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "happy-end.html"
     },
@@ -1625,11 +1679,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Enfance"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-une-enfance.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "une-enfance.html"
     },
@@ -1654,7 +1709,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-amnesia.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "amnesia.html"
     },
@@ -1680,7 +1734,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-les-jours-venus.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "les-jours-venus.html"
     },
@@ -1698,7 +1751,7 @@
         "Eva Zeidler",
         "Reinhard Paulus"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2021,6,14)",
       "duree_minutes": "20.0",
       "nationalites": [],
       "synopsis": "",
@@ -1712,7 +1765,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2013/08/poster-0-heimat-1-chronique-dun-reve-2-lexode.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "heimat-1-chronique-dun-reve-2-lexode.html"
     },
@@ -1725,7 +1777,7 @@
         "Isabelle Huppert",
         "Alexandre Tharaud"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2021,6,14)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1738,8 +1790,7 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-amour.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/photo-3-amour.jpg",
       "bande_annonce_url": "",
       "slug": "amour.html"
     },
@@ -1753,7 +1804,7 @@
         "Yannick Renier",
         "Xavier Beauvois"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2012,5,20)",
       "duree_minutes": "20.0",
       "nationalites": [],
       "synopsis": "",
@@ -1765,7 +1816,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-de-bon-matin.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "de-bon-matin.html"
     },
@@ -1780,7 +1830,7 @@
         "Hélène Babu",
         "Hippolyte Girardot"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2009,11,16)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1792,7 +1842,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-les-mains-en-lair.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "les-mains-en-lair.html"
     },
@@ -1807,7 +1856,7 @@
         "Michael KRANZ",
         "Burghart KLAUSSNER"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2009,9,21)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1815,17 +1864,18 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Histoire"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-le-ruban-blanc.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "le-ruban-blanc.html"
     },
     {
-      "titre": "Pour Un Instant La Liberté",
-      "cineaste": "",
+      "titre": "Pour Un Instant, La Liberté",
+      "cineaste": "Arash T. Riahi",
       "casting": [
         "Navid Akhavan",
         "Fares Fares",
@@ -1833,7 +1883,7 @@
         "Pourya Mahyari",
         "Payam Madjlessi"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2007,11,12)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1841,11 +1891,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Moyen-Orient"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2010/03/poster-0-pour-un-instant-la-liberte.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "pour-un-instant-la-liberte.html"
     },
@@ -1860,7 +1911,7 @@
         "Anne-Katerine Normant",
         "Jean Segani"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2007,7,22)",
       "duree_minutes": "7.0",
       "nationalites": [],
       "synopsis": "",
@@ -1872,7 +1923,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-la-fabrique-des-sentiments.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "la-fabrique-des-sentiments.html"
     },
@@ -1887,7 +1937,7 @@
         "Ramzy Bedia",
         "Sakina Dammene-Debbih"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2003,2,12)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1899,7 +1949,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-bled-number-one.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "bled-number-one.html"
     },
@@ -1914,7 +1963,7 @@
         "Bernard Le Coq",
         "Walid Afkir"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2005,9,5)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1926,7 +1975,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2015/09/poster-0-cache.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "cache.html"
     },
@@ -1941,7 +1989,7 @@
         "Dominique Pinon",
         "Laszlo Szabo"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2003,8,17)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1953,7 +2001,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-ne-quittez-pas.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "ne-quittez-pas.html"
     },
@@ -1968,7 +2015,7 @@
         "Lucas Biscombe",
         "Daniel Duval"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2003,9,29)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -1980,7 +2027,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-le-temps-du-loup.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "le-temps-du-loup.html"
     },
@@ -2007,7 +2053,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-raja.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "raja.html"
     },
@@ -2032,7 +2077,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-une-pure-coincidence.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "une-pure-coincidence.html"
     },
@@ -2047,7 +2091,7 @@
         "Ezzedine Gennoun",
         "Mouna Noureddine"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2003,3,23)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -2055,11 +2099,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Féminismes"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-la-saison-des-hommes.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "la-saison-des-hommes.html"
     },
@@ -2072,7 +2117,7 @@
         "Juan David Restrepo",
         "Manuel Busquets"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(1997,6,2)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -2080,11 +2125,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Crimes"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-la-vierge-des-tueurs.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "la-vierge-des-tueurs.html"
     },
@@ -2111,7 +2157,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-pan-tadeusz.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "pan-tadeusz.html"
     },
@@ -2138,7 +2183,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-a-mort-la-mort.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "a-mort-la-mort.html"
     },
@@ -2151,7 +2195,7 @@
         "Alain Libolt",
         "Didier Sandre"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(1986,9,29)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -2164,9 +2208,8 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-conte-dautomne.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "https://thumb.canalplus.pro/http/unsafe/1440x810/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/106306168",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=WMJzPLg2LFA",
       "slug": "conte-dautomne.html"
     },
     {
@@ -2186,11 +2229,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Histoire"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-lautrec.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "lautrec.html"
     },
@@ -2219,36 +2263,8 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-le-bel-ete-1914.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "le-bel-ete-1914.html"
-    },
-    {
-      "titre": "Conte d’Eté",
-      "cineaste": "Eric Rohmer",
-      "casting": [
-        "Melvil Poupaud",
-        "Amanda Langlet",
-        "Aurélia Nolin",
-        "Gwenaëlle Simon"
-      ],
-      "date_sortie": "",
-      "duree_minutes": null,
-      "nationalites": [],
-      "synopsis": "",
-      "status": "catalogue",
-      "categories": [
-        "production"
-      ],
-      "thematiques": [
-        "Contes d'été"
-      ],
-      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-conte-dete.jpg",
-      "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
-      "slug": "conte-dete.html"
     },
     {
       "titre": "Lettre pour L…",
@@ -2273,7 +2289,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-lettre-pour-l.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "lettre-pour-l.html"
     },
@@ -2288,7 +2303,7 @@
         "Hervé Briaux",
         "Brigitte Catillon"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(1993,11,1)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -2296,11 +2311,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Histoire"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2006/06/poster-0-louis-enfant-roi.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "louis-enfant-roi.html"
     },
@@ -2321,11 +2337,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-la-regle-du-je.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "la-regle-du-je.html"
     },
@@ -2338,7 +2355,7 @@
         "Hervé Furic",
         "Michel Voletti"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(1990,11,12)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -2351,9 +2368,8 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-conte-dhiver.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "https://www.cinemamoderne.com/wp-content/uploads/2021/05/conte-dhiver.jpg",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=7KhvOF522W4",
       "slug": "conte-dhiver.html"
     },
     {
@@ -2373,11 +2389,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-le-jour-des-rois.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "le-jour-des-rois.html"
     },
@@ -2392,7 +2409,7 @@
         "Michèle Gleizer",
         "Marco Hofschneider"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(1991,0,9)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -2400,11 +2417,13 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Europe",
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-europa-europa.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "europa-europa.html"
     },
@@ -2418,7 +2437,7 @@
         "Eloïse Bennett",
         "Sophie Robin"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(1990,8,5)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -2431,8 +2450,7 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-conte-de-printemps.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://assets.mubicdn.net/images/film/1790/image-w1280.jpg?1745489536",
       "bande_annonce_url": "",
       "slug": "conte-de-printemps.html"
     },
@@ -2447,7 +2465,7 @@
         "Véronique Silver",
         "Jean Daste"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(1985,0,23)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -2459,7 +2477,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-noce-blanche.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "noce-blanche.html"
     },
@@ -2486,7 +2503,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1988/06/mea-bruit-fureur.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "de-bruit-et-de-fureur.html"
     },
@@ -2501,7 +2517,7 @@
         "Jean-Claude Adelin",
         "Evelyne Buyle"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(1988,2,16)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -2509,11 +2525,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Histoire"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1988/01/poster-0-dandin.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "dandin.html"
     },
@@ -2540,7 +2557,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-la-mort-dempedocle.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "la-mort-dempedocle.html"
     },
@@ -2553,7 +2569,7 @@
         "Anne-Laure Meury",
         "Eric Viellard"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(1987,6,10)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -2563,12 +2579,11 @@
       ],
       "thematiques": [
         "Amoureux Amoureuses",
-        "Banlieux Parisiennes"
+        "Banlieux"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-lami-de-mon-amie.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://cinegraphe.fr/wp-content/uploads/2017/01/IMG_6844.jpg",
       "bande_annonce_url": "",
       "slug": "lami-de-mon-amie.html"
     },
@@ -2591,11 +2606,13 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Rural",
+        "Héroïnes"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-quatre-aventures-de-reinette-et-mirabelle.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://i0.wp.com/culturepopculture.com/wp-content/uploads/2019/07/reinette-et-mirabelle-capture-decc81cran.png?fit=1200%2C879&ssl=1",
       "bande_annonce_url": "",
       "slug": "quatre-aventures-de-reinette-et-mirabelle.html"
     },
@@ -2617,12 +2634,13 @@
         "production"
       ],
       "thematiques": [
-        "Portraits"
+        "Portraits",
+        "Héroïnes",
+        "Contes d'été"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-rayon-vert.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://ecrannoirlondon.wordpress.com/wp-content/uploads/2018/03/rayon_vert.jpg",
       "bande_annonce_url": "",
       "slug": "le-rayon-vert.html"
     },
@@ -2644,12 +2662,12 @@
         "production"
       ],
       "thematiques": [
-        "Noctambules"
+        "Fête",
+        "Héroïnes"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-les-nuits-de-la-pleine-lune.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://media.senscritique.com/media/000007337467/0/les_nuits_de_la_pleine_lune.jpg",
       "bande_annonce_url": "",
       "slug": "les-nuits-de-la-pleine-lune.html"
     },
@@ -2674,7 +2692,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-mauvaise-conduite.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "mauvaise-conduite.html"
     },
@@ -2700,8 +2717,7 @@
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-tricheurs.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://panodyssey.com/media/cache/1200x630/uploads/article/16e7318b0277a16729a019b5d8a726df.jpeg",
       "bande_annonce_url": "",
       "slug": "tricheurs.html"
     },
@@ -2727,7 +2743,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-liberty-belle.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "liberty-belle.html"
     },
@@ -2754,7 +2769,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-un-jeu-brutal.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "un-jeu-brutal.html"
     },
@@ -2776,12 +2790,13 @@
         "production"
       ],
       "thematiques": [
-        "Contes d'été"
+        "Contes d'été",
+        "Héroïnes",
+        "Enfance"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-pauline-a-la-plage.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://64.media.tumblr.com/ba837669d0b4cf979d4ba26dfd66e0d7/tumblr_o7z0wgd62w1t9ij14o1_1280.jpg",
       "bande_annonce_url": "",
       "slug": "pauline-a-la-plage.html"
     },
@@ -2805,8 +2820,7 @@
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-beau-mariage.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://www.cinematheque.fr/media/01-films/le-beau-mariage-eric-rohmer.jpg",
       "bande_annonce_url": "",
       "slug": "le-beau-mariage.html"
     },
@@ -2822,11 +2836,15 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Documentaires",
+        "Littérature",
+        "Afrique",
+        "Artistes"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-lettres-damour-en-somalie.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "lettres-damour-en-somalie.html"
     },
@@ -2847,11 +2865,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Héroïnes"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-pont-du-nord.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "le-pont-du-nord.html"
     },
@@ -2871,7 +2890,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-dans-la-foret-de-katyn.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "dans-la-foret-de-katyn.html"
     },
@@ -2898,7 +2916,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-bukowski.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "bukowski.html"
     },
@@ -2922,8 +2939,7 @@
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-femme-de-laviateur.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://www.cinematheque.fr/media/01-films/la-femme-de-laviateur-eric-rohmer.jpg",
       "bande_annonce_url": "",
       "slug": "la-femme-de-laviateur.html"
     },
@@ -2943,11 +2959,13 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Marguerite Duras",
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-navire-night.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "navire-night.html"
     },
@@ -2968,11 +2986,13 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Médiéval",
+        "Adaptations"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-perceval-le-gallois.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://a.ltrbxd.com/resized/sm/upload/yq/ya/zv/aj/omiYZeVnJJq7FEL3l7BbmcBtGSf-1200-1200-675-675-crop-000000.jpg?v=1163babd3c",
       "bande_annonce_url": "",
       "slug": "perceval-le-gallois.html"
     },
@@ -3000,7 +3020,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-koko-le-gorille-qui-parle.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "koko-le-gorille-qui-parle.html"
     },
@@ -3020,11 +3039,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Documentaires"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-une-sale-histoire-documentaire.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "une-sale-histoire-documentaire.html"
     },
@@ -3051,12 +3071,11 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-une-sale-histoire-fiction.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "une-sale-histoire-fiction.html"
     },
     {
-      "titre": "La Marquise D’o",
+      "titre": "La Marquise D’O...",
       "cineaste": "Eric Rohmer",
       "casting": [
         "Edith Clever",
@@ -3072,11 +3091,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Adaptations"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-marquise-do.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://storage.canalblog.com/78/31/110219/56174377.png",
       "bande_annonce_url": "",
       "slug": "la-marquise-do.html"
     },
@@ -3100,12 +3120,11 @@
         "production"
       ],
       "thematiques": [
-        "Hubris"
+        "Sensualité"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-maitresse.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "maitresse.html"
     },
@@ -3129,11 +3148,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Héroïnes"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-celine-et-julie-vont-en-bateau.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "celine-et-julie-vont-en-bateau.html"
     },
@@ -3155,7 +3175,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-general-idi-amin-dada.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "general-idi-amin-dada.html"
     },
@@ -3171,18 +3190,18 @@
       "date_sortie": "",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "",
+      "synopsis": "La vie parfaitement réglée de Frédéric s’écoule agréablement. Marié à la femme qu’il aime, père d’une adorable petite fille, il a monté avec un collègue un cabinet d’affaires florissant. Il a même du temps libre pour lire ou observer les joies parisiennes. Une après-midi, Chloé, l’ex-fiancée de son meilleur ami, débarque dans son bureau après plusieurs années de silence. Elle mène une vie bohème à l’opposé de celle de Frédéric. Même si d’emblée, il se montre froid et distant, Chloé ne semble pas souffrir de son accueil. Elle revient régulièrement et, peu à peu, s’impose en récréation attendue dans le quotidien monotone de Frédéric. Un après-midi, il se retrouve dans sa chambre de bonne.",
       "status": "catalogue",
       "categories": [
         "production"
       ],
       "thematiques": [
-        "Amoureux Amoureuses"
+        "Amoureux Amoureuses",
+        "Sensualité"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-lamour-lapres-midi.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://pbs.twimg.com/media/DW55B3cXkAEh_qO.jpg",
       "bande_annonce_url": "",
       "slug": "lamour-lapres-midi.html"
     },
@@ -3209,7 +3228,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-vallee.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "la-vallee.html"
     },
@@ -3226,17 +3244,18 @@
       "date_sortie": "",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "",
+      "synopsis": "A quelques semaines de son mariage, Jérôme prend des vacances sur les bords du Lac d’Annecy où il doit s’occuper de la vente d’une villa de famille. Par hasard, il retrouve Aurora, une vieille amie roumaine qui séjourne chez une connaissance commune. Il lui rend visite et la fille de la maison, Laura, forte tête de quinze ans, paraît sensible à son charme. Aurora, qui est romancière, trouve dans cette idylle le sujet de son prochain livre. Désœuvré, Jérôme se laisse prendre au jeu et fréquente Laura . Mais l’arrivée de Claire, demi-sœur plus âgée de Laura, le trouble autrement. Laura le délaissant pour un garçon désinvolte, son attirance pour Claire devient obsessionnelle.",
       "status": "catalogue",
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Sensualité"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-genou-de-claire.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
-      "bande_annonce_url": "",
+      "affiche_photos": "https://www.critikat.com/wp-content/uploads/2009/02/Le-Genou-de-claire.jpg",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=xNnaIs8LAak",
       "slug": "le-genou-de-claire.html"
     },
     {
@@ -3262,7 +3281,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-more.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "more.html"
     },
@@ -3288,8 +3306,7 @@
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-ma-nuit-chez-maud.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://www.cinematheque.qc.ca/workspace/uploads/projections/manuitchezmaud_2-fr-1739805342.jpg",
       "bande_annonce_url": "",
       "slug": "ma-nuit-chez-maud.html"
     },
@@ -3308,8 +3325,7 @@
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-fermiere-de-montfaucon.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://www.cinematheque.fr/cache/media/01-films/fermiere-a-montfaucon-eric-rohmer/s,910-8bbbbb.jpg",
       "bande_annonce_url": "",
       "slug": "la-fermiere-de-montfaucon.html"
     },
@@ -3331,18 +3347,17 @@
         "production"
       ],
       "thematiques": [
-        "Hubris"
+        "Sensualité"
       ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-collectionneuse.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFzcKZ4l9r1MjqZtNbOLEVfD3vb8bZCujl8_MWC_O5wNWacexKGYb0mRfIbJni5qWmanPoy-XifEw2L-6JLPc8WGKtXssSWLhaEKjcHRhK-9y1UOu9hXmQ_wud2KQIstHF5wjadqIbJ14/s1024/patrick-bauchau-haydee-politoff-la-collectionneuse.png",
       "bande_annonce_url": "",
       "slug": "la-collectionneuse.html"
     },
     {
       "titre": "Paris Vu Par…",
-      "cineaste": "Claude Chabrol",
+      "cineaste": "Claude Chabrol, Eric Rohmer, Jean-Luc Godard, Jean Rouch, Jean-Daniel Pollet, Jean Douchet",
       "casting": [
         "Stéphane Audran",
         "Barbara Wilkind",
@@ -3359,11 +3374,12 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Nouvelle Vague"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-paris-vu-par.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "paris-vu-par.html"
     },
@@ -3387,8 +3403,7 @@
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-la-boulangere-de-monceau.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://size.blogspirit.net/juanasensio.com/www/560/media/00/02/377843568.jpg",
       "bande_annonce_url": "",
       "slug": "la-boulangere-de-monceau.html"
     },
@@ -3412,8 +3427,7 @@
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-la-carriere-de-suzanne-773x1030.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://medias.unifrance.org/medias/58/203/52026/format_page/la-carriere-de-suzanne.jpg",
       "bande_annonce_url": "",
       "slug": "la-carriere-de-suzanne.html"
     },
@@ -3434,11 +3448,13 @@
       "categories": [
         "production"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Premiers Films",
+        "Nouvelle Vague"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/1993/04/poster-0-le-signe-du-lion.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://www.cinematheque.fr/cache/media/01-films/le-signe-du-lion-eric-rohmer/s,910-7ca96f.jpg",
       "bande_annonce_url": "",
       "slug": "le-signe-du-lion.html"
     },
@@ -3461,8 +3477,7 @@
       "thematiques": [],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-veronique-et-son-cancre.jpg",
       "kit_materiel": "",
-      "affiche_photos": "",
-      "bande_annonce_fichier": "",
+      "affiche_photos": "https://cinegraphe.fr/wp-content/uploads/2017/10/photo-2.jpg",
       "bande_annonce_url": "",
       "slug": "veronique-et-son-cancre.html"
     },
@@ -3481,17 +3496,18 @@
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Jeunesse"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2023/01/Sans-titre-2.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "nina-et-le-secret-du-herisson.html"
     },
     {
       "titre": "A Short story",
-      "cineaste": "BI GAN",
+      "cineaste": "Bi Gan",
       "casting": [
         "TAN Zhuo",
         "CHENG Yongzhong"
@@ -3504,11 +3520,12 @@
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Fantômes"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/05/mea-tourment.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "a-short-story.html"
     },
@@ -3532,7 +3549,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2021/02/mae-poster.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "fabian.html"
     },
@@ -3554,7 +3570,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/06/MAE-Site.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "la-riviere.html"
     },
@@ -3576,11 +3591,12 @@
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "LGBT"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/02/mea-garconchiffon.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "garcon-chiffon.html"
     },
@@ -3606,11 +3622,12 @@
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/11/merveillesamontfermeil_small.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "merveilles-a-montfermeil.html"
     },
@@ -3629,11 +3646,12 @@
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Marguerite Duras"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2020/01/SA-mea.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "suzanna-andler.html"
     },
@@ -3644,7 +3662,7 @@
         "Benoit MAGIMEL",
         "Mya BOLLAERS"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2017,0,1)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -3656,7 +3674,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/08/lolaverslamer-affiche.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "lola-vers-la-mer.html"
     },
@@ -3678,11 +3695,12 @@
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Réalisatrices"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/08/LAudition-vf1.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "laudition.html"
     },
@@ -3701,7 +3719,7 @@
         "Elli Medeiros",
         "Vanessa Paradis"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2016,0,1)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -3709,11 +3727,12 @@
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Musique"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/05/HAUT-LES-FILLES-affiche-France-e1571824212576.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "haut-les-filles.html"
     },
@@ -3726,7 +3745,7 @@
         "Djolof Mbengue",
         "Saadia Bentaïeb"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2017,0,1)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -3738,7 +3757,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/08/Vif-argent-visu.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "vif-argent.html"
     },
@@ -3753,19 +3771,20 @@
         "Néa",
         "Emma"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2019,4,22)",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "Thomas DALOZ,\nSalvatore FERRO,\nLéo COUILFORT,\nNicolas MARCANT,\nNéa LÜDERS,\nEmma JOSSERAND",
+      "synopsis": "",
       "status": "catalogue",
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Sciences"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/01/visuel-Les-particules-758x1030.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "les-particules.html"
     },
@@ -3773,15 +3792,15 @@
       "titre": "HELLHOLE",
       "cineaste": "Bas Devos",
       "casting": [
-        "Alba",
-        "Willy",
-        "Hamza",
-        "Lubna"
+        "Alba ROHRWACHER",
+        "Willy THOMAS",
+        "Hamza BELARBI",
+        "Lubna AZABAL"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2019,0,1)",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "Alba ROHRWACHER, Willy THOMAS, Hamza BELARBI, Lubna AZABAL",
+      "synopsis": "",
       "status": "catalogue",
       "categories": [
         "ventes internationales"
@@ -3790,7 +3809,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2019/02/poster-0-hellhole1.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "hellhole.html"
     },
@@ -3806,7 +3824,7 @@
         "Sophie Verbeeck",
         "Charlotte Van Bervesselès"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2018,3,18)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -3818,7 +3836,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2018/02/poster-0-mes-provinciales.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "mes-provinciales.html"
     },
@@ -3840,7 +3857,7 @@
         "Nass",
         "Ndella Paye",
         "Ornella Aka Loulou",
-        "Po",
+        "Po B.K Lomani",
         "Rachel Khan",
         "Rebecca Chaillon",
         "Sabine Pakora",
@@ -3854,16 +3871,21 @@
       "date_sortie": "",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "Aiss Berg, Amelia Ewu, Eleonore, Fania Noel, Fanny Aka Thisiskiyemis, Laura Aka Mrsroots, Maboula Soumahoro, Many Chroniques, Marie Leda, Marie Julie Chalu, Merci Michel, Nass, Ndella Paye, Ornella Aka Loulou, Po B.K Lomani, Rachel Khan, Rebecca Chaillon, Sabine Pakora, Sandra, Sandra Sainte Rose Fanchine, Sharone, Taina, Thara, Zina",
+      "synopsis": "",
       "status": "catalogue",
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Réalisatrices",
+        "Premiers Films",
+        "Afrique",
+        "Décolonial",
+        "Documentaire"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2022/03/mea-WB.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "ouvrir-la-voix.html"
     },
@@ -3874,7 +3896,7 @@
         "Kabwita Kasongo",
         "Lydie Kasongo"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2017,4,23)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -3886,51 +3908,61 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/12/poster-0-makala.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "makala.html"
     },
     {
       "titre": "DJAM",
-      "cineaste": "Tony GATLIF",
+      "cineaste": "Tony Gatlif",
       "casting": [
-        "Daphné",
-        "Maryne",
-        "Simon"
+        "Daphné PATAKIA",
+        "Maryne CAYON",
+        "Simon ABKARIAN"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2017,4,25)",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "Daphné PATAKIA, Maryne CAYON, Simon ABKARIAN",
+      "synopsis": "",
       "status": "catalogue",
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Musique"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/05/poster-0-djam.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "djam.html"
     },
     {
       "titre": "A mon âge, je me cache encore pour fumer",
       "cineaste": "Rayhana Play",
-      "casting": [],
-      "date_sortie": "",
+      "casting": [
+        "HIAM ABBASS",
+        "FADILA BELKEBLA",
+        "NADIA KACI",
+        "NASSIMA BENCHICOU",
+        "SARAH LAYSSAC",
+        "MAYMOUNA",
+        "LINA SOUALEM",
+        "FAROUDJA AMAZIT et avec la participation de BIYOUNA dans le rôle de Aïcha"
+      ],
+      "date_sortie": "Date(2017,3,26)",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "HIAM ABBASS, FADILA BELKEBLA, NADIA KACI, NASSIMA BENCHICOU, SARAH LAYSSAC, MAYMOUNA, LINA SOUALEM, \nFAROUDJA AMAZIT et avec la participation de BIYOUNA dans le rôle de Aïcha",
+      "synopsis": "",
       "status": "catalogue",
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Féminismes"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/04/poster-0-a-mon-age-je-me-cache-encore-pour-fumer.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "a-mon-age-je-me-cache-encore-pour-fumer.html"
     },
@@ -3938,7 +3970,7 @@
       "titre": "L’OPÉRA",
       "cineaste": "Stéphane Bron Play",
       "casting": [],
-      "date_sortie": "",
+      "date_sortie": "Date(2017,0,1)",
       "duree_minutes": null,
       "nationalites": [],
       "synopsis": "",
@@ -3950,18 +3982,29 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/04/poster-0-lopera.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "lopera.html"
     },
     {
       "titre": "DIAMOND ISLAND",
       "cineaste": "Davy Chou",
-      "casting": [],
-      "date_sortie": "",
+      "casting": [
+        "NUON Sobon",
+        "NOV Cheanick",
+        "CHHEM Madeza",
+        "KORN Mean",
+        "NUT Samnang",
+        "MENG Sophyna",
+        "MIN Jany",
+        "KHIM Samnang",
+        "OUN Batham",
+        "HANG Sreyleap",
+        "DOM Sreyroth"
+      ],
+      "date_sortie": "Date(2017,0,19)",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "NUON Sobon\nNOV Cheanick\nCHHEM Madeza\nKORN Mean\nNUT Samnang\nMENG Sophyna\nMIN Jany \nKHIM Samnang\nOUN Batham \nHANG Sreyleap\nDOM Sreyroth",
+      "synopsis": "",
       "status": "catalogue",
       "categories": [
         "ventes internationales"
@@ -3972,7 +4015,6 @@
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2016/12/poster-0-diamond-island.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "diamond-island.html"
     },
@@ -3980,25 +4022,97 @@
       "titre": "OLLI MÄKI",
       "cineaste": "Juho Kuosmanen",
       "casting": [
-        "Jarkko Lahti",
-        "Oona Airola",
-        "Eero Milonoff"
+        "Jarkko Lahti (Olli)",
+        "Oona Airola (Raija)",
+        "Eero Milonoff (Elis Ask)"
       ],
-      "date_sortie": "",
+      "date_sortie": "Date(2016,8,2)",
       "duree_minutes": null,
       "nationalites": [],
-      "synopsis": "Jarkko Lahti (Olli), Oona Airola (Raija), Eero Milonoff (Elis Ask)",
+      "synopsis": "",
       "status": "catalogue",
       "categories": [
         "ventes internationales"
       ],
-      "thematiques": [],
+      "thematiques": [
+        "Sport"
+      ],
       "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2016/10/poster-0-olli-maki.jpg",
       "kit_materiel": "",
       "affiche_photos": "",
-      "bande_annonce_fichier": "",
       "bande_annonce_url": "",
       "slug": "olli-mki.html"
+    },
+    {
+      "titre": "Out of this World",
+      "cineaste": "Albert Serra",
+      "casting": [
+        "À venir"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "prochainement",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "images/films/outofthisworld-preview.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_url": "",
+      "slug": "outofthisworld.html"
+    },
+    {
+      "titre": "Hautefaye",
+      "cineaste": "Vincent Le Port",
+      "casting": [
+        "À venir"
+      ],
+      "date_sortie": "",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "",
+      "status": "prochainement",
+      "categories": [
+        "production"
+      ],
+      "thematiques": [],
+      "affiche_image": "images/films/hautefaye-preview.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_url": "",
+      "slug": "hautefaye.html"
+    },
+    {
+      "titre": "THE RIDER",
+      "cineaste": "Chloé Zhao",
+      "casting": [
+        "Brady Jandreau",
+        "Tim Jandreau",
+        "Lilly Jandreau",
+        "Lane Scott",
+        "Cat Clifford"
+      ],
+      "date_sortie": "Date(2018,2,28)",
+      "duree_minutes": null,
+      "nationalites": [],
+      "synopsis": "Le jeune cowboy Brady, étoile montante du rodéo, apprend qu’après son tragique accident de cheval, les compétitions lui sont désormais interdites. De retour chez lui, Brady doit trouver une nouvelle raison de vivre, à présent qu’il ne peut plus s’adonner à l’équitation et la compétition qui donnaient tout son sens à sa vie. Dans ses efforts pour reprendre en main son destin, Brady se lance à la recherche d’une nouvelle identité et tente de définir ce qu’implique être un homme au coeur de l’Amérique.",
+      "status": "catalogue",
+      "categories": [
+        "distribution"
+      ],
+      "thematiques": [
+        "Réalisatrices",
+        "Amérique",
+        "Rural"
+      ],
+      "affiche_image": "https://filmsdulosange.com/wp-content/uploads/sites/2/2017/05/poster-0-the-rider.jpg",
+      "kit_materiel": "",
+      "affiche_photos": "",
+      "bande_annonce_url": "https://www.youtube.com/watch?v=w5VDxQ-a9LE",
+      "slug": "the-rider.html"
     }
   ]
 }
