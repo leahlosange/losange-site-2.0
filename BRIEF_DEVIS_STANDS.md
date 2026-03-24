@@ -124,15 +124,14 @@ Chaque film contient notamment :
 
 ## 7. Contraintes et préférences
 
-- **Langue** : site en français (pas de multilingue prévu)
+- **Langue** : site en français (version inter à prévoir)
 - **Back-office** : accès simple pour l’équipe interne (mise à jour sans compétences techniques poussées)
-- **Coûts** : les abonnements plugins/thèmes/hébergement actuels dépassent le budget annuel → recherche d’une solution plus économique
 
 ---
 
 ## 8. Planning indicatif
 
-- **Délai de réponse** : souhait d’un devis sous 2–3 semaines  
+- **Délai de réponse** : souhait d’un devis ASAP  
 - **Lancement** : à définir après validation du devis
 
 ---

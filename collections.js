@@ -22,7 +22,7 @@ function getCineasteFicheUrl(cineaste) {
     return key ? CINEASTE_FICHE_URL[key] : null;
 }
 
-// 15 cinéastes mis en avant (grille de 5), ordre d'affichage
+// Cinéastes mis en avant (grille de 5), ordre d'affichage
 const FEATURED_CINEASTES = [
     'Raymond Depardon',
     'Jean Eustache',
@@ -38,7 +38,10 @@ const FEATURED_CINEASTES = [
     'Eric Rohmer',
     'Barbet Schroeder',
     'Lars Von Trier',
-    'Wim Wenders'
+    'Wim Wenders',
+    'Pierre Salvadori',
+    'Olivier Assayas',
+    'Guy Debord'
 ];
 
 // Comparaison souple (Éric / Eric, espaces)
@@ -518,7 +521,7 @@ async function displayFilmsByCineaste() {
     const byLetter = groupByLetter(validCineastes);
     const letters = Object.keys(byLetter).sort();
 
-    // Toujours 15 cartes : ajouter une entrée vide pour les cinéastes vedette absents des données
+    // Toujours afficher les cinéastes mis en avant : ajouter une entrée vide si absent des données
     FEATURED_CINEASTES.forEach(name => {
         const key = validCineastes.find(c => cineasteNameMatches(c, name));
         if (!key) grouped[name] = [];
@@ -528,13 +531,13 @@ async function displayFilmsByCineaste() {
     const featuredWithData = FEATURED_CINEASTES.map(name => {
         const key = validCineastes.find(c => cineasteNameMatches(c, name)) || name;
         return { displayName: name, key, films: grouped[key] || [] };
-    });
+    }).sort((a, b) => a.key.localeCompare(b.key, 'fr'));
 
     // Contenu principal (grille 15 + liste A-Z) à masquer quand on affiche les films d'un cinéaste
     const listContainer = document.createElement('div');
     listContainer.className = 'cineastes-main';
 
-    // Grille des 15 cinéastes (5 colonnes)
+    // Grille des cinéastes mis en avant (5 colonnes)
     const featuredGrid = document.createElement('div');
     featuredGrid.className = 'cineastes-featured-grid';
     featuredWithData.forEach(({ key, films }) => {

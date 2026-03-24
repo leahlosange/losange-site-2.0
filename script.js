@@ -897,7 +897,7 @@ async function loadHomeNewsFromJson() {
     <span class="news-date">${art.date || ''}</span>
     <h3 class="news-title">${art.title || ''}</h3>
     <p class="news-excerpt">${excerptShort}</p>
-    <span class="news-cta">lire l'article →</span>
+    <span class="news-cta">lire l'article</span>
   </div>
 </a>`;
             track.appendChild(articleEl);
@@ -910,60 +910,59 @@ async function loadHomeNewsFromJson() {
 // === Film Filters ===
 // === News Slider (homepage) ===
 function initNewsSlider() {
-    const wrapper = document.querySelector('.news-slider-wrapper');
+    const container = document.querySelector('.news-slider-track-container');
     const track = document.querySelector('.news-slider-track');
-    const prevBtn = document.querySelector('.news-slider-prev');
-    const nextBtn = document.querySelector('.news-slider-next');
+    if (!container || !track) return;
 
-    if (!wrapper || !track || !prevBtn || !nextBtn) return;
+    const items = Array.from(track.querySelectorAll('.news-card-item'));
+    if (items.length < 2) return;
 
-    const items = track.querySelectorAll('.news-card-item');
-    if (items.length === 0) return;
+    // Boucle continue : on duplique une fois la série d'articles.
+    items.forEach(item => track.appendChild(item.cloneNode(true)));
 
-    let currentIndex = 0;
+    let originalWidth = 0;
+    let rafId = null;
+    let paused = false;
+    const speedPxPerFrame = 0.28; // défilement lent et continu
 
-    function getVisibleCount() {
-        const w = wrapper.offsetWidth;
-        if (w >= 1200) return 4;
-        if (w >= 768) return 3;
-        if (w >= 500) return 2;
-        return 1;
+    function measure() {
+        originalWidth = track.scrollWidth / 2;
     }
 
-    function getSlideStep() {
-        const first = items[0];
-        if (!first) return 0;
-        const style = getComputedStyle(track);
-        const gap = parseFloat(style.gap) || 32;
-        return first.offsetWidth + gap;
+    function tick() {
+        if (!paused) {
+            container.scrollLeft += speedPxPerFrame;
+            if (container.scrollLeft >= originalWidth) {
+                container.scrollLeft -= originalWidth;
+            }
+        }
+        rafId = requestAnimationFrame(tick);
     }
 
-    function updateSlider() {
-        const step = getSlideStep();
-        const maxIndex = Math.max(0, items.length - getVisibleCount());
-        currentIndex = Math.min(currentIndex, maxIndex);
-        currentIndex = Math.max(0, currentIndex);
-        track.style.transform = `translateX(-${currentIndex * step}px)`;
-
-        prevBtn.style.visibility = currentIndex === 0 ? 'hidden' : 'visible';
-        nextBtn.style.visibility = currentIndex >= maxIndex ? 'hidden' : 'visible';
+    function start() {
+        if (!rafId) rafId = requestAnimationFrame(tick);
     }
 
-    prevBtn.addEventListener('click', () => {
-        currentIndex--;
-        updateSlider();
-    });
+    function stop() {
+        if (rafId) cancelAnimationFrame(rafId);
+        rafId = null;
+    }
 
-    nextBtn.addEventListener('click', () => {
-        currentIndex++;
-        updateSlider();
-    });
+    // Pause légère au survol / toucher pour garder le contrôle utilisateur.
+    container.addEventListener('mouseenter', () => { paused = true; });
+    container.addEventListener('mouseleave', () => { paused = false; });
+    container.addEventListener('touchstart', () => { paused = true; }, { passive: true });
+    container.addEventListener('touchend', () => { paused = false; }, { passive: true });
 
     window.addEventListener('resize', () => {
-        updateSlider();
+        measure();
+        if (container.scrollLeft >= originalWidth) container.scrollLeft = 0;
     });
 
-    updateSlider();
+    measure();
+    start();
+
+    window.addEventListener('beforeunload', stop, { once: true });
 }
 
 function initFilmFilters() {
@@ -1005,6 +1004,7 @@ function initFilmFilters() {
 // === Showtimes : embed des mini-sites par film + menu déroulant personnalisé ===
 function initShowtimes() {
     const select = document.getElementById('showtimes-film-select');
+    const showtimesSection = document.querySelector('.showtimes-section');
     const embedWrapper = document.getElementById('showtimes-embed-wrapper');
     const bubbleOverlay = document.getElementById('showtimes-bubble-overlay');
     const iframe = document.getElementById('showtimes-iframe');
@@ -1016,19 +1016,101 @@ function initShowtimes() {
 
     if (!select || !embedWrapper || !iframe) return;
 
-    // Construire la liste du menu à partir du <select> (sans l'option "choisir un film")
-    if (listEl && select.options.length) {
+    function normText(s) {
+        return (s || '')
+            .toLowerCase()
+            .trim()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[’']/g, "'")
+            .replace(/\s+/g, ' ');
+    }
+
+    function splitOptionLabel(label) {
+        const txt = (label || '').trim();
+        const parts = txt.split(/\s+[-—–]\s+/);
+        if (parts.length >= 2) {
+            return { title: parts[0].trim(), director: parts.slice(1).join(' - ').trim() };
+        }
+        return { title: txt, director: '' };
+    }
+
+    function findFilmByOptionLabel(films, label) {
+        const parsed = splitOptionLabel(label);
+        const nTitle = normText(parsed.title);
+        return films.find(function(f) {
+            const ft = normText(f.titre || '');
+            return ft === nTitle || ft.includes(nTitle) || nTitle.includes(ft);
+        }) || null;
+    }
+
+    function cardImageFromFilm(film) {
+        if (!film) return '';
+        const src = (film.affiche_photos || film.affiche_image || '').trim();
+        if (!src) return '';
+        return src;
+    }
+
+    function buildShowtimesOptions(films) {
+        if (!listEl || !select.options.length) return;
         listEl.innerHTML = '';
+
+        let count = 0;
         for (let i = 0; i < select.options.length; i++) {
             const opt = select.options[i];
             if ((opt.value || '').trim() === '') continue;
+            count++;
+
+            const label = opt.textContent.trim();
+            const parsed = splitOptionLabel(label);
+            const film = findFilmByOptionLabel(films, label);
+            const image = cardImageFromFilm(film);
+            const director = (film && film.cineaste) ? film.cineaste : parsed.director;
+
             const div = document.createElement('div');
-            div.className = 'showtimes-dropdown-option';
+            div.className = 'showtimes-dropdown-option showtimes-dropdown-card';
             div.setAttribute('role', 'option');
             div.dataset.value = opt.value;
-            div.textContent = opt.textContent.trim();
+            div.dataset.label = label;
+            div.innerHTML = `
+                <div class="showtimes-card-thumb">
+                    ${image ? `<img src="${image}" alt="${(parsed.title || '').replace(/"/g, '&quot;')}">` : ''}
+                </div>
+                <div class="showtimes-card-meta">
+                    <span class="showtimes-card-title">${parsed.title || ''}</span>
+                    <span class="showtimes-card-director">${director || ''}</span>
+                </div>
+            `;
             listEl.appendChild(div);
         }
+
+        listEl.style.setProperty('--showtimes-items', String(Math.max(1, count)));
+    }
+
+    // Construire la liste de vignettes à partir du select + data/films.json
+    fetch('data/films.json', { cache: 'no-store' })
+        .then(function(res) { return res.ok ? res.json() : null; })
+        .then(function(data) {
+            const films = data && Array.isArray(data.films) ? data.films : [];
+            buildShowtimesOptions(films);
+        })
+        .catch(function() {
+            buildShowtimesOptions([]);
+        });
+
+    function getFirstFilmOptionText() {
+        for (let i = 0; i < select.options.length; i++) {
+            const opt = select.options[i];
+            if ((opt.value || '').trim() !== '') return opt.textContent.trim();
+        }
+        return 'Choisir un film...';
+    }
+
+    function updateShowtimesSectionSpacing() {
+        if (!showtimesSection || !dropdown || !listEl) return;
+        const isOpen = dropdown.classList.contains('is-open') && !listEl.hidden;
+        const extra = isOpen ? Math.max(0, listEl.offsetHeight - 52) : 0;
+        showtimesSection.style.setProperty('--showtimes-extra-space', extra + 'px');
     }
 
     function openDropdown() {
@@ -1036,13 +1118,8 @@ function initShowtimes() {
         dropdown.classList.add('is-open');
         listEl.hidden = false;
         if (trigger) trigger.setAttribute('aria-expanded', 'true');
-        // Forcer l'état initial pour que l'animation de la bulle parte bien
-        requestAnimationFrame(function() {
-            void listEl.offsetHeight;
-            requestAnimationFrame(function() {
-                listEl.classList.add('is-open');
-            });
-        });
+        listEl.classList.add('is-open');
+        updateShowtimesSectionSpacing();
     }
 
     function closeDropdown() {
@@ -1050,10 +1127,8 @@ function initShowtimes() {
         dropdown.classList.remove('is-open');
         listEl.classList.remove('is-open');
         if (trigger) trigger.setAttribute('aria-expanded', 'false');
-        listEl.addEventListener('transitionend', function onEnd(e) {
-            if (e.target !== listEl || e.propertyName !== 'max-height') return;
-            listEl.hidden = true;
-        }, { once: true });
+        listEl.hidden = true;
+        updateShowtimesSectionSpacing();
     }
 
     // Clic sur le trigger
@@ -1073,7 +1148,10 @@ function initShowtimes() {
             if (!option) return;
             const value = option.dataset.value || '';
             select.value = value;
-            if (triggerLabel) triggerLabel.textContent = value ? option.textContent.trim() : 'Choisir un film...';
+            if (triggerLabel) {
+                triggerLabel.textContent = value ? (option.dataset.label || getFirstFilmOptionText()) : getFirstFilmOptionText();
+                triggerLabel.classList.remove('is-placeholder');
+            }
             closeDropdown();
             select.dispatchEvent(new Event('change', { bubbles: true }));
         });
@@ -1105,7 +1183,10 @@ function initShowtimes() {
 
     function resetShowtimesSection() {
         select.value = '';
-        if (triggerLabel) triggerLabel.textContent = 'Choisir un film...';
+        if (triggerLabel) {
+            triggerLabel.textContent = getFirstFilmOptionText();
+            triggerLabel.classList.add('is-placeholder');
+        }
         iframe.removeAttribute('src');
         if (openLink) {
             openLink.href = '#';
@@ -1146,6 +1227,20 @@ function initShowtimes() {
         });
     }
 
+    if (openLink) {
+        openLink.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const href = (openLink.getAttribute('href') || '').trim();
+            if (!href || href === '#') {
+                e.preventDefault();
+                return;
+            }
+            // Sécurise l'ouverture dans un nouvel onglet même si un overlay capte mal le focus
+            e.preventDefault();
+            window.open(href, '_blank', 'noopener,noreferrer');
+        });
+    }
+
     select.addEventListener('change', function() {
         const url = (this.value || '').trim();
         const clipEl = document.getElementById('showtimes-iframe-clip');
@@ -1154,8 +1249,11 @@ function initShowtimes() {
             closeBubble();
             iframe.removeAttribute('src');
             if (openLink) openLink.href = '#';
+            if (triggerLabel) triggerLabel.classList.add('is-placeholder');
             return;
         }
+
+        if (triggerLabel) triggerLabel.classList.remove('is-placeholder');
 
         /* Appliquer le cadrage (décalage) pour ce mini-site : même valeur par défaut pour tous, ou data-clip-offset sur l'option */
         const selectedOpt = this.options[this.selectedIndex];
@@ -1171,6 +1269,15 @@ function initShowtimes() {
         }
         openBubble();
     });
+
+    // État initial : afficher le premier film comme suggestion
+    if (triggerLabel) {
+        triggerLabel.textContent = getFirstFilmOptionText();
+        triggerLabel.classList.add('is-placeholder');
+    }
+
+    window.addEventListener('resize', updateShowtimesSectionSpacing);
+    updateShowtimesSectionSpacing();
 }
 
 // === Animated Favicon (Rotating Losange) ===
@@ -1628,6 +1735,17 @@ async function loadStreamingSpotlight() {
         let image = item.image || 'images/catalogue/l-avenir.jpg';
         let meta = item.meta || '';
         let award = item.award || '';
+        let releaseDateLabel = '';
+
+        function extractYearLabel(dateStr) {
+            if (!dateStr || typeof dateStr !== 'string') return '';
+            const s = dateStr.trim();
+            let m = s.match(/Date\((\d{4}),\s*\d{1,2},\s*\d{1,2}\)/);
+            if (m) return m[1];
+            m = s.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+            if (m) return m[3];
+            return '';
+        }
 
         if (item.slug && item.slug.trim()) {
             try {
@@ -1641,6 +1759,7 @@ async function loadStreamingSpotlight() {
                         director = director || ('un film de ' + (film.cineaste || ''));
                         image = film.affiche_image || image;
                         if (!meta && Array.isArray(film.casting) && film.casting.length) meta = film.casting.slice(0, 3).join(' • ');
+                        releaseDateLabel = extractYearLabel(film.date_sortie || '');
                     }
                 }
             } catch (_) {}
@@ -1657,6 +1776,7 @@ async function loadStreamingSpotlight() {
 
         const platformName = item.svod_platform || 'France TV';
         const voirSurText = 'Voir sur ' + platformName;
+        const titleWithDate = releaseDateLabel ? (title + ' (' + releaseDateLabel + ')') : title;
         link.innerHTML =
             '<div class="watch-now-video">' +
             '<img src="' + escapeHtmlAttr(image) + '" alt="' + escapeHtmlAttr(item.title || title) + '">' +
@@ -1665,9 +1785,9 @@ async function loadStreamingSpotlight() {
             '<div class="streaming-spotlight-footer"><span class="streaming-spotlight-btn">' + escapeHtml(voirSurText) + '</span></div>' +
             '</div>' +
             '<div class="watch-now-info">' +
-            '<h2 class="watch-now-title">' + escapeHtml(title) + '</h2>' +
-            (meta ? '<p class="watch-now-meta">' + escapeHtml(meta) + '</p>' : '') +
             '<span class="watch-now-director">' + escapeHtml(director) + '</span>' +
+            '<h2 class="watch-now-title">' + escapeHtml(titleWithDate) + '</h2>' +
+            (meta ? '<p class="watch-now-meta">avec: ' + escapeHtml(meta) + '</p>' : '') +
             (award ? '<span class="watch-now-award">' + escapeHtml(award) + '</span>' : '') +
             '</div>';
 
@@ -1736,25 +1856,6 @@ function createHomeFilmCard(film) {
 
     const info = document.createElement('div');
     info.className = 'film-card-info';
-
-    const tags = document.createElement('div');
-    tags.className = 'film-card-tags';
-
-    const statusSpan = document.createElement('span');
-    statusSpan.className = 'film-card-status';
-    if (film.status === 'prochainement') statusSpan.classList.add('soon');
-    statusSpan.textContent =
-        film.status === 'actuellement' ? 'en salles' :
-        film.status === 'prochainement' ? 'prochainement' : 'catalogue';
-    tags.appendChild(statusSpan);
-
-    const categorySpan = document.createElement('span');
-    categorySpan.className = 'film-card-category';
-    categorySpan.textContent = (Array.isArray(film.categories) && film.categories.length > 0)
-        ? film.categories.join(' • ') : 'distribution';
-    tags.appendChild(categorySpan);
-
-    info.appendChild(tags);
 
     const title = document.createElement('h3');
     title.className = 'film-card-title';
