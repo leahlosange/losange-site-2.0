@@ -231,6 +231,32 @@ body.light-header .logo-img {
     filter: none;
 }
 
+/* Pages à titre noir : header en noir + logo bleu (sans attendre le scroll) */
+body.page-about .header-btn,
+body.page-contact .header-btn,
+body.page-films .header-btn,
+body.page-catalogue .header-btn,
+body.page-actualites .header-btn {
+    color: var(--color-black);
+    mix-blend-mode: normal;
+}
+
+body.page-about .header-logo,
+body.page-contact .header-logo,
+body.page-films .header-logo,
+body.page-catalogue .header-logo,
+body.page-actualites .header-logo {
+    mix-blend-mode: normal;
+}
+
+body.page-about .logo-img,
+body.page-contact .logo-img,
+body.page-films .logo-img,
+body.page-catalogue .logo-img,
+body.page-actualites .logo-img {
+    filter: none;
+}
+
 /* === Fullscreen Menu === */
 .fullscreen-menu {
     position: fixed;
@@ -1643,7 +1669,7 @@ body.light-header .logo-img {
 
 /* === Films Section === */
 .films-section {
-    background: var(--color-off-white);
+    background: var(--color-white);
     padding: 6rem 2rem;
 }
 
@@ -2470,7 +2496,7 @@ body.light-header .logo-img {
 
 /* === Page Films === */
 .page-films {
-    background-color: var(--color-off-white);
+    background-color: var(--color-white);
 }
 
 /* Nouveautés : affiches au format vertical dans toutes les sections */
@@ -2491,7 +2517,7 @@ body.light-header .logo-img {
 }
 
 .page-header {
-    padding: 180px 40px 60px;
+    padding: 180px 40px 36px;
     background-color: var(--color-black);
     text-align: center;
 }
@@ -2500,7 +2526,7 @@ body.light-header .logo-img {
 .page-catalogue .page-header,
 .page-actualites .page-header,
 .page-contact .page-header {
-    padding: 90px 40px 30px;
+    padding: 90px 40px 18px;
 }
 
 .page-title {
@@ -2510,6 +2536,25 @@ body.light-header .logo-img {
     letter-spacing: 0;
     color: var(--color-white);
     margin-bottom: 0.5rem;
+}
+
+/* Uniformisation des titres de pages demandées (style "À voir en ligne") */
+.page-about .page-header,
+.page-contact .page-header,
+.page-films .page-header,
+.page-catalogue .page-header,
+.page-actualites .page-header {
+    background: var(--color-white);
+}
+
+.page-about .page-title,
+.page-contact .page-title,
+.page-films .page-title,
+.page-catalogue .page-title,
+.page-actualites .page-title {
+    color: var(--color-black);
+    letter-spacing: 0;
+    text-transform: none;
 }
 
 .page-subtitle {
@@ -2535,14 +2580,14 @@ body.light-header .logo-img {
 
 @media (max-width: 768px) {
     .page-header {
-        padding: 140px 20px 40px;
+        padding: 140px 20px 24px;
     }
     .page-films .page-header,
     .page-catalogue .page-header,
     .page-actualites .page-header,
     .page-contact .page-header,
     .page-streaming .page-header.streaming-header {
-        padding: 70px 20px 20px;
+        padding: 70px 20px 12px;
     }
     
     .page-title {
@@ -2556,7 +2601,7 @@ body.light-header .logo-img {
 
 /* === Page Actualités === */
 .page-actualites {
-    background-color: var(--color-off-white);
+    background-color: var(--color-white);
 }
 
 .actualites-page {
@@ -3573,7 +3618,7 @@ body.light-header .logo-img {
 
 .page-about,
 .page-contacts {
-    background: var(--color-off-white);
+    background: var(--color-white);
 }
 
 .about-header {
@@ -3665,7 +3710,7 @@ body.light-header .logo-img {
 
 .page-equipe,
 .page-contact {
-    background: var(--color-off-white);
+    background: var(--color-white);
 }
 
 .equipe-header {
@@ -3836,11 +3881,142 @@ body.light-header .logo-img {
 
 /* === Catalogue Navigation === */
 .catalogue-nav-section {
-    background: var(--color-off-white);
+    background: var(--color-white);
     padding: 1.125rem var(--site-gutter);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-bottom: 0;
+}
+
+/* Barre de recherche dédiée à la page collections */
+.collections-search-section {
+    padding: 0.9rem var(--site-gutter) 1.5rem;
+    background: var(--color-white);
+}
+
+.collections-search-wrap {
+    min-width: 560px;
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.collections-search-dropdown {
+    position: relative;
+    width: 100%;
+}
+
+.collections-search-trigger {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    background: var(--color-white);
+    border: none;
+    border-radius: 24px;
+    color: var(--color-blue);
+    font-family: var(--font-text);
+    font-size: 1.9rem;
+    line-height: 1.35;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.2s ease, border-radius 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.collections-search-dropdown.is-open .collections-search-trigger,
+.collections-search-trigger:focus-within {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.collections-search-trigger:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.collections-search-loupe {
+    flex-shrink: 0;
+    width: 34px;
+    height: 34px;
+}
+
+.collections-search-input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    color: var(--color-blue);
+    font-family: var(--font-text);
+    font-size: inherit;
+    line-height: 1.35;
+    outline: none;
+}
+
+.collections-search-input::placeholder {
+    opacity: 0.45;
+}
+
+.collections-search-arrow {
+    flex-shrink: 0;
+    color: var(--color-gray);
+    transition: transform var(--transition-fast);
+    width: 24px;
+    height: 24px;
+}
+
+.collections-search-dropdown.is-open .collections-search-arrow {
+    transform: rotate(180deg);
+}
+
+.collections-search-list {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    z-index: 102;
+    background: var(--color-white);
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18), 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-height: min(58vh, 520px);
+    overflow: auto;
+    padding: 0.75rem;
+}
+
+.collections-search-empty {
+    padding: 0.85rem 0.95rem;
+    color: var(--color-gray);
+    font-size: 0.9rem;
+}
+
+.collections-search-option {
+    width: 100%;
+    border: none;
+    background: transparent;
+    text-align: left;
+    padding: 0.72rem 0.95rem;
+    color: var(--color-black);
+    cursor: pointer;
+}
+
+.collections-search-option:hover {
+    background: rgba(49, 96, 221, 0.06);
+}
+
+.collections-search-option-title {
+    display: block;
+    font-family: var(--font-text);
+    font-size: 0.96rem;
+    line-height: 1.35;
+}
+
+.collections-search-option-meta {
+    display: block;
+    margin-top: 0.12rem;
+    font-family: var(--font-text);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-gray);
 }
 
 /* Supprimer la marge vide sous les 3 boutons A-Z / cinéaste / thématique */
@@ -3866,7 +4042,7 @@ body.light-header .logo-img {
 
 .catalogue-nav-link {
     font-family: var(--font-text);
-    font-size: 0.9rem;
+    font-size: 1.15rem;
     color: var(--color-gray);
     text-decoration: none;
     text-transform: lowercase;
@@ -4298,6 +4474,38 @@ body.light-header .logo-img {
     .catalogue-nav-section {
         gap: 1rem;
     }
+
+    .collections-search-section {
+        padding: 0.6rem var(--site-gutter-sm) 1rem;
+    }
+
+    .collections-search-wrap {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .collections-search-trigger {
+        padding: 1rem 1.2rem;
+        font-size: 1.05rem;
+    }
+
+    .collections-search-list {
+        max-height: min(52vh, 420px);
+    }
+
+    .collections-search-loupe {
+        width: 22px;
+        height: 22px;
+    }
+
+    .collections-search-arrow {
+        width: 18px;
+        height: 18px;
+    }
+
+    .collections-search-input {
+        font-size: 1rem;
+    }
     
     .catalogue-nav {
         flex-direction: column;
@@ -4307,6 +4515,7 @@ body.light-header .logo-img {
     }
     
     .catalogue-nav-link {
+        font-size: 1.08rem;
         padding: 0.75rem 1.5rem;
         width: 100%;
         text-align: center;

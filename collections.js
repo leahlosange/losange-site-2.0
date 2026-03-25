@@ -734,6 +734,8 @@ async function displayFilmsByThematique() {
             hideThematiqueFilms(grid, filmsSection);
         }
     });
+
+    openThematiqueFromURL(grouped);
 }
 
 // Afficher les films d'une thématique
@@ -763,6 +765,18 @@ function hideThematiqueFilms(grid, filmsSection) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function openThematiqueFromURL(grouped) {
+    var params = new URLSearchParams(window.location.search);
+    var thematiqueParam = params.get('thematique');
+    if (!thematiqueParam || !grouped) return;
+    var key = Object.keys(grouped).find(function(k) { return cineasteNameMatches(k, thematiqueParam); });
+    if (!key) return;
+    var films = grouped[key];
+    var grid = document.querySelector('.thematiques-grid');
+    var filmsSection = document.querySelector('.thematique-films-section');
+    if (grid && filmsSection) showThematiqueFilms(key, films, grid, filmsSection);
+}
+
 // Ouvrir automatiquement les films d'un cinéaste si ?cineaste= est présent dans l'URL
 function openCineasteFromURL(grouped) {
     var params = new URLSearchParams(window.location.search);
@@ -780,9 +794,164 @@ function openCineasteFromURL(grouped) {
     if (grid && filmsSection) showCineasteFilms(displayName, films, grid, filmsSection);
 }
 
+function normalizeSearchText(value) {
+    return (value || '')
+        .toString()
+        .trim()
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
+}
+
+function buildCollectionsSearchEntries(films) {
+    var entries = [];
+    var byKey = new Set();
+
+    function pushEntry(label, href, type) {
+        var trimmed = (label || '').trim();
+        if (!trimmed || !href) return;
+        var key = type + '|' + normalizeSearchText(trimmed) + '|' + href;
+        if (byKey.has(key)) return;
+        byKey.add(key);
+        entries.push({ label: trimmed, href: href, type: type });
+    }
+
+    pushEntry('A-Z', 'collections-tous.html', 'carte');
+    pushEntry('Par cinéaste', 'collections-cineaste.html', 'carte');
+    pushEntry('Par thématique', 'collections-thematique.html', 'carte');
+
+    films.forEach(function(film) {
+        if (film && film.titre && film.slug) {
+            pushEntry(film.titre, 'Fiches Films/' + film.slug, 'film');
+        }
+
+        splitAndNormalizeCineastes(film.cineaste || '').forEach(function(cineaste) {
+            if (cineaste && cineaste !== 'Sans réalisateur') {
+                pushEntry(cineaste, 'collections-cineaste.html?cineaste=' + encodeURIComponent(cineaste), 'cineaste');
+            }
+        });
+
+        if (Array.isArray(film.thematiques)) {
+            film.thematiques.forEach(function(thematique) {
+                var value = (thematique || '').trim();
+                if (!value) return;
+                pushEntry(value, 'collections-thematique.html?thematique=' + encodeURIComponent(value), 'thematique');
+            });
+        }
+    });
+
+    return entries;
+}
+
+async function initCollectionsSearchBar() {
+    var dropdown = document.querySelector('#collections-search-dropdown');
+    var trigger = document.querySelector('#collections-search-trigger');
+    var inputEl = document.querySelector('#collections-search-input');
+    var listEl = document.querySelector('#collections-search-list');
+    if (!dropdown || !trigger || !inputEl || !listEl) return;
+
+    var films = await loadAllFilms();
+    var entries = buildCollectionsSearchEntries(films);
+    if (!entries.length) return;
+
+    var sortedEntries = entries
+        .slice()
+        .sort(function(a, b) { return a.label.localeCompare(b.label, 'fr'); });
+
+    function renderEntries(items) {
+        listEl.innerHTML = '';
+        items.forEach(function(entry) {
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'collections-search-option';
+            btn.setAttribute('role', 'option');
+            btn.dataset.href = entry.href;
+            btn.dataset.label = entry.label;
+            btn.innerHTML =
+                '<span class="collections-search-option-title">' + entry.label + '</span>' +
+                '<span class="collections-search-option-meta">' + entry.type + '</span>';
+            listEl.appendChild(btn);
+        });
+    }
+
+    function filterEntries(query) {
+        var q = normalizeSearchText(query);
+        if (!q) return sortedEntries.slice(0, 40);
+        return sortedEntries.filter(function(entry) {
+            return normalizeSearchText(entry.label).indexOf(q) !== -1;
+        }).slice(0, 40);
+    }
+
+    function showEmptyState() {
+        listEl.innerHTML = '<div class="collections-search-empty">Aucun résultat</div>';
+    }
+
+    function openDropdown() {
+        var filtered = filterEntries(inputEl.value);
+        if (filtered.length) renderEntries(filtered);
+        else showEmptyState();
+        dropdown.classList.add('is-open');
+        listEl.hidden = false;
+        trigger.setAttribute('aria-expanded', 'true');
+    }
+
+    function closeDropdown() {
+        dropdown.classList.remove('is-open');
+        listEl.hidden = true;
+        trigger.setAttribute('aria-expanded', 'false');
+    }
+
+    function goToEntry(entry) {
+        if (!entry || !entry.href) return;
+        inputEl.value = entry.label || '';
+        closeDropdown();
+        window.location.href = entry.href;
+    }
+
+    trigger.addEventListener('click', function() { inputEl.focus(); });
+
+    inputEl.addEventListener('focus', openDropdown);
+    inputEl.addEventListener('input', function() {
+        if (!dropdown.classList.contains('is-open')) openDropdown();
+        else {
+            var filtered = filterEntries(inputEl.value);
+            if (filtered.length) renderEntries(filtered);
+            else showEmptyState();
+        }
+    });
+
+    inputEl.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            closeDropdown();
+            return;
+        }
+        if (event.key !== 'Enter') return;
+        var filtered = filterEntries(inputEl.value);
+        if (!filtered.length) return;
+        event.preventDefault();
+        goToEntry(filtered[0]);
+    });
+
+    listEl.addEventListener('click', function(event) {
+        var option = event.target.closest('.collections-search-option');
+        if (!option) return;
+        goToEntry({
+            label: option.dataset.label || '',
+            href: option.dataset.href || ''
+        });
+    });
+
+    document.addEventListener('click', function(event) {
+        if (!dropdown.classList.contains('is-open')) return;
+        if (!dropdown.contains(event.target)) closeDropdown();
+    });
+}
+
 // Initialiser selon la page
 document.addEventListener('DOMContentLoaded', function() {
     try {
+        initCollectionsSearchBar();
+
         // Forcer le mode grille pour "tous les films"
         if (document.body.classList.contains('page-catalogue-tous') || 
             document.body.classList.contains('page-catalogue')) {

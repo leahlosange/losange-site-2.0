@@ -94,7 +94,31 @@
 
     <!-- Page Header -->
     <section class="page-header">
-        <h1 class="page-title">COLLECTIONS</h1>
+        <p class="page-subtitle">films par cinéaste, thématique ou ordre alphabétique</p>
+        <h1 class="page-title">Collections</h1>
+    </section>
+
+    <section class="collections-search-section">
+        <div class="collections-search-wrap">
+            <div id="collections-search-dropdown" class="collections-search-dropdown">
+                <div
+                    id="collections-search-trigger"
+                    class="collections-search-trigger"
+                    aria-expanded="false"
+                    aria-controls="collections-search-list"
+                >
+                    <svg class="collections-search-loupe" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"></circle>
+                        <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5"></path>
+                    </svg>
+                    <input id="collections-search-input" class="collections-search-input" type="text" placeholder="rechercher un film, un cinéaste, une thématique..." autocomplete="off">
+                    <svg class="collections-search-arrow" width="16" height="10" viewBox="0 0 16 10" fill="none" aria-hidden="true">
+                        <path d="M1 1l7 7 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                    </svg>
+                </div>
+                <div id="collections-search-list" class="collections-search-list" role="listbox" hidden></div>
+            </div>
+        </div>
     </section>
 
     <!-- Navigation Catalogue -->
